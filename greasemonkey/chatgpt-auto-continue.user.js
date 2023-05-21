@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                ChatGPT Auto-Continue
-// @version             2023.5.21.1
+// @version             2023.5.21.2
 // @description         Auto-continue multiple ChatGPT responses
 // @author              Adam Lui
 // @namespace           https://github.com/adamlui
@@ -78,7 +78,7 @@
                         )
 
                         // Internationalize button/checkbox labels if needed
-                        if (!userLanguage.startsWith('en')) {
+                        if (!config.userLanguage.startsWith('en')) {
                             var updateAlert = document.querySelector(`[id="${ updateAlertID }"]`)
                             updateAlert.querySelector('label').textContent = ( // checkbox label
                                 `${ messages.alert_dontShowAgain } ${ messages.alert_untilNextVer }`)
@@ -101,7 +101,7 @@
                     if (addedNode.nodeName === 'BUTTON' && addedNode.innerHTML.includes('Continue generating')) {
                         addedNode.click()
     }}}}})
-    continueObserver.observe(document, { childList: true, subtree: true, })
+    continueObserver.observe(document, { childList: true, subtree: true })
 
     // Notify of status on load
     if (!config.notifHidden && document.title === 'New chat') {
