@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                ChatGPT Auto-Continue
-// @version             2023.5.21
+// @version             2023.5.21.1
 // @description         Auto-continue multiple ChatGPT responses
 // @author              Adam Lui
 // @namespace           https://github.com/adamlui
@@ -83,7 +83,7 @@
                             updateAlert.querySelector('label').textContent = ( // checkbox label
                                 `${ messages.alert_dontShowAgain } ${ messages.alert_untilNextVer }`)
                             updateAlert.querySelectorAll('button')[1].textContent = messages.buttonLabel_update
-                            updateAlert.querySelectorAll('button')[].textContent = messages.buttonLabel_dismiss
+                            updateAlert.querySelectorAll('button')[0].textContent = messages.buttonLabel_dismiss
                         }
 
                         return
