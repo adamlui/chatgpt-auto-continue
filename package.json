@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pre-commit": "npm run lint"
+  }
+}
