@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': ['eslint:recommended'],
+    'extends': ['eslint:recommended', 'plugin:json-schema-validator/recommended'],
     'rules': {
         'indent': 'off',
         'quotes': ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }], // enforce single quotes for string literals
