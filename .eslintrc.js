@@ -8,6 +8,7 @@ module.exports = {
         'comma-dangle': ['error', 'never'], // enforce no trailing commas in arrays or objects
         'no-async-promise-executor': 'off', // allow promise executor functions to be async (to accomodate await lines)
         'no-constant-condition': 'off', // allow constant conditions
+        'no-inner-declarations': 'off', // allow function declarations anywhere
         'no-empty': 'off', // allow empty blocks
         'no-useless-escape': 'off' // allow all escape chars cause ESLint sucks at detecting truly useless ones
     },
