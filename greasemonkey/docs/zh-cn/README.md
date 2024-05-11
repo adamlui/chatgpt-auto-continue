@@ -115,7 +115,7 @@ ChatGPT 自动继续 依赖于功能强大的 [chatgpt.js](https://github.com/Ku
 [自述文件](https://github.chatgptinfinity.com/tree/main/docs/zh-cn#readme) / 
 [讨论](https://github.chatgptinfinity.com/discussions)
 
-### <img width=17 style="margin-bottom:-1px" src="https://media.chatgptwidescreen.com/images/icons/widescreen-robot-emoji/icon32.png"> [ChatGPT 宽屏模式](https://github.chatgptwidescreen.com) <img src="https://media.chatgptwidescreen.com/images/badges/product-hunt/product-of-the-week-2-larger-centered-rounded-light.svg" style="width: auto; height: 24px; margin:0 0 -4px 5px;" width="auto" height="24" />
+### <img width=17 style="margin-bottom:-1px" src="https://media.chatgptwidescreen.com/images/icons/widescreen-robot-emoji/icon32.png"> [ChatGPT 宽屏模式](https://github.chatgptwidescreen.com) &nbsp;<img src="https://media.chatgptwidescreen.com/images/badges/product-hunt/product-of-the-week-2-larger-centered-rounded-light.svg" style="width: auto; height: 24px; margin:0 0 -4px 5px;" width="auto" height="24" />
 
 > 向 ChatGPT 添加宽屏 + 全屏模式以减少滚动。<br>
 [安装](https://github.chatgptwidescreen.com/tree/main/docs/zh-cn#-如何安装) / 
