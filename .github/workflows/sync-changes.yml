@@ -23,7 +23,6 @@ jobs:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/chatgpt-auto-continue
           path: adamlui/chatgpt-auto-continue
-          fetch-depth: 2
 
       - name: Checkout adamlui/chatgpt-apps
         uses: actions/checkout@v4
@@ -58,13 +57,6 @@ jobs:
           echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
           echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-
-      - name: Push changes to adamlui/chatgpt-auto-continue
-        run: |
-          cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
-          git add .
-          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from \`${{ steps.sync_docs.outputs.sync_src }}\`]" || true
-          git push
 
       - name: Push changes to adamlui/chatgpt-apps
         run: |
