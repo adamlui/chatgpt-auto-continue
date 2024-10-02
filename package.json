@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "eslint": "^9.9.0",
+    "eslint": "^9.11.1",
     "eslint-plugin-json": "^4.0.1",
-    "husky": "^9.1.4"
+    "husky": "^9.1.6"
   },
   "scripts": {
     "lint": "eslint . --cache",
