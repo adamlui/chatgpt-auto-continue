@@ -81,10 +81,7 @@ jobs:
         id: update-shields
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
-
           total_users="${{ steps.get-stats.outputs.total_users }}"
-
-          # Update usercount shields
           if [ "$total_users" == "0" ] ; then echo "Error getting total usercount"
           else # perform update
             for readme in $(find . -name "README.md") ; do
