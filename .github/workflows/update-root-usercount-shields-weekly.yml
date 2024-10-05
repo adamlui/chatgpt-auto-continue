@@ -23,13 +23,6 @@ jobs:
           repository: adamlui/chatgpt-apps
           path: adamlui/chatgpt-apps
 
-      - name: Checkout adamlui/userscripts
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/userscripts
-          path: adamlui/userscripts
-
       - name: Fetch/sum user counts
         id: get-stats
         run: |
@@ -110,12 +103,6 @@ jobs:
             ${{ github.workspace }}/adamlui/chatgpt-auto-continue/ \
             ${{ github.workspace }}/adamlui/chatgpt-apps/chatgpt-auto-continue/
 
-      - name: Sync /greasemonkey/ to adamlui/userscripts/chatgpt/chatgpt-auto-continue/
-        run: |
-          rsync -avhr --delete \
-            ${{ github.workspace }}/adamlui/chatgpt-auto-continue/greasemonkey/ \
-            ${{ github.workspace }}/adamlui/userscripts/chatgpt/chatgpt-auto-continue/
-
       - name: Init committer name/email
         run: |
           git config --global user.name "kudo-sync-bot"
@@ -131,13 +118,6 @@ jobs:
       - name: Push changes to adamlui/chatgpt-apps
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-apps
-          git add .
-          git commit -n -m "Updated usercount shield ccounters in ChatGPT Auto-Continue READMEs" || true
-          git push
-
-      - name: Push changes to adamlui/userscripts
-        run: |
-          cd ${{ github.workspace }}/adamlui/userscripts
           git add .
           git commit -n -m "Updated usercount shield ccounters in ChatGPT Auto-Continue READMEs" || true
           git push
