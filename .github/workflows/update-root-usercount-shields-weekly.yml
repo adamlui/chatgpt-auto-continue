@@ -97,7 +97,7 @@ jobs:
             else echo "Usercount shields already up-to-date" ; fi
           fi
 
-      - name: Sync / to adamlui/chatgpt-apps/chatgpt-auto-continue/
+      - name: Sync * to adamlui/chatgpt-apps/chatgpt-auto-continue/*
         run: |
           rsync -avhr --delete --exclude={'.*','eslint*','package*json'} \
             ${{ github.workspace }}/adamlui/chatgpt-auto-continue/ \
