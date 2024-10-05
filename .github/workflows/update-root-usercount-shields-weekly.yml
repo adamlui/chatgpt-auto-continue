@@ -112,12 +112,12 @@ jobs:
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
           git add .
-          git commit -n -m "Updated usercount shield counters in READMEs" || true
+          git commit -n -m "Updated usercount shield counters in root READMEs" || true
           git push
 
       - name: Push changes to adamlui/chatgpt-apps
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-apps
           git add .
-          git commit -n -m "Updated usercount shield ccounters in ChatGPT Auto-Continue READMEs" || true
+          git commit -n -m "Updated usercount shield ccounters in ChatGPT Auto-Continue root READMEs" || true
           git push
