@@ -62,6 +62,13 @@ jobs:
             echo "$formatted_num"
           }
 
+          # Fetch Firefox daily user count
+          base_url="https://addons.mozilla.org/api/v5/addons/addon/"
+          app_id="chatgpt-auto-continue"
+          ff_users=$(curl -s "$base_url$app_id/" |
+            sed -n 's/.*"average_daily_users":\([0-9]*\).*/\1/p')
+          echo "Firefox users: $ff_users"
+
           # Fetch Greasy Fork total user count
           base_url="https://img.shields.io/greasyfork/dt/"
           script_id="466789"
@@ -70,8 +77,12 @@ jobs:
           gf_users=$(expand_num "$gf_users")
           echo "Greasy Fork users: $gf_users"
 
+          # Sum user counts
+          total_users=$((ff_users + gf_users))
+          echo -e "\n-----\nTotal users: $total_users\n-----\n"
+
           # Format totals
-          formatted_total_users=$(format_total "$gf_users")
+          formatted_total_users=$(format_total "$total_users")
           echo "Formatted total users: $formatted_total_users"
 
           # Expose as outputs for update step next
