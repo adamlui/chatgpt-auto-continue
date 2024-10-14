@@ -1,4 +1,4 @@
-name: Update usercount shields in READMEs, sync to adamlui/ai-apps + adamlui/userscripts
+name: Update usercount shields in READMEs, then sync to adamlui/ai-apps + adamlui/userscripts
 
 on:
   schedule:
@@ -107,7 +107,7 @@ jobs:
             else echo "Usercount shields already up-to-date" ; fi
           fi
 
-      - name: Sync * to adamlui/ai-apps/chatgpt-auto-continue/*
+      - name: Sync ** to adamlui/ai-apps/chatgpt-auto-continue/
         run: |
           rsync -avhr --delete --exclude={'.*','eslint*','package*json'} \
             ${{ github.workspace }}/adamlui/chatgpt-auto-continue/ \
