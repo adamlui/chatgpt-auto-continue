@@ -90,7 +90,6 @@ jobs:
           echo "total_users=$formatted_total_users" >> $GITHUB_ENV
 
       - name: Update README shields
-        id: update-shields
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
           total_users="${{ env.total_users }}"
