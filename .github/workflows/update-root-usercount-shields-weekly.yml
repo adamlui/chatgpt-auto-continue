@@ -1,4 +1,4 @@
-name: Update usercount shields in READMEs, then sync to adamlui/ai-apps + adamlui/userscripts
+name: Update usercount shields in READMEs, then sync to adamlui/ai-apps
 
 on:
   schedule:
