@@ -1,0 +1,45 @@
+name: Publish to CWS on Chromium version bump
+
+on:
+  push:
+    branches: [main]
+    paths: [chromium/extension/manifest.json]
+
+jobs:
+  check-version-to-publish:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout adamlui/chatgpt-auto-continue
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_SYNC_PAT }}
+          repository: adamlui/chatgpt-auto-continue
+          path: adamlui/chatgpt-auto-continue
+          fetch-depth: 2
+
+      - name: Check Chromium manifest for version bump
+        run: |
+          cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
+          CURRENT_VER=$(cat chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          PREV_VER=$(git show HEAD^:chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          if [ "$(printf '%s\n' "$PREV_VER" "$CURRENT_VER" | sort -V | head -n 1)" != "$CURRENT_VER" ] ; then
+               echo "Extension updated from $PREV_VER to $CURRENT_VER"
+               echo "version_changed=true" >> $GITHUB_ENV
+          else echo "version_changed=false" >> $GITHUB_ENV ; fi
+
+      - name: Create zipball
+        if: env.version_changed == 'true'
+        run: |
+          cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue/chromium/extension
+          zip -r ../../extension.zip .
+
+      - name: Publish to CWS
+        if: env.version_changed == 'true'
+        uses: trmcnvn/chrome-addon@v2
+        with:
+          extension: lbojnhaafilddefkdgmbplkafnckaoga
+          zip: ${{ github.workspace }}/adamlui/chatgpt-auto-continue/extension.zip
+          client-id: ${{ secrets.CWS_CLIENT_ID }}
+          client-secret: ${{ secrets.CWS_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CWS_REFRESH_TOKEN }}
