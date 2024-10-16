@@ -13,14 +13,11 @@ jobs:
       - name: Checkout adamlui/chatgpt-auto-continue
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/chatgpt-auto-continue
-          path: adamlui/chatgpt-auto-continue
+          sparse-checkout: chromium
           fetch-depth: 2
 
       - name: Check Chromium manifest for version bump
         run: |
-          cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
           CURRENT_VER=$(cat chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
           PREV_VER=$(git show HEAD^:chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
           if [ "$(printf '%s\n' "$PREV_VER" "$CURRENT_VER" | sort -V | head -n 1)" != "$CURRENT_VER" ] ; then
@@ -31,7 +28,7 @@ jobs:
       - name: Create zipball
         if: env.VERSION_CHANGED == 'true'
         run: |
-          cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue/chromium/extension
+          cd chromium/extension
           zip -r ../../extension.zip .
 
       - name: Publish to CWS
@@ -39,7 +36,7 @@ jobs:
         uses: trmcnvn/chrome-addon@v2
         with:
           extension: lbojnhaafilddefkdgmbplkafnckaoga
-          zip: ${{ github.workspace }}/adamlui/chatgpt-auto-continue/extension.zip
+          zip: extension.zip
           client-id: ${{ secrets.CWS_CLIENT_ID }}
           client-secret: ${{ secrets.CWS_CLIENT_SECRET }}
           refresh-token: ${{ secrets.CWS_REFRESH_TOKEN }}
