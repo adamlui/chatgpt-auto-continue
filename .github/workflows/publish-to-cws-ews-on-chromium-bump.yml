@@ -53,3 +53,4 @@ jobs:
           zip: extension.zip
           notes: 'Version ${{ env.CURRENT_VER }} upload'
           debug: true
+        continue-on-error: true
