@@ -92,16 +92,16 @@ jobs:
       - name: Update README shields
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
-          total_users="${{ env.TOTAL_USERS }}"
-          if [ "$total_users" == "0" ] ; then echo "Error getting total usercount"
+          TOTAL_USERS="${{ env.TOTAL_USERS }}"
+          if [ "$TOTAL_USERS" == "0" ] ; then echo "Error getting total usercount"
           else # perform update
             for readme in $(find docs/ -name "README.md") ; do
               old_readme=$(<"$readme")
-              sed -i "s/\(badge\/[^-]*-\)[0-9.,km+]\+-/\1$total_users-/gI" "$readme"
+              sed -i "s/\(badge\/[^-]*-\)[0-9.,km+]\+-/\1$TOTAL_USERS-/gI" "$readme"
               new_readme=$(<"$readme")
               if [ "$old_readme" != "$new_readme" ] ; then users_updated=true ; fi
             done          
-            if [ "$users_updated" = true ] ; then echo "Usercount shields updated to $total_users"
+            if [ "$users_updated" = true ] ; then echo "Usercount shields updated to $TOTAL_USERS"
             else echo "Usercount shields already up-to-date" ; fi
           fi
 
