@@ -18,11 +18,11 @@ jobs:
 
       - name: Check Chromium manifest for version bump
         run: |
-          CURRENT_VER=$(cat chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
-          PREV_VER=$(git show HEAD^:chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
-          if [ "$CURRENT_VER" != "$PREV_VER" ] ; then
-               echo "Extension updated from $PREV_VER to $CURRENT_VER"
-               echo "CURRENT_VER=${CURRENT_VER}" >> $GITHUB_ENV # for notes field in EWS step
+          current_ver=$(cat chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          prev_ver=$(git show HEAD^:chromium/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          if [ "$current_ver" != "$prev_ver" ] ; then
+               echo "Extension updated from $prev_ver to $current_ver"
+               echo "CURRENT_VER=${current_ver}" >> $GITHUB_ENV # for notes field in EWS step
                echo "VERSION_CHANGED=true" >> $GITHUB_ENV
           else echo "VERSION_CHANGED=false" >> $GITHUB_ENV ; fi
 
