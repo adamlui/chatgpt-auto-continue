@@ -45,8 +45,22 @@
         }
     }
 
+    function checkContinueBtn() {
+        checkContinueBtn.status = 'active'
+        if (config.extensionDisabled) { checkContinueBtn.status = 'inactive' ; return }
+        const continueBtn = chatgpt.getContinueBtn()
+        if (continueBtn) {
+            continueBtn.click()
+            notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
+            try { chatgpt.scrollToBottom() } catch(err) {}
+            setTimeout(checkContinueBtn, 5000)
+        } else setTimeout(checkContinueBtn, 500)
+    }
+
     async function syncStorageToUI() { // from popup.js toggle + service worker actve-tab listeners
-        await settings.load(settings.availKeys) }
+        await settings.load(settings.availKeys)
+        if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
+    }
 
     // Run MAIN routine
 
@@ -79,18 +93,12 @@
     }
 
     // Observe DOM for need to continue generating response
-    (function checkContinueBtn() {
-        const continueBtn = chatgpt.getContinueBtn()
-        if (continueBtn) {
-            continueBtn.click()
-            notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
-            try { chatgpt.scrollToBottom() } catch(err) {}
-            setTimeout(checkContinueBtn, 5000)
-        } else setTimeout(checkContinueBtn, 500)
-    })()
+    if (!config.extensionDisabled) {
+        checkContinueBtn()
 
     // NOTIFY of status on load
-    if (!config.notifDisabled) notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${
-                                         chrome.i18n.getMessage('state_on').toUpperCase()}`)
+        if (!config.notifDisabled) notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${
+                                             chrome.i18n.getMessage('state_on').toUpperCase()}`)
+    }
 
 })()
