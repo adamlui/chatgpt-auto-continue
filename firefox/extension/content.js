@@ -57,7 +57,7 @@
         } else setTimeout(checkContinueBtn, 500)
     }
 
-    async function syncStorageToUI() { // from popup.js toggle + service worker actve-tab listeners
+    async function syncStorageToUI() { // on toolbar popup toggles + ChatGPT tab activations
         await settings.load(settings.availKeys)
         if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
     }
