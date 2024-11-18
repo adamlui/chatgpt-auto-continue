@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Terimakasih atas dukungannya" },
   "alert_author": { "message": "Penulis" },
   "notif_chatAutoContinued": { "message": "Obrolan Disambung Otomatis" },
-  "btnLabel_moreApps": { "message": "Aplikasi ChatGPT Lainnya" },
+  "btnLabel_moreAIextensions": { "message": "Ekstensi AI Lainnya" },
   "btnLabel_leaveReview": { "message": "Buat Ulasan" },
   "btnLabel_rateUs": { "message": "Beri Kami Nilai" },
   "btnLabel_getSupport": { "message": "Mendapat dukungan" },

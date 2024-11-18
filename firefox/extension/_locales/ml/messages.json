@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "നിങ്ങളുടെ പിന്തുണയ്ക്ക് നന്ദി" },
   "alert_author": { "message": "ലേഖകന്‍" },
   "notif_chatAutoContinued": { "message": "ചാറ്റ് സ്വപ്രേരിതമായി തുടരുന്നു" },
-  "btnLabel_moreApps": { "message": "കൂടുതൽ ChatGPT ആപ്പുകൾ" },
+  "btnLabel_moreAIextensions": { "message": "കൂടുതൽ AI എക്സ്റ്റെൻഷനുകൾ" },
   "btnLabel_leaveReview": { "message": "അവലോകനം ഉപേക്ഷിക്കുക" },
   "btnLabel_rateUs": { "message": "ഞങ്ങളെ റേറ്റുചെയ്യുക" },
   "btnLabel_getSupport": { "message": "പിന്തുണ നേടുക" },

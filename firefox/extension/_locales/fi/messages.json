@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Kiitos yhteistyöstä," },
   "alert_author": { "message": "Kirjoittaja" },
   "notif_chatAutoContinued": { "message": "Chat jatkuu automaattisesti" },
-  "btnLabel_moreApps": { "message": "Lisää ChatGPT-sovelluksia" },
+  "btnLabel_moreAIextensions": { "message": "Lisää tekoälylaajennuksia" },
   "btnLabel_leaveReview": { "message": "Jätä arvostelu" },
   "btnLabel_rateUs": { "message": "Anna meille arvostelu" },
   "btnLabel_getSupport": { "message": "Ota yhteyttä" },

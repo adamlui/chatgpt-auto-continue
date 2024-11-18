@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Desteğiniz için teşekkür ederiz" },
   "alert_author": { "message": "yazar6RPR4-45DVB-GCXGT-CKXV2-E423Z" },
   "notif_chatAutoContinued": { "message": "Sohbet Otomatik Devam Ediyor" },
-  "btnLabel_moreApps": { "message": "Daha Fazla ChatGPT Uygulaması" },
+  "btnLabel_moreAIextensions": { "message": "Daha Fazla Yapay Zeka Uzantısı" },
   "btnLabel_leaveReview": { "message": "İncelemeyi bırak" },
   "btnLabel_rateUs": { "message": "Bize oy verin" },
   "btnLabel_getSupport": { "message": "Destek Al" },

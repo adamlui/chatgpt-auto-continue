@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Σας ευχαριστούμε για την υποστήριξή σας" },
   "alert_author": { "message": "συντάκτης" },
   "notif_chatAutoContinued": { "message": "Αυτόματη συνέχιση συνομιλίας" },
-  "btnLabel_moreApps": { "message": "Περισσότερες εφαρμογές ChatGPT" },
+  "btnLabel_moreAIextensions": { "message": "Περισσότερες επεκτάσεις τεχνητής νοημοσύνης" },
   "btnLabel_leaveReview": { "message": "Αφήστε μια Kριτική" },
   "btnLabel_rateUs": { "message": "Βαθμολογήστε μας" },
   "btnLabel_getSupport": { "message": "Λάβετε υποστήριξη" },

@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Tänan teid toetuse eest!" },
   "alert_author": { "message": "Autor" },
   "notif_chatAutoContinued": { "message": "Vestlus jätkub automaatselt" },
-  "btnLabel_moreApps": { "message": "Veel ChatGPT rakendusi" },
+  "btnLabel_moreAIextensions": { "message": "Veel tehisintellekti laiendusi" },
   "btnLabel_leaveReview": { "message": "Jäta tagasiside" },
   "btnLabel_rateUs": { "message": "Hinda meid" },
   "btnLabel_getSupport": { "message": "Saage tuge" },

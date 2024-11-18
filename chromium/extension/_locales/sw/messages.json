@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Asante kwa msaada tunaozidi kupata kutoka kwako" },
   "alert_author": { "message": "mwandishi" },
   "notif_chatAutoContinued": { "message": "Ongea Kiotomatiki" },
-  "btnLabel_moreApps": { "message": "Programu Zaidi za GumzoGPT" },
+  "btnLabel_moreAIextensions": { "message": "Viendelezi zaidi vya AI" },
   "btnLabel_leaveReview": { "message": "Acha Tathmini" },
   "btnLabel_rateUs": { "message": "Tupe kadirio" },
   "btnLabel_getSupport": { "message": "Pata Usaidizi" },

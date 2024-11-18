@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Tack för ditt stöd" },
   "alert_author": { "message": "författare" },
   "notif_chatAutoContinued": { "message": "Chatt Auto-Continued" },
-  "btnLabel_moreApps": { "message": "Fler ChatGPT-appar" },
+  "btnLabel_moreAIextensions": { "message": "Fler AI-tillägg" },
   "btnLabel_leaveReview": { "message": "Lämna recension" },
   "btnLabel_rateUs": { "message": "betygsätt oss" },
   "btnLabel_getSupport": { "message": "Få support" },

@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Дзякуй за падтрымку" },
   "alert_author": { "message": "аўтар" },
   "notif_chatAutoContinued": { "message": "Аўтаматычны працяг чата" },
-  "btnLabel_moreApps": { "message": "Іншыя праграмы ChatGPT" },
+  "btnLabel_moreAIextensions": { "message": "Больш пашырэнняў штучнага інтэлекту" },
   "btnLabel_leaveReview": { "message": "Пакінуць водгук" },
   "btnLabel_rateUs": { "message": "Ацаніць нас" },
   "btnLabel_getSupport": { "message": "Атрымаць падтрымку" },

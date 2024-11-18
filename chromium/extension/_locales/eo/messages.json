@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Dankon pro via subteno" },
   "alert_author": { "message": "aŭtoro" },
   "notif_chatAutoContinued": { "message": "Babilejo Aŭtomate Daŭrigita" },
-  "btnLabel_moreApps": { "message": "Pli ChatGPT Apps" },
+  "btnLabel_moreAIextensions": { "message": "Pli da AI- etendaĵoj" },
   "btnLabel_leaveReview": { "message": "Leave Review" },
   "btnLabel_rateUs": { "message": "Taksi nin" },
   "btnLabel_getSupport": { "message": "Akiri subtenon" },

@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "感謝你的支持" },
   "alert_author": { "message": "作者" },
   "notif_chatAutoContinued": { "message": "對話已自動繼續" },
-  "btnLabel_moreApps": { "message": "更多 ChatGPT 應用程式" },
+  "btnLabel_moreAIextensions": { "message": "更多人工智慧擴充功能" },
   "btnLabel_leaveReview": { "message": "離開評論" },
   "btnLabel_rateUs": { "message": "為我們評分" },
   "btnLabel_getSupport": { "message": "獲得支援" },

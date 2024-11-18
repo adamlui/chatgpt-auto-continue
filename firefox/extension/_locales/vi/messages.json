@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Xin cảm ơn sự hỗ trợ của quý vị" },
   "alert_author": { "message": "tác giả" },
   "notif_chatAutoContinued": { "message": "Trò chuyện tự động tiếp tục" },
-  "btnLabel_moreApps": { "message": "Các ứng dụng ChatGPT khác" },
+  "btnLabel_moreAIextensions": { "message": "Tiện ích mở rộng AI khác" },
   "btnLabel_leaveReview": { "message": "Gửi phản hồi" },
   "btnLabel_rateUs": { "message": "Đánh giá chúng tôi" },
   "btnLabel_getSupport": { "message": "Đề nghị hỗ trợ" },

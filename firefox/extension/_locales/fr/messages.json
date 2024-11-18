@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Merci pour votre aide" },
   "alert_author": { "message": "auteur" },
   "notif_chatAutoContinued": { "message": "Chat Auto-Continued" },
-  "btnLabel_moreApps": { "message": "Plus d'applications ChatGPT" },
+  "btnLabel_moreAIextensions": { "message": "Plus d'extensions d'IA" },
   "btnLabel_leaveReview": { "message": "Laissez Review" },
   "btnLabel_rateUs": { "message": "Évaluez-nous" },
   "btnLabel_getSupport": { "message": "Obtenir de l’aide" },

@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "-Hvala na podrsci" },
   "alert_author": { "message": "Autor" },
   "notif_chatAutoContinued": { "message": "Ćaskanje je automatski nastavljeno" },
-  "btnLabel_moreApps": { "message": "Još ChatGPT aplikacija" },
+  "btnLabel_moreAIextensions": { "message": "Još proširenja za veštačku inteligenciju" },
   "btnLabel_leaveReview": { "message": "Ostavi recenziju" },
   "btnLabel_rateUs": { "message": "OCENITE NAS" },
   "btnLabel_getSupport": { "message": "Plaćena Podrška" },

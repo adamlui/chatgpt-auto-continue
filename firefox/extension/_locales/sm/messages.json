@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Talosia na e fiafia iai" },
   "alert_author": { "message": "tusitala" },
   "notif_chatAutoContinued": { "message": "Talatalanoaga Auto-Continued" },
-  "btnLabel_moreApps": { "message": "Sili ChatGPT Apps" },
+  "btnLabel_moreAIextensions": { "message": "Sili atu AI Faʻalauteleina" },
   "btnLabel_leaveReview": { "message": "Tuua Iloiloga" },
   "btnLabel_rateUs": { "message": "Faatusatusaina i Tatou" },
   "btnLabel_getSupport": { "message": "Maua Lagolago" },

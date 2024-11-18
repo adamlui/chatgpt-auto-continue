@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Mèsi pou sipò ou/di ou mèsi pou sipò ou/merci pour votre soutien" },
   "alert_author": { "message": "otè" },
   "notif_chatAutoContinued": { "message": "Chat Auto-Kontinye" },
-  "btnLabel_moreApps": { "message": "Plis Apps ChatGPT" },
+  "btnLabel_moreAIextensions": { "message": "Plis Ekstansyon AI" },
   "btnLabel_leaveReview": { "message": "Kite Revizyon" },
   "btnLabel_rateUs": { "message": "Evalye nou" },
   "btnLabel_getSupport": { "message": "Jwenn Sipò" },

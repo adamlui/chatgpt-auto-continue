@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "از حمایت شما سپاس‌گزاریم. " },
   "alert_author": { "message": "نویسنده" },
   "notif_chatAutoContinued": { "message": "چت به صورت خودکار ادامه یافت" },
-  "btnLabel_moreApps": { "message": "برنامه های بیشتر ChatGPT" },
+  "btnLabel_moreAIextensions": { "message": "افزونه های بیشتر هوش مصنوعی" },
   "btnLabel_leaveReview": { "message": "بررسی را ترک کنید" },
   "btnLabel_rateUs": { "message": "به طراح افشان رای دهید" },
   "btnLabel_getSupport": { "message": "پشتیبانی" },

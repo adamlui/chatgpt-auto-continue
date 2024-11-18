@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "ތިޔަ ދެއްވި އެއްބާރުލުމަށް ޝުކުރިއްޔާ" },
   "alert_author": { "message": "ލިޔުންތެރިޔާ" },
   "notif_chatAutoContinued": { "message": "ޗެޓް އޮޓޯ-ކޮންޓިނިއުޑް" },
-  "btnLabel_moreApps": { "message": "އިތުރު ޗެޓްޖީޕީޓީ އެޕްތައް" },
+  "btnLabel_moreAIextensions": { "message": "އިތުރު އެއައި އެކްސްޓެންޝަންސް" },
   "btnLabel_leaveReview": { "message": "ރިވިއު ދޫކޮށްލާށެވެ" },
   "btnLabel_rateUs": { "message": "ރޭޓް އަސް" },
   "btnLabel_getSupport": { "message": "ގެޓް ސަޕޯޓް" },

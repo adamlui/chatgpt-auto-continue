@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "તમારી મદદ માટે આભાર. " },
   "alert_author": { "message": "લેખક" },
   "notif_chatAutoContinued": { "message": "આપમેળે ચાલુ ચેટ કરો" },
-  "btnLabel_moreApps": { "message": "વધુ ChatGPT એપ્લિકેશન્સ" },
+  "btnLabel_moreAIextensions": { "message": "વધુ AI એક્સ્ટેન્શન્સ" },
   "btnLabel_leaveReview": { "message": "સમીક્ષા છોડો" },
   "btnLabel_rateUs": { "message": "અમને રેટ કરો" },
   "btnLabel_getSupport": { "message": "સપોર્ટ મેળવો" },

@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Dėkojame už Jūsų palaikymą" },
   "alert_author": { "message": "Autorius" },
   "notif_chatAutoContinued": { "message": "Automatinis pokalbio tęsimas" },
-  "btnLabel_moreApps": { "message": "Daugiau ChatGPT programų" },
+  "btnLabel_moreAIextensions": { "message": "Daugiau DI plėtinių" },
   "btnLabel_leaveReview": { "message": "Palikite atsiliepimą" },
   "btnLabel_rateUs": { "message": "Įvertinkite mus" },
   "btnLabel_getSupport": { "message": "Gauti palaikymą" },

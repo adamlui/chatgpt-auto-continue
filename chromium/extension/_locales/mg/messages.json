@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Misaotra anareo amin'ny fanohanana ataonareo" },
   "alert_author": { "message": "Mpanoratra" },
   "notif_chatAutoContinued": { "message": "Karajia Auto-nametraka" },
-  "btnLabel_moreApps": { "message": "More ChatGPT Apps" },
+  "btnLabel_moreAIextensions": { "message": "More AI Extensions" },
   "btnLabel_leaveReview": { "message": "Fandaozana ny famerenana" },
   "btnLabel_rateUs": { "message": "Omeo isa izahay" },
   "btnLabel_getSupport": { "message": "Mitadiava fanampiana" },

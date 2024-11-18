@@ -28,7 +28,7 @@
   "alert_tyForSupport": { "message": "Qo'llab-quvvatlaganingiz uchun rahmat" },
   "alert_author": { "message": "muallif" },
   "notif_chatAutoContinued": { "message": "Chat avtomatik davom etadi" },
-  "btnLabel_moreApps": { "message": "Boshqa ChatGPT ilovalari" },
+  "btnLabel_moreAIextensions": { "message": "Ko'proq AI kengaytmalari" },
   "btnLabel_leaveReview": { "message": "Sharh qoldiring" },
   "btnLabel_rateUs": { "message": "Bizni baholash" },
   "btnLabel_getSupport": { "message": "Yordam oling" },
