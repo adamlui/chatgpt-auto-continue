@@ -15,7 +15,7 @@
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {        
         if (req.action == 'notify') notify(req.msg, req.pos)
-        else if (req.action == 'sync.storageToUI')  syncStorageToUI()
+        else if (req.action == 'syncStorageToUI')  syncStorageToUI()
     })
 
     // Init CONFIG
