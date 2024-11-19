@@ -56,7 +56,7 @@
 
 2. 正常访问 [chatgpt.com](https://chatgpt.com)，多条回复对话中断时会自动继续生成!
 
-### <img height=17 src="https://media.chatgptautocontinue.com/images/icons/platforms/tampermonkey/icon28.png"><img height=17.5 src="https://media.chatgptautocontinue.com/images/icons/platforms/violentmonkey/icon25.png"> Greasemonkey userscript:
+### <img height=17 src="https://media.chatgptautocontinue.com/images/icons/platforms/tampermonkey/icon28.png"><img height=17.5 src="https://media.chatgptautocontinue.com/images/icons/platforms/violentmonkey/icon25.png"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/platforms/scriptcat/icon16.png"> Greasemonkey userscript:
 
 1. 安装用户脚本管理器：
     - ScriptCat 为了 [Chrome](https://chromewebstore.google.com/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf), [Firefox](https://addons.mozilla.org/firefox/addon/scriptcat/) 或 [Edge](https://microsoftedge.microsoft.com/addons/detail/scriptcat/liilgpjgabokdklappibcjfablkpcekh)
