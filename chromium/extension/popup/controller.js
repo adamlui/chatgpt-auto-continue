@@ -59,7 +59,7 @@
 
     // Create CHILD toggles on chatgpt.com
     if (site == 'chatgpt') {
-        await settings.load(settings.availKeys)
+        await settings.load(Object.keys(settings.props))
 
         // Create/insert toggles section
         const togglesDiv = dom.create.elem('div', { class: 'menu' })

@@ -1,5 +1,4 @@
 const config = {}, settings = {
-    availKeys: [ 'extensionDisabled', 'notifDisabled' ],
 
     props: {
         notifDisabled: { type: 'toggle',

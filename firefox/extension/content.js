@@ -19,7 +19,7 @@
     })
 
     // Init CONFIG
-    await settings.load(settings.availKeys)
+    await settings.load('extensionDisabled', Object.keys(settings.props))
 
     // Define FUNCTIONS
 
@@ -58,7 +58,7 @@
     }
 
     async function syncStorageToUI() { // on toolbar popup toggles + ChatGPT tab activations
-        await settings.load(settings.availKeys)
+        await settings.load('extensionDisabled', Object.keys(settings.props))
         if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
     }
 
