@@ -1,6 +1,11 @@
 const config = {}, settings = {
     availKeys: [ 'extensionDisabled', 'notifDisabled' ],
 
+    props: {
+        notifDisabled: { type: 'toggle',
+            label: chrome.i18n.getMessage('menuLabel_modeNotifs') }
+    },
+
     load() {
         const keys = ( // original array if array, else new array from multiple args
             Array.isArray(arguments[0]) ? arguments[0] : Array.from(arguments))

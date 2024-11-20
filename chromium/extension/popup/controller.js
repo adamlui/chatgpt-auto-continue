@@ -66,15 +66,15 @@
         document.querySelector('.menu-header').insertAdjacentElement('afterend', togglesDiv)
 
         // Create/insert settings toggles
-        Object.keys(app.settings).forEach(key => {
+        Object.keys(settings.props).forEach(key => {
 
             // Init elems
             const menuItemDiv = dom.create.elem('div', { class: 'menu-item menu-area' }),
                   menuLabel = dom.create.elem('label', { class: 'menu-icon' }),
                   menuLabelSpan = document.createElement('span')
             let menuInput, menuSlider
-            menuLabelSpan.textContent = app.settings[key].label
-            if (app.settings[key].type == 'toggle') {
+            menuLabelSpan.textContent = settings.props[key].label
+            if (settings.props[key].type == 'toggle') {
                 menuInput = dom.create.elem('input', { type: 'checkbox' })
                 menuInput.checked = /disabled|hidden/i.test(key) ^ config[key]
                 menuSlider = dom.create.elem('span', { class: 'slider' })
@@ -87,13 +87,13 @@
             togglesDiv.append(menuItemDiv)
 
             // Add listeners
-            if (app.settings[key].type == 'toggle') {
+            if (settings.props[key].type == 'toggle') {
                 menuItemDiv.onclick = () => menuInput.click()
                 menuInput.onclick = menuSlider.onclick = event => // prevent double toggle
                     event.stopImmediatePropagation()
                 menuInput.onchange = () => {
                     settings.save(key, !config[key]) ; sync.storageToUI()
-                    notify(`${app.settings[key].label} ${chrome.i18n.getMessage(`state_${
+                    notify(`${settings.props[key].label} ${chrome.i18n.getMessage(`state_${
                         /disabled|hidden/i.test(key) != config[key] ? 'on' : 'off'}`).toUpperCase()}`)
                 }
             }

@@ -5,14 +5,7 @@
     app.urls.assetHost = `https://cdn.jsdelivr.net/gh/adamlui/chatgpt-auto-continue@${app.latestAssetCommitHash}`
     const appData = await (await fetch(`${app.urls.assetHost}/app.json`)).json()
     Object.assign(app, { ...appData, urls: { ...app.urls, ...appData.urls }})
-
-    // Init SETTINGS props
-    Object.assign(app, { settings: {
-        notifDisabled: { type: 'toggle',
-            label: chrome.i18n.getMessage('menuLabel_modeNotifs') }
-    }})
-
-    chrome.storage.sync.set({ app }) // browser storage
+    chrome.storage.sync.set({ app }) // save to browser storage
 
     // Launch ChatGPT on install
     chrome.runtime.onInstalled.addListener(details => {
