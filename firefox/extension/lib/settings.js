@@ -1,6 +1,6 @@
 const config = {}, settings = {
 
-    props: {
+    controls: {
         notifDisabled: { type: 'toggle',
             label: chrome.i18n.getMessage('menuLabel_modeNotifs') }
     },
