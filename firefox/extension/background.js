@@ -16,5 +16,5 @@
     // Sync settings to activated tabs
     chrome.tabs.onActivated.addListener(activeInfo =>
         chrome.tabs.sendMessage(activeInfo.tabId, { action: 'syncStorageToUI' }))
-    
+
 })()

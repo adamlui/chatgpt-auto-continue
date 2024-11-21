@@ -13,7 +13,7 @@
     const { app } = await chrome.storage.sync.get('app')
 
     // Add CHROME MSG listener
-    chrome.runtime.onMessage.addListener(req => {        
+    chrome.runtime.onMessage.addListener(req => {
         if (req.action == 'notify') notify(req.msg, req.pos)
         else if (req.action == 'syncStorageToUI')  syncStorageToUI()
     })
