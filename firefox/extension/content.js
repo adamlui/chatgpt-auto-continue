@@ -24,6 +24,7 @@
     // Define FUNCTIONS
 
     function notify(msg, pos = '', notifDuration = '', shadow = '') {
+        if (config.notifDisabled && !msg.includes(chrome.i18n.getMessage('menuLabel_modeNotifs'))) return
 
         // Strip state word to append colored one later
         const foundState = [ chrome.i18n.getMessage('state_on').toUpperCase(),
@@ -97,8 +98,7 @@
         checkContinueBtn()
 
     // NOTIFY of status on load
-        if (!config.notifDisabled) notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${
-                                             chrome.i18n.getMessage('state_on').toUpperCase()}`)
+        notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
     }
 
 })()
