@@ -69,7 +69,7 @@
         Object.keys(settings.controls).forEach(key => {
 
             // Init elems
-            const menuItemDiv = dom.create.elem('div', { class: 'menu-item menu-area' }),
+            const menuItemDiv = dom.create.elem('div', { class: 'menu-item menu-area', title: settings.controls[key].helptip }),
                   menuLabel = dom.create.elem('label', { class: 'menu-icon' }),
                   menuLabelSpan = document.createElement('span')
             let menuInput, menuSlider

@@ -3,7 +3,8 @@ const settings = {
 
     controls: {
         notifDisabled: { type: 'toggle',
-            label: chrome.i18n.getMessage('menuLabel_modeNotifs') }
+            label: chrome.i18n.getMessage('menuLabel_modeNotifs'),
+            helptip: chrome.i18n.getMessage('helptip_modeNotifs') }
     },
 
     load() {
