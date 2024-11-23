@@ -18,7 +18,7 @@
         else if (req.action == 'syncStorageToUI')  syncStorageToUI()
     })
 
-    // Init CONFIG
+    // Init SETTINGS
     await settings.load('extensionDisabled', Object.keys(settings.controls))
 
     // Define FUNCTIONS

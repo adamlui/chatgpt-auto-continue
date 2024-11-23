@@ -1,4 +1,5 @@
-const config = {}, settings = {
+const config = {}
+const settings = {
 
     controls: {
         notifDisabled: { type: 'toggle',
