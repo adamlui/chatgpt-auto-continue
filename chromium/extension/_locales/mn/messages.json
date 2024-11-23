@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "ИЛЧЛЭГЧ" },
   "about_sourceCode": { "message": "Эх код" },
   "mode_autoContinue": { "message": "Автоматаар задлах" },
+  "helptip_modeNotifs": { "message": "Модель/тохиргоонуудыг өөрчлөх үед мэдэгдлүүдийг харуулах" },
   "alert_updateAvail": { "message": "Шинэчлэх (update) боломжтой" },
   "alert_newerVer": { "message": "Шинэчлэлт" },
   "alert_isAvail": { "message": "авах боломжтой" },

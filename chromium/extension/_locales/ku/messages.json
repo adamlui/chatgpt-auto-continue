@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "ڕاگرتن لە لای" },
   "about_sourceCode": { "message": "کۆدی سەرچاوە" },
   "mode_autoContinue": { "message": "خۆکارانە پەیشکرابێت" },
+  "helptip_modeNotifs": { "message": "Dema ku modên / mîhengan biguherînin, agahdariyan nîşan bidin" },
   "alert_updateAvail": { "message": "نوێکردنەوە بەردەستە" },
   "alert_newerVer": { "message": "نوێکردنەوەی بۆ" },
   "alert_isAvail": { "message": "بەردەستە" },

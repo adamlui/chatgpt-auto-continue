@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "באמצעות" },
   "about_sourceCode": { "message": "קוד מקור" },
   "mode_autoContinue": { "message": "המשך אוטומטי" },
+  "helptip_modeNotifs": { "message": "הצג התראות בעת החלפת מצבים/הגדרות" },
   "alert_updateAvail": { "message": "עדכון זמין" },
   "alert_newerVer": { "message": "עדכון ל -" },
   "alert_isAvail": { "message": "%s זמין" },

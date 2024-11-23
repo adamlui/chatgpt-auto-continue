@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Drevet av" },
   "about_sourceCode": { "message": "Kildekode" },
   "mode_autoContinue": { "message": "Auto-Fortsett" },
+  "helptip_modeNotifs": { "message": "Vis varsler når du bytter moduser/innstillinger" },
   "alert_updateAvail": { "message": "Oppdatering tilgjengelig" },
   "alert_newerVer": { "message": "En oppdatering til" },
   "alert_isAvail": { "message": "tilgjengelig" },

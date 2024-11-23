@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Ixhaswa yi-" },
   "about_sourceCode": { "message": "Ikhodi yomthombo" },
   "mode_autoContinue": { "message": "Qhubeka Ngokuzenzakalelayo" },
+  "helptip_modeNotifs": { "message": "Bonisa izaziso lapho kuguqulwa izindlela/amasethingi" },
   "alert_updateAvail": { "message": "Okwakamuva Kuyatholakala" },
   "alert_newerVer": { "message": "Izilungiso eziya ku-" },
   "alert_isAvail": { "message": "iyatholakala" },

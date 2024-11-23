@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "طراحی شده توسط" },
   "about_sourceCode": { "message": "سرچينه كوډه" },
   "mode_autoContinue": { "message": "خپلکاره لیکل" },
+  "helptip_modeNotifs": { "message": "خبرتیاوې وښایاست کله چې د حالتونو/ترتیباتو ته اشاره وکړئ" },
   "alert_updateAvail": { "message": "اوسمهالیزې شته" },
   "alert_newerVer": { "message": "ته تازه معلومات" },
   "alert_isAvail": { "message": "شتون لري" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Сайтты жасаған" },
   "about_sourceCode": { "message": "Бастапқы код" },
   "mode_autoContinue": { "message": "Автоматты жалғастыру" },
+  "helptip_modeNotifs": { "message": "Режимдерді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
   "alert_updateAvail": { "message": "Қолжетімді жаңарту" },
   "alert_newerVer": { "message": "Жаңарту" },
   "alert_isAvail": { "message": "қолжетімді" },

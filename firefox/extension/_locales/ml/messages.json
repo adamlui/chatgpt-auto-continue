@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "പിന്തുണയ്ക്കുന്നത്" },
   "about_sourceCode": { "message": "സോഴ്സ് കോഡ്" },
   "mode_autoContinue": { "message": "യാന്ത്രികമായി തുടരുക" },
+  "helptip_modeNotifs": { "message": "മോഡുകൾ/ക്രമീകരണങ്ങൾ ടോഗിൾ ചെയ്യുമ്പോൾ അറിയിപ്പുകൾ കാണിക്കുക" },
   "alert_updateAvail": { "message": "%d അപ്‌ഡേറ്റ് ലഭ്യമാണ്" },
   "alert_newerVer": { "message": "ഇതിലേക്കുള്ള ഒരു അപ്‌ഡേറ്റ്" },
   "alert_isAvail": { "message": "ലഭ്യമാണ്" },

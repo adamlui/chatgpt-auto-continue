@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Běží na" },
   "about_sourceCode": { "message": "Zdrojový kód" },
   "mode_autoContinue": { "message": "Pokračovat automaticky" },
+  "helptip_modeNotifs": { "message": "Zobrazit oznámení při přepínání režimů/nastavení" },
   "alert_updateAvail": { "message": "Aktualizace k dispozici" },
   "alert_newerVer": { "message": "Aktualizace na" },
   "alert_isAvail": { "message": "je k dispozici" },

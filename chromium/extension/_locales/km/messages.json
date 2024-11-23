@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "ដំណើរការដោយ" },
   "about_sourceCode": { "message": "កូដដើម" },
   "mode_autoContinue": { "message": "បន្តដោយស្វ័យប្រវត្តិ" },
+  "helptip_modeNotifs": { "message": "បង្ហាញការជូនដំណឹងនៅពេលបិទបើកម៉ូដ/ការកំណត់" },
   "alert_updateAvail": { "message": "ការអាប់ដេតមាន" },
   "alert_newerVer": { "message": "អាប់ដេតទៅ" },
   "alert_isAvail": { "message": "មាន" },

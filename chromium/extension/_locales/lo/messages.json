@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "ຂັບເຄື່ອນໂດຍ" },
   "about_sourceCode": { "message": "ຊອດສ໌ໂຄດ" },
   "mode_autoContinue": { "message": "ການສືບຕໍ່ອັດຕະໂນມັດ" },
+  "helptip_modeNotifs": { "message": "ສະແດງການແຈ້ງເຕືອນເມື່ອປິດການໃຊ້ງານໂໝດ/ການຕັ້ງຄ່າ" },
   "alert_updateAvail": { "message": "ອັບເດດທີ່ມີຢູ່" },
   "alert_newerVer": { "message": "ການອັບເດດ" },
   "alert_isAvail": { "message": "ມີ" },

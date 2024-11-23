@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "မှပံ့ပိုးသည်" },
   "about_sourceCode": { "message": "ပင္မကုဒ္" },
   "mode_autoContinue": { "message": "အော်တို-ဆက်ရန်" },
+  "helptip_modeNotifs": { "message": "မုဒ်များ/ဆက်တင်များကို ပြောင်းလဲချိန်တွင် အသိပေးချက်များကို ပြသပါ" },
   "alert_updateAvail": { "message": "အသစ်မထွက်သေး" },
   "alert_newerVer": { "message": "သို့ အပ်ဒိတ်တစ်ခု" },
   "alert_isAvail": { "message": "ရရှိနိုင်ပါသည်" },

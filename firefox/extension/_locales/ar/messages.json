@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "يستخدم" },
   "about_sourceCode": { "message": "شيفرة مصدرية" },
   "mode_autoContinue": { "message": "متابعة تلقائية" },
+  "helptip_modeNotifs": { "message": "عرض الإشعارات عند تبديل الأوضاع/الإعدادات" },
   "alert_updateAvail": { "message": "تحديث متوفر" },
   "alert_newerVer": { "message": "تحديث إلى" },
   "alert_isAvail": { "message": "متوفر" },

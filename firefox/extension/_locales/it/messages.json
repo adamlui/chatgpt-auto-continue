@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Alimentato da" },
   "about_sourceCode": { "message": "Codice sorgente" },
   "mode_autoContinue": { "message": "Continuazione automatica" },
+  "helptip_modeNotifs": { "message": "Mostra notifiche quando si attivano modalità/impostazioni" },
   "alert_updateAvail": { "message": "Aggiornamento disponibile" },
   "alert_newerVer": { "message": "Invia aggiornamento a" },
   "alert_isAvail": { "message": "è disponibile" },

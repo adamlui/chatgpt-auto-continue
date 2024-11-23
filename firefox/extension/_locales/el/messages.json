@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Με την υποστήριξη" },
   "about_sourceCode": { "message": "Source code" },
   "mode_autoContinue": { "message": "Αυτόματη συνέχιση" },
+  "helptip_modeNotifs": { "message": "Εμφάνιση ειδοποιήσεων κατά την εναλλαγή λειτουργιών/ρυθμίσεων" },
   "alert_updateAvail": { "message": "Υπάρχει διαθέσιμη ενημέρωση" },
   "alert_newerVer": { "message": "Ενημέρωση" },
   "alert_isAvail": { "message": "Μη διαθέσιμο" },

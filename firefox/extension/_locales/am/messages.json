@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "የተጎለበተው በ" },
   "about_sourceCode": { "message": "የምንጭ ኮድ" },
   "mode_autoContinue": { "message": "Auto-Continue" },
+  "helptip_modeNotifs": { "message": "ሁነቶችን/ቅንብሮችን በሚገፉበት ጊዜ ማሳወቂያዎችን ያሳዩ" },
   "alert_updateAvail": { "message": "ዝመና ይገኛል" },
   "alert_newerVer": { "message": "አንድ ዝማኔ ወደ" },
   "alert_isAvail": { "message": "ይገኛል" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Inofambiswa ne" },
   "about_sourceCode": { "message": "Kunobva kodhi" },
   "mode_autoContinue": { "message": "Auto-Continue" },
+  "helptip_modeNotifs": { "message": "Ratidza zviziviso kana toggling modes/marongero" },
   "alert_updateAvail": { "message": "Zadzisa zviripo" },
   "alert_newerVer": { "message": "An update kuti" },
   "alert_isAvail": { "message": "inowanika" },

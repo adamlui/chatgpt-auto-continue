@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "قدرت گرفته توسط" },
   "about_sourceCode": { "message": "سورس کد" },
   "mode_autoContinue": { "message": "ادامه خودکار" },
+  "helptip_modeNotifs": { "message": "نمایش اعلان‌ها هنگام تغییر حالت‌ها/تنظیمات" },
   "alert_updateAvail": { "message": "آپدیت موجود است" },
   "alert_newerVer": { "message": "بروز رسانی" },
   "alert_isAvail": { "message": "موجوده" },

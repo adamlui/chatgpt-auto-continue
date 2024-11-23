@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Powered by" },
   "about_sourceCode": { "message": "Lähtekood" },
   "mode_autoContinue": { "message": "Automaatne jätkamine" },
+  "helptip_modeNotifs": { "message": "Kuva teated režiimide/seadete vahetamisel" },
   "alert_updateAvail": { "message": "Saadaval on uuendus" },
   "alert_newerVer": { "message": "Uuendus kuni" },
   "alert_isAvail": { "message": "on saadaval" },

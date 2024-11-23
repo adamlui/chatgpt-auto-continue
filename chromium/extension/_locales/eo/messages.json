@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "funkciigita de" },
   "about_sourceCode": { "message": "Fontkodo" },
   "mode_autoContinue": { "message": "Daŭrigi aŭtomate" },
+  "helptip_modeNotifs": { "message": "Montri sciigojn kiam ŝanĝi reĝimojn/agordojn" },
   "alert_updateAvail": { "message": "Neniu priskribo disponebla" },
   "alert_newerVer": { "message": "Ĝisdatigo al" },
   "alert_isAvail": { "message": "estas disponebla" },

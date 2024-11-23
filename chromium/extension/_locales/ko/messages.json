@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "제공" },
   "about_sourceCode": { "message": "원본 코드" },
   "mode_autoContinue": { "message": "자동 계속" },
+  "helptip_modeNotifs": { "message": "모드/설정을 전환할 때 알림 표시" },
   "alert_updateAvail": { "message": "업데이트 사용 가능" },
   "alert_newerVer": { "message": "다음으로 업데이트" },
   "alert_isAvail": { "message": "사용가능" },

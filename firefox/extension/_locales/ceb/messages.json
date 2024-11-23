@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Gipadagan sa" },
   "about_sourceCode": { "message": "Gigikana sa kodigo" },
   "mode_autoContinue": { "message": "Awtomatikong Pagpadayon" },
+  "helptip_modeNotifs": { "message": "Ipakita ang mga pahibalo kung ang mga mode/setting sa pag-toggle" },
   "alert_updateAvail": { "message": "Magamit ang pag-update" },
   "alert_newerVer": { "message": "Usa ka update sa" },
   "alert_isAvail": { "message": "mao available" },

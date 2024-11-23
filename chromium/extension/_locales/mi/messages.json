@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Te mana o te mana" },
   "about_sourceCode": { "message": "Waehere puna" },
   "mode_autoContinue": { "message": "Auto-Continue" },
+  "helptip_modeNotifs": { "message": "Whakaatuhia nga panui i te wa e whakakakahu ana i nga tikanga/tautuhinga" },
   "alert_updateAvail": { "message": "Ngā whakahōu e wātea ana" },
   "alert_newerVer": { "message": "He whakahoutanga" },
   "alert_isAvail": { "message": "kei te wātea ahau" },

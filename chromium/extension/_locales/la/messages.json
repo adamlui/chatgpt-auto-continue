@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Powered by" },
   "about_sourceCode": { "message": "Codex Originis" },
   "mode_autoContinue": { "message": "Coninue autorum" },
+  "helptip_modeNotifs": { "message": "Notificationes quod toggling modes/settings" },
   "alert_updateAvail": { "message": "Updateis available" },
   "alert_newerVer": { "message": "Omnia ad" },
   "alert_isAvail": { "message": "est disponibus" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "技術支持" },
   "about_sourceCode": { "message": "原始碼" },
   "mode_autoContinue": { "message": "自動繼續" },
+  "helptip_modeNotifs": { "message": "切換模式/設定時顯示通知" },
   "alert_updateAvail": { "message": "有可用更新" },
   "alert_newerVer": { "message": "有新版本可用" },
   "alert_isAvail": { "message": "可用" },

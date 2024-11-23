@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Powered by" },
   "about_sourceCode": { "message": "Source code" },
   "mode_autoContinue": { "message": "Auto-Continue" },
+  "helptip_modeNotifs": { "message": "Show notifications when toggling modes/settings" },
   "alert_updateAvail": { "message": "Update available" },
   "alert_newerVer": { "message": "An update to" },
   "alert_isAvail": { "message": "is available" },

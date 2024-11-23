@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "A yeke sara kua na ni" },
   "about_sourceCode": { "message": "Source code ti" },
   "mode_autoContinue": { "message": "Auto article" },
+  "helptip_modeNotifs": { "message": "Fa awango na ngoi so mo yeke toggling mode/settings" },
   "alert_updateAvail": { "message": "Nduru tënë so ayeke dä" },
   "alert_newerVer": { "message": "Mbeni ye so a sara na yâ ti fini dunia" },
   "alert_isAvail": { "message": "yeke available" },

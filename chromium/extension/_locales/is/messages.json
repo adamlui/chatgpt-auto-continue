@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Knúið af" },
   "about_sourceCode": { "message": "Frumkóði" },
   "mode_autoContinue": { "message": "Sjálfvirk stöðvun" },
+  "helptip_modeNotifs": { "message": "Sýna tilkynningar þegar skipt er um ham/stillingar" },
   "alert_updateAvail": { "message": "Ný uppfærsla í boði" },
   "alert_newerVer": { "message": "Breyting á" },
   "alert_isAvail": { "message": "er í boði" },

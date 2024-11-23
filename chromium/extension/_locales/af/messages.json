@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Aangedryf deur" },
   "about_sourceCode": { "message": "Oorsprong Kode" },
   "mode_autoContinue": { "message": "Outo-gaan voort" },
+  "helptip_modeNotifs": { "message": "Wys kennisgewings wanneer modusse/instellings wissel" },
   "alert_updateAvail": { "message": "Opdatering beskikbaar" },
   "alert_newerVer": { "message": "'n Opdatering na" },
   "alert_isAvail": { "message": "is beskikbaar" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "omogućio" },
   "about_sourceCode": { "message": "Izvorni kod" },
   "mode_autoContinue": { "message": "Automatski nastavi" },
+  "helptip_modeNotifs": { "message": "Prikaži obavještenja prilikom prebacivanja režima/postavki" },
   "alert_updateAvail": { "message": "Ažuriranje dostupno" },
   "alert_newerVer": { "message": "Ažuriranje za" },
   "alert_isAvail": { "message": "dostupno je" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "E tsamaisiwa ke" },
   "about_sourceCode": { "message": "Source code" },
   "mode_autoContinue": { "message": "Auto-Continue" },
+  "helptip_modeNotifs": { "message": "Bontsha dikitsiso fa o toggling modes/settings" },
   "alert_updateAvail": { "message": "Diphetogo tse di leng teng" },
   "alert_newerVer": { "message": "Update kwa" },
   "alert_isAvail": { "message": "e teng" },

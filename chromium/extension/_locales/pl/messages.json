@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Obsługiwane przez" },
   "about_sourceCode": { "message": "Kod źródłowy" },
   "mode_autoContinue": { "message": "Automatycznie kontynuuj" },
+  "helptip_modeNotifs": { "message": "Pokaż powiadomienia podczas przełączania trybów/ustawień" },
   "alert_updateAvail": { "message": "Aktualizacja dostępna" },
   "alert_newerVer": { "message": "Aktualizuj" },
   "alert_isAvail": { "message": "jest dostępna" },

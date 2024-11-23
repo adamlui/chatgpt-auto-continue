@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Powered by" },
   "about_sourceCode": { "message": "Lähdekoodi" },
   "mode_autoContinue": { "message": "Automaattinen jatkaminen" },
+  "helptip_modeNotifs": { "message": "Näytä ilmoitukset, kun vaihdat tiloja/asetuksia" },
   "alert_updateAvail": { "message": "Päivitys saatavilla" },
   "alert_newerVer": { "message": "Päivitä" },
   "alert_isAvail": { "message": "on käytettävissä" },

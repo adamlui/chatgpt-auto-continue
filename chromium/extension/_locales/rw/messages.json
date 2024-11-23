@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Ku" },
   "about_sourceCode": { "message": "C Inkomoko ITEGEKONGENGA" },
   "mode_autoContinue": { "message": "Gukomeza" },
+  "helptip_modeNotifs": { "message": "Ibimenyetso Ryari: Amagenamiterere" },
   "alert_updateAvail": { "message": "Bihari" },
   "alert_newerVer": { "message": "Kuri" },
   "alert_isAvail": { "message": "bihari" },

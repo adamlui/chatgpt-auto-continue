@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "פּאַוערד דורך" },
   "about_sourceCode": { "message": "מקור קאָד" },
   "mode_autoContinue": { "message": "אַוטאָ-פאָרזעצן" },
+  "helptip_modeNotifs": { "message": "ווייַזן נאָוטאַפאַקיישאַנז ווען טאַגאַלינג מאָדעס / סעטטינגס" },
   "alert_updateAvail": { "message": "דערהייַנטיקן בנימצא" },
   "alert_newerVer": { "message": "אַ דערהייַנטיקן צו" },
   "alert_isAvail": { "message": "איז בנימצא" },

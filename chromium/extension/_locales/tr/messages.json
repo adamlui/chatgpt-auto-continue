@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Destek" },
   "about_sourceCode": { "message": "Kaynak Kodu" },
   "mode_autoContinue": { "message": "Otomatik Devam" },
+  "helptip_modeNotifs": { "message": "Modlar/ayarlar arasında geçiş yaparken bildirimleri göster" },
   "alert_updateAvail": { "message": "Güncelleme uygun" },
   "alert_newerVer": { "message": "Güncelleme tarih" },
   "alert_isAvail": { "message": "geçerli" },

@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Powered by" },
   "about_sourceCode": { "message": "ソースコード" },
   "mode_autoContinue": { "message": "自動続行" },
+  "helptip_modeNotifs": { "message": "モード/設定の切り替え時に通知を表示する" },
   "alert_updateAvail": { "message": "利用可能なアップデート" },
   "alert_newerVer": { "message": "に更新します" },
   "alert_isAvail": { "message": "利用可能" },

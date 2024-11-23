@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Нерӯмандшуда аз тарафи" },
   "about_sourceCode": { "message": "Рамзи манбаъ" },
   "mode_autoContinue": { "message": "Пайвастшавии худкор" },
+  "helptip_modeNotifs": { "message": "Намоиши огоҳиҳо ҳангоми гузаштан аз режимҳо/танзимотҳо" },
   "alert_updateAvail": { "message": "I-update ang magagamit" },
   "alert_newerVer": { "message": "Ang isang pag-update sa" },
   "alert_isAvail": { "message": "дастрас аст" },

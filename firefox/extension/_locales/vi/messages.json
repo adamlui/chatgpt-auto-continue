@@ -10,6 +10,7 @@
   "about_poweredBy": { "message": "Cung cấp bởi" },
   "about_sourceCode": { "message": "Mã nguồn" },
   "mode_autoContinue": { "message": "Tự động tiếp tục" },
+  "helptip_modeNotifs": { "message": "Hiển thị thông báo khi chuyển đổi chế độ/cài đặt" },
   "alert_updateAvail": { "message": "Cập nhật có sẵn" },
   "alert_newerVer": { "message": "bản cập nhật" },
   "alert_isAvail": { "message": "is available" },
