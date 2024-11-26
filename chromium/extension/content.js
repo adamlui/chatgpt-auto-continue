@@ -92,8 +92,6 @@
                                              + 'box-shadow: 2px 1px 30px #97ff006b !important' )) + '}'
           + '.modal-buttons { margin-left: -13px !important }'
           + '* { scrollbar-width: thin }' // make FF scrollbar skinny to not crop toggle
-          + '.sticky div:active, .sticky div:focus {' // post-GPT-4o UI sidebar button container
-              + 'transform: none !important }' // disable distracting click zoom effect
         )
     }
 
@@ -103,6 +101,17 @@
 
     // NOTIFY of status on load
         notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
+
+    // Disable distracting SIDEBAR CLICK-ZOOM effect
+        if (!document.documentElement.hasAttribute('sidebar-click-zoom-observed')) {
+            new MutationObserver(mutations => mutations.forEach(({ target }) => {
+                if (target.closest('[class*="sidebar"]') // include sidebar divs
+                    && !target.id.endsWith('-knob-span') // exclude our sidebarToggle
+                    && target.style.transform != 'none' // click-zoom occurred
+                ) target.style.transform = 'none'
+            })).observe(document.body, { attributes: true, subtree: true, attributeFilter: [ 'style' ]})
+            document.documentElement.setAttribute('sidebar-click-zoom-observed', true)
+        }
     }
 
 })()
