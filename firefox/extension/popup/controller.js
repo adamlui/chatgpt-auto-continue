@@ -72,7 +72,7 @@
             const menuItemDiv = dom.create.elem('div', {
                 class: 'menu-item menu-area', title: settings.controls[key].helptip || '' })
             const menuLabel = dom.create.elem('label', { class: 'menu-icon' }),
-                  menuLabelSpan = document.createElement('span')
+                  menuLabelSpan = dom.create.elem('span')
             let menuInput, menuSlider
             menuLabelSpan.textContent = settings.controls[key].label
             if (settings.controls[key].type == 'toggle') {
@@ -115,7 +115,7 @@
         document.documentElement.lang = chrome.i18n.getUILanguage().split('-')[0]
 
     // Create/append FOOTER container
-    const footer = document.createElement('footer')
+    const footer = dom.create.elem('footer')
     document.body.append(footer)
 
     // Create/append CHATGPT.JS footer logo
