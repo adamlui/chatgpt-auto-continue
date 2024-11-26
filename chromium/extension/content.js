@@ -67,7 +67,7 @@
     // Run MAIN routine
 
     // Add/update TWEAKS style
-    const tweaksStyleUpdated = 1732583582247 // timestamp of last edit for this file's tweaksStyle
+    const tweaksStyleUpdated = 1732584020030 // timestamp of last edit for this file's tweaksStyle
     let tweaksStyle = document.getElementById('tweaks-style') // try to select existing style
     if (!tweaksStyle || parseInt(tweaksStyle.getAttribute('last-updated')) < tweaksStyleUpdated) {
         if (!tweaksStyle) { // outright missing, create/id/attr/append it first
@@ -91,7 +91,6 @@
                                        : ( 'background-color: #c7ff006b !important ;'
                                              + 'box-shadow: 2px 1px 30px #97ff006b !important' )) + '}'
           + '.modal-buttons { margin-left: -13px !important }'
-          + '* { scrollbar-width: thin }' // make FF scrollbar skinny to not crop toggle
         )
     }
 
