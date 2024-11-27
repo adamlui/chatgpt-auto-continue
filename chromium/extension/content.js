@@ -9,6 +9,7 @@
     // Import LIBS
     const { config, settings } = await import(chrome.runtime.getURL('lib/settings.mjs'))
     await import(chrome.runtime.getURL('lib/chatgpt.js'))
+    await import(chrome.runtime.getURL('lib/dom.js'))
 
     // Import APP data
     const { app } = await chrome.storage.sync.get('app')
