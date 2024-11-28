@@ -111,7 +111,7 @@ jobs:
       - name: Sync ** to adamlui/ai-apps/chatgpt-auto-continue/
         if: env.USERS_UPDATED == 'true'
         run: |
-          rsync -avhr --delete --exclude={'.*','eslint*','package*json'} \
+          rsync -avhr --delete --exclude={'.*','eslint*','package*.json'} \
             ${{ github.workspace }}/adamlui/chatgpt-auto-continue/ \
             ${{ github.workspace }}/adamlui/ai-apps/chatgpt-auto-continue/
       
