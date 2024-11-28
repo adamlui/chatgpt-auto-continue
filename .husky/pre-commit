@@ -1,15 +1,24 @@
 #!/bin/bash
 
-RED="\033[1;31m" ; NC="\033[0m"
+# Init UI colors
+NC="\033[0m"    # no color
+BR="\033[1;91m" # bright red
+BY="\033[1;33m" # bright yellow
 
-if npm ls -g eslint &> /dev/null || npm ls eslint &> /dev/null ; then
-    npm run lint
+# Run ESLint for JavaScript + JSON + Markdown + YAML
+echo -e "\n${BY}Running ESLint...${NC}"
+npx eslint . --cache
+
+# Run Ruff for Python
+echo -e "${BY}Running Ruff...${NC}"
+if command -v ruff &> /dev/null ; then
+    ruff check .
 else
     PROJECT_ROOT=$(
         cd "$(dirname "$0")/.." && # nav to root
         [ "$OSTYPE" == "msys" ] && pwd -W || pwd # get absolute path
     )
-    echo -e "\n${RED}Warning: eslint not installed${NC}"
-    echo -e " To add missing dependencies, run 'npm install' from"
-    echo -e " $PROJECT_ROOT\n"
+    echo -e "\n${BR}Warning: Ruff not installed${NC}"
+    echo -e "To add missing Python dependencies, run 'pip install -r requirements-dev.txt' from"
+    echo -e "$PROJECT_ROOT\n"
 fi
