@@ -57,15 +57,15 @@
         Object.keys(sync).forEach(key => sync[key]()) // sync fade + storage to UI
     }
 
-    // Create CHILD toggles on chatgpt.com
+    // Create CHILD menu entries on chatgpt.com
     if (site == 'chatgpt') {
         await settings.load(Object.keys(settings.controls))
 
-        // Create/insert toggles section
+        // Create/insert child section
         const togglesDiv = dom.create.elem('div', { class: 'menu' })
         document.querySelector('.menu-header').insertAdjacentElement('afterend', togglesDiv)
 
-        // Create/insert settings toggles
+        // Create/insert child entries
         Object.keys(settings.controls).forEach(key => {
 
             // Init elems
