@@ -17,7 +17,7 @@
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {
         if (req.action == 'notify') notify(req.msg, req.pos)
-        else if (req.action == 'syncStorageToUI')  syncStorageToUI()
+        else if (req.action == 'syncConfigToUI') syncConfigToUI()
     })
 
     // Init SETTINGS
@@ -60,7 +60,7 @@
         } else setTimeout(checkContinueBtn, 500)
     }
 
-    async function syncStorageToUI() { // on toolbar popup toggles + ChatGPT tab activations
+    async function syncConfigToUI() { // on toolbar popup toggles + ChatGPT tab activations
         await settings.load('extensionDisabled', ...Object.keys(settings.controls))
         if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
     }
