@@ -73,17 +73,6 @@
 
     // NOTIFY of status on load
         notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
-
-    // Disable distracting SIDEBAR CLICK-ZOOM effect
-        if (!document.documentElement.hasAttribute('sidebar-click-zoom-observed')) {
-            new MutationObserver(mutations => mutations.forEach(({ target }) => {
-                if (target.closest('[class*="sidebar"]') // include sidebar divs
-                    && !target.id.endsWith('-knob-span') // exclude our sidebarToggle
-                    && target.style.transform != 'none' // click-zoom occurred
-                ) target.style.transform = 'none'
-            })).observe(document.body, { attributes: true, subtree: true, attributeFilter: [ 'style' ]})
-            document.documentElement.setAttribute('sidebar-click-zoom-observed', true)
-        }
     }
 
 })()
