@@ -1,4 +1,4 @@
-const dom = {
+window.dom = {
     create: {
         elem(elemType, attrs = {}) {
             const elem = document.createElement(elemType)
@@ -18,6 +18,4 @@ const dom = {
             return elem
         }
     }
-}
-
-window.dom = dom;
+};
