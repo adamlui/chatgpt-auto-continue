@@ -20,15 +20,4 @@ jobs:
         run: npm ci
 
       - name: Run ESLint
-        run: npx eslint . --cache
-
-  python-lint:
-    name: Python
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Checkout repository code
-        uses: actions/checkout@v4
-
-      - name: Run Ruff
-        uses: chartboost/ruff-action@v1
+        run: npm run lint

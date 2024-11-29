@@ -1,7 +1,0 @@
-lint.ignore = [
-    "E401", # allow multiple imports on one line
-    "E402", # allow module level import at top of file
-    "E701", # allow multiple statements on one line (colon)
-    "E702", # allow multiple statements on one line (semicolon)
-    "E722" # allow bare exceptions
-]
