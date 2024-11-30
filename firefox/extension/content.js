@@ -3,7 +3,8 @@
 
 (async () => {
 
-    document.head.setAttribute('chatgpt-auto-continue-extension-installed', true) // for userscript auto-disable
+    document.documentElement.setAttribute( // for userscript auto-disable
+        'chatgpt-auto-continue-extension-installed', true)
 
     // Import LIBS
     await import(chrome.runtime.getURL('lib/chatgpt.js'))
