@@ -21,7 +21,7 @@
     })
 
     // Init SETTINGS
-    await settings.load('extensionDisabled', Object.keys(settings.controls))
+    await settings.load('extensionDisabled', ...Object.keys(settings.controls))
 
     // Define FUNCTIONS
 
