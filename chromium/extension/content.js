@@ -16,7 +16,8 @@
 
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {
-        if (req.action == 'notify') notify(req.msg, req.pos)
+        if (req.action == 'notify')
+            notify(...['msg', 'pos', 'notifDuration', 'shadow'].map(arg => req.options[arg]))
         else if (req.action == 'syncConfigToUI') syncConfigToUI()
     })
 
