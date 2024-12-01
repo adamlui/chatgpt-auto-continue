@@ -56,7 +56,7 @@
     }
 
     // Create CHILD menu entries on chatgpt.com
-    if (env.site =='chatgpt') {
+    if (env.site == 'chatgpt') {
         await settings.load(Object.keys(settings.controls))
 
         // Create/insert child section
