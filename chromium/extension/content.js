@@ -6,7 +6,7 @@
     document.documentElement.setAttribute( // for userscript auto-disable
         'chatgpt-auto-continue-extension-installed', true)
 
-    // Import LIBS
+    // Import JS resources
     await import(chrome.runtime.getURL('lib/chatgpt.js'))
     await import(chrome.runtime.getURL('lib/dom.js'))
     await import(chrome.runtime.getURL('lib/settings.js'))
