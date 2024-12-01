@@ -7,9 +7,8 @@
         'chatgpt-auto-continue-extension-installed', true)
 
     // Import JS resources
-    await import(chrome.runtime.getURL('lib/chatgpt.js'))
-    await import(chrome.runtime.getURL('lib/dom.js'))
-    await import(chrome.runtime.getURL('lib/settings.js'))
+    for (const resource of ['lib/chatgpt.js', 'lib/dom.js', 'lib/settings.js'])
+        await import(chrome.runtime.getURL(resource))
 
     // Import APP data
     const { app } = await chrome.storage.sync.get('app')
