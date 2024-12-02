@@ -13,7 +13,12 @@
     "greasyFork": "https://greasyfork.org/scripts/466789-chatgpt-auto-continue",
     "mediaHost": "https://media.chatgptautocontinue.com",
     "relatedExtensions": "https://aiwebextensions.com",
-    "review": { "greasyFork": "https://greasyfork.org/scripts/466789-chatgpt-auto-continue/feedback#post-discussion" },
+    "review": {
+      "chromeWebStore": "https://chromewebstore.google.com/detail/chatgpt-auto-continue/lbojnhaafilddefkdgmbplkafnckaoga/reviews",
+      "edgeAddons": "https://microsoftedge.microsoft.com/addons/detail/chatgpt-autocontinue/kaicnimcjamamnlbaeaneofmdjibgepl",
+      "firefoxAddons": "https://addons.mozilla.org/firefox/addon/chatgpt-auto-continue/",
+      "greasyFork": "https://greasyfork.org/scripts/466789-chatgpt-auto-continue/feedback#post-discussion"
+    },
     "support": "https://support.chatgptautocontinue.com"
   }
 }
