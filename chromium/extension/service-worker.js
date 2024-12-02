@@ -12,7 +12,7 @@ chrome.tabs.onActivated.addListener(activeInfo =>
 (async () => {
     const app = { latestAssetCommitHash: '9ae83fb', urls: {} }
     app.urls.assetHost = `https://cdn.jsdelivr.net/gh/adamlui/chatgpt-auto-continue@${app.latestAssetCommitHash}`
-    const appData = await (await fetch(`${app.urls.assetHost}/app.json`)).json()
-    Object.assign(app, { ...appData, urls: { ...app.urls, ...appData.urls }})
+    const remoteAppData = await (await fetch(`${app.urls.assetHost}/app.json`)).json()
+    Object.assign(app, { ...remoteAppData, urls: { ...app.urls, ...remoteAppData.urls }})
     chrome.storage.sync.set({ app }) // save to browser storage
 })()
