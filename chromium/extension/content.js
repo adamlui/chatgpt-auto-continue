@@ -108,7 +108,7 @@
     // Add STARS styles
     ['black', 'white'].forEach(color => document.head.append(
         dom.create.elem('link', { rel: 'stylesheet',
-            href: `https://assets.aiwebextensions.com/styles/css/${color}-rising-stars.min.css?v=ef1de9f`
+            href: `https://assets.aiwebextensions.com/styles/css/${color}-rising-stars.min.css?v=542104c`
     })))
 
     // Observe DOM for need to continue generating response
