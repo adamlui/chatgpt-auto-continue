@@ -120,7 +120,7 @@ window.modals = {
             btn.style.cssText = 'cursor: pointer !important ;'
                 + `height: ${ this.env.runtime.includes('Greasemonkey') ? 50 : 43 }px`
 
-            // Replace link buttons w/ clones that don't dismissAlert()
+            // Replace link buttons w/ clones that don't dismiss modal
             if (/support|rate|extensions/i.test(btn.textContent)) {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
@@ -185,7 +185,7 @@ window.modals = {
         const btns = donateModal.querySelectorAll('button')
         btns.forEach((btn, idx) => {
 
-            // Replace link buttons w/ clones that don't dismissAlert()
+            // Replace link buttons w/ clones that don't dismiss modal
             if (!/dismiss|rate/i.test(btn.textContent)) {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
