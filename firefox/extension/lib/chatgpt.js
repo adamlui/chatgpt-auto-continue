@@ -11,9 +11,244 @@ localStorage.notifyProps = JSON.stringify({ queue: { topRight: [], bottomRight: 
 
 const chatgpt = {
 
+    alert(title, msg, btns, checkbox, width) {
+    // [ title/msg = strings, btns = [named functions], checkbox = named function, width (px) = int ] = optional
+    // * Spaces are inserted into button labels by parsing function names in camel/kebab/snake case
+
+        const scheme = chatgpt.isDarkMode() ? 'dark' : 'light',
+              isMobile = chatgpt.browser.isMobile();
+
+        // Create modal parent/children elements
+        const modalContainer = document.createElement('div');
+        modalContainer.id = Math.floor(chatgpt.randomFloat() * 1000000) + Date.now();
+        modalContainer.classList.add('chatgpt-modal'); // add class to main div
+        const modal = document.createElement('div'),
+              modalTitle = document.createElement('h2'),
+              modalMessage = document.createElement('p');
+
+        // Create/append/update modal style (if missing or outdated)
+        const thisUpdated = 20231203; // datestamp of last edit for this file's `modalStyle`
+        let modalStyle = document.querySelector('#chatgpt-modal-style'); // try to select existing style
+        if (!modalStyle || parseInt(modalStyle.getAttribute('last-updated'), 10) < thisUpdated) { // if missing or outdated
+            if (!modalStyle) { // outright missing, create/id/attr/append it first
+                modalStyle = document.createElement('style'); modalStyle.id = 'chatgpt-modal-style';
+                modalStyle.setAttribute('last-updated', thisUpdated.toString());
+                document.head.append(modalStyle);
+            }
+            modalStyle.innerText = ( // update prev/new style contents
+                '.no-mobile-tap-outline { outline: none ; -webkit-tap-highlight-color: transparent }'
+
+                // Background styles
+                + '.chatgpt-modal {'
+                    + 'position: fixed ; top: 0 ; left: 0 ; width: 100% ; height: 100% ;' // expand to full view-port
+                    + 'background-color: rgba(67, 70, 72, 0) ;' // init dim bg but no opacity
+                    + 'transition: background-color 0.05s ease ;' // speed to transition in show alert routine
+                    + 'display: flex ; justify-content: center ; align-items: center ; z-index: 9999 }' // align
+
+                // Alert styles
+                + '.chatgpt-modal > div {'
+                    + 'opacity: 0 ; transform: translateX(-2px) translateY(5px) ; max-width: 75vw ; word-wrap: break-word ;'
+                    + 'transition: opacity 0.1s cubic-bezier(.165,.84,.44,1), transform 0.2s cubic-bezier(.165,.84,.44,1) ;'
+                    + `background-color: ${ scheme == 'dark' ? 'black' : 'white' } ;`
+                    + ( scheme != 'dark' ? 'border: 1px solid rgba(0, 0, 0, 0.3) ;' : '' )
+                    + 'padding: 20px ; margin: 12px 23px ; border-radius: 15px ; box-shadow: 0 30px 60px rgba(0, 0, 0, .12) ;'
+                    + ' -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ; }'
+                + '.chatgpt-modal h2 { margin-bottom: 9px }'
+                + `.chatgpt-modal a { color: ${ scheme == 'dark' ? '#00cfff' : '#1e9ebb' }}`
+                + '.chatgpt-modal.animated > div { opacity: 1 ; transform: translateX(0) translateY(0) }'
+                + '@keyframes alert-zoom-fade-out { 0% { opacity: 1 ; transform: scale(1) }'
+                    + '50% { opacity: 0.25 ; transform: scale(1.05) }'
+                    + '100% { opacity: 0 ; transform: scale(1.35) }}'
+
+                // Button styles
+                + '.modal-buttons { display: flex ; justify-content: flex-end ; margin: 20px -5px -3px 0 ;'
+                    + ( isMobile ? 'flex-direction: column-reverse' : '' ) + '}'
+                + '.chatgpt-modal button {'
+                    + `margin-left: ${ isMobile ? 0 : 10}px ; padding: ${ isMobile ? 15 : 4}px 18px ;`
+                    + ( isMobile ? 'margin-top: 5px ; margin-bottom: 3px ;' : '')
+                    + `border: 1px solid ${ scheme == 'dark' ? 'white' : 'black' }} ; border-radius: 15px`
+                + '.primary-modal-btn {'
+                    + `border: 1px solid ${ scheme == 'dark' ? 'white' : 'black' } ;`
+                    + `background: ${ scheme == 'dark' ? 'white' : 'black' } ;`
+                    + `color: ${ scheme == 'dark' ? 'black' : 'white' }}`
+                + '.chatgpt-modal button:hover { color: #3d5d71 ; border-color: #6d9cb9 ;'
+                    + 'background-color: ' + ( scheme == 'dark' ? '#00cfff' : '#9cdaff' ) + ';'
+                    + 'box-shadow: 2px 1px ' + ( scheme == 'dark' ? '54px #00cfff' : '30px #9cdaff' ) + '}'
+                + '.modal-close-btn {'
+                    + 'cursor: pointer ; width: 29px ; height: 29px ; border-radius: 17px ;'
+                    + 'float: right ; position: relative ; right: -6px ; top: -5px }'
+                + '.modal-close-btn svg { margin: 10px }' // center SVG for hover underlay
+                + `.modal-close-btn:hover { background-color: #f2f2f2${ scheme == 'dark' ? '00' : '' }}`
+
+                // Checkbox styles
+                + '.chatgpt-modal .checkbox-group { display: flex ; margin-top: -18px }'
+                + '.chatgpt-modal .checkbox-group label {'
+                    + 'font-size: .7rem ; margin: -.04rem 0 0px .3rem ;'
+                    + `color: ${ scheme == 'dark' ? '#e1e1e1' : '#1e1e1e' }}`
+                + '.chatgpt-modal input[type="checkbox"] { transform: scale(0.7) ;'
+                    + `border: 1px solid ${ scheme == 'dark' ? 'white' : 'black' }}`
+                + '.chatgpt-modal input[type="checkbox"]:checked {'
+                    + `border: 1px solid ${ scheme == 'dark' ? 'white' : 'black' } ;`
+                    + 'background-color: black ; position: inherit }'
+                + '.chatgpt-modal input[type="checkbox"]:focus { outline: none ; box-shadow: none }'
+            );
+        }
+
+        // Insert text into elements
+        modalTitle.innerText = title || '';
+        modalMessage.innerText = msg || ''; chatgpt.renderHTML(modalMessage);
+
+        // Create/append buttons (if provided) to buttons div
+        const modalButtons = document.createElement('div');
+        modalButtons.classList.add('modal-buttons', 'no-mobile-tap-outline');
+        if (btns) { // are supplied
+            if (!Array.isArray(btns)) btns = [btns]; // convert single button to array if necessary
+            btns.forEach((buttonFn) => { // create title-cased labels + attach listeners
+                const button = document.createElement('button');
+                button.textContent = buttonFn.name
+                    .replace(/[_-]\w/g, match => match.slice(1).toUpperCase()) // convert snake/kebab to camel case
+                    .replace(/([A-Z])/g, ' $1') // insert spaces
+                    .replace(/^\w/, firstChar => firstChar.toUpperCase()); // capitalize first letter
+                button.onclick = () => { dismissAlert(); buttonFn(); };
+                modalButtons.insertBefore(button, modalButtons.firstChild); // insert button to left
+            });
+        }
+
+        // Create/append OK/dismiss button to buttons div
+        const dismissBtn = document.createElement('button');
+        dismissBtn.textContent = btns ? 'Dismiss' : 'OK';
+        modalButtons.insertBefore(dismissBtn, modalButtons.firstChild);
+
+        // Highlight primary button
+        modalButtons.lastChild.classList.add('primary-modal-btn');
+
+        // Create/append checkbox (if provided) to checkbox group div
+        const checkboxDiv = document.createElement('div');
+        if (checkbox) { // is supplied
+            checkboxDiv.classList.add('checkbox-group');
+            const checkboxFn = checkbox, // assign the named function to checkboxFn
+                  checkboxInput = document.createElement('input');
+            checkboxInput.type = 'checkbox';
+            checkboxInput.onchange = checkboxFn;
+
+            // Create/show label
+            const checkboxLabel = document.createElement('label');
+            checkboxLabel.onclick = () => { checkboxInput.checked = !checkboxInput.checked; checkboxFn(); };
+            checkboxLabel.textContent = checkboxFn.name.charAt(0).toUpperCase() // capitalize first char
+                + checkboxFn.name.slice(1) // format remaining chars
+                    .replace(/([A-Z])/g, (match, letter) => ' ' + letter.toLowerCase()) // insert spaces, convert to lowercase
+                    .replace(/\b(\w+)nt\b/gi, '$1n\'t') // insert apostrophe in 'nt' suffixes
+                    .trim(); // trim leading/trailing spaces
+
+            checkboxDiv.append(checkboxInput); checkboxDiv.append(checkboxLabel);
+        }
+
+        // Create close button
+        const closeBtn = document.createElement('div');
+        closeBtn.title = 'Close'; closeBtn.classList.add('modal-close-btn', 'no-mobile-tap-outline');
+        const closeSVG = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        closeSVG.setAttribute('height', '10px');
+        closeSVG.setAttribute('viewBox', '0 0 14 14');
+        closeSVG.setAttribute('fill', 'none');
+        const closeSVGpath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        closeSVGpath.setAttribute('fill-rule', 'evenodd');
+        closeSVGpath.setAttribute('clip-rule', 'evenodd');
+        closeSVGpath.setAttribute('fill', chatgpt.isDarkMode() ? 'white' : 'black');
+        closeSVGpath.setAttribute('d', 'M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976312 12.6834 -0.0976312 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.0976312 0.683417 -0.0976312 0.292893 0.292893C-0.0976312 0.683417 -0.0976312 1.31658 0.292893 1.70711L5.58579 7L0.292893 12.2929C-0.0976312 12.6834 -0.0976312 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L7 8.41421L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L8.41421 7L13.7071 1.70711Z');
+        closeSVG.append(closeSVGpath); closeBtn.append(closeSVG);
+
+        // Assemble/append div
+        const modalElems = [closeBtn, modalTitle, modalMessage, modalButtons, checkboxDiv];
+        modalElems.forEach((elem) => { modal.append(elem); });
+        modal.style.width = `${ width || 458 }px`;
+        modalContainer.append(modal); document.body.append(modalContainer);
+
+        // Enqueue alert
+        let alertQueue = JSON.parse(localStorage.alertQueue);
+        alertQueue.push(modalContainer.id);
+        localStorage.alertQueue = JSON.stringify(alertQueue);
+
+        // Show alert if none active
+        modalContainer.style.display = 'none';
+        if (alertQueue.length === 1) {
+            modalContainer.style.display = '';
+            setTimeout(() => { // delay non-0 opacity's for transition fx
+                modalContainer.style.backgroundColor = (
+                    `rgba(67, 70, 72, ${ scheme === 'dark' ? 0.62 : 0.1 })`);
+                modalContainer.classList.add('animated'); }, 100);
+        }
+
+        // Define click/key handlers
+        const clickHandler = event => { // explicitly defined to support removal post-dismissal
+            if (event.target == event.currentTarget || event.target instanceof SVGPathElement) dismissAlert(); };
+        const keyHandler = event => { // to dismiss active alert
+            const dismissKeys = [' ', 'Spacebar', 'Enter', 'Return', 'Escape', 'Esc'],
+                  dismissKeyCodes = [32, 13, 27];
+            if (dismissKeys.includes(event.key) || dismissKeyCodes.includes(event.keyCode)) {
+                for (const alertId of alertQueue) { // look to handle only if triggering alert is active
+                    const alert = document.getElementById(alertId);
+                    if (alert && alert.style.display !== 'none') { // active alert found
+                        if (event.key.includes('Esc') || event.keyCode == 27) // esc pressed
+                            dismissAlert(); // dismiss alert & do nothing
+                        else if ([' ', 'Spacebar', 'Enter', 'Return'].includes(event.key) || [32, 13].includes(event.keyCode)) { // space/enter pressed
+                            const mainButton = alert.querySelector('.modal-buttons').lastChild; // look for main button
+                            if (mainButton) { mainButton.click(); event.preventDefault(); } // click if found
+                        } return;
+        }}}};
+
+        // Add listeners to dismiss alert
+        const dismissElems = [modalContainer, closeBtn, closeSVG, dismissBtn];
+        dismissElems.forEach(elem => elem.onclick = clickHandler);
+        document.addEventListener('keydown', keyHandler);
+
+        // Define alert dismisser
+        const dismissAlert = () => {
+            modalContainer.style.backgroundColor = 'transparent';
+            modal.style.animation = 'alert-zoom-fade-out 0.075s ease-out';
+            setTimeout(() => { // delay removal for fade-out
+
+                // Remove alert
+                modalContainer.remove(); // ...from DOM
+                alertQueue = JSON.parse(localStorage.alertQueue);
+                alertQueue.shift(); // + memory
+                localStorage.alertQueue = JSON.stringify(alertQueue); // + storage
+                document.removeEventListener('keydown', keyHandler); // prevent memory leaks
+
+                // Check for pending alerts in queue
+                if (alertQueue.length > 0) {
+                    const nextAlert = document.getElementById(alertQueue[0]);
+                    setTimeout(() => {
+                        nextAlert.style.display = '';
+                        setTimeout(() => { nextAlert.classList.add('animated'); }, 100);
+                    }, 500);
+                }
+
+            }, 50);
+        };
+
+        return modalContainer.id; // if assignment used
+    },
+
+    browser: {
+        isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent); }
+    },
+
     getContinueButton() { return document.querySelector('button.btn:has([d^="M4.47189"])'); },
+    getNewChatButton() { return document.querySelector('button[data-testid*="new-chat-button"]'); },
     getScrollToBottomButton() { return document.querySelector('button:has([d^="M12 21C11.7348"])'); },
     isDarkMode() { return document.documentElement.classList.toString().includes('dark'); },
+
+    async isLoaded(timeout = null) {
+        const timeoutPromise = timeout ? new Promise(resolve => setTimeout(() => resolve(false), timeout)) : null;
+        const isLoadedPromise = new Promise(resolve => {
+            if (chatgpt.getNewChatBtn()) resolve(true);
+            else new MutationObserver((_, obs) => {
+                if (chatgpt.getNewChatBtn()) { obs.disconnect(); resolve(true); }
+            }).observe(document.body, { childList: true, subtree: true });
+        });
+        return await ( timeoutPromise ? Promise.race([isLoadedPromise, timeoutPromise]) : isLoadedPromise );
+    },
 
     notify(msg, position, notifDuration, shadow) {
         notifDuration = notifDuration ? +notifDuration : 1.75; // sec duration to maintain notification visibility
