@@ -3,10 +3,11 @@
 window.modals = {
     stack: [], // of types of undismissed modals
 
-    import(dependencies) {
-        // { app, browserLang: env.browser.language (userscript only), siteAlert,
-        //   checkForUpdates (userscript only) }
-        Object.entries(dependencies).forEach(([name, dependency]) => this[name] = dependency)
+    dependencies: {
+        import(dependencies) {
+            // { app, browserLang: env.browser.language (userscript only), siteAlert,
+            //   checkForUpdates (userscript only) }
+            Object.entries(dependencies).forEach(([name, dependency]) => this[name] = dependency) }
     },
 
     env: {
@@ -22,7 +23,7 @@ window.modals = {
 
     getMsg(key) {
         return /Chromium|Firefox/.test(this.env.runtime) ? chrome.i18n.getMessage(key)
-             : this.app.msgs[key] // assigned from this.import({ app }) in userscript
+            : this.dependencies.app.msgs[key] // assigned from modals.dependencies.import({ app }) in userscript
     },
 
     open(modalType, modalSubType) {
@@ -95,20 +96,20 @@ window.modals = {
             function moreAIextensions(){}
         ]
         if (this.env.runtime.includes('Greasemonkey')) modalBtns.unshift(
-            function checkForUpdates(){ modals.checkForUpdates() })
+            function checkForUpdates(){ modals.dependencies.checkForUpdates() })
 
         // Show modal
-        const aboutModal = this.siteAlert(
-            `${this.app.symbol} ${this.getMsg('appName')}`, // title
+        const aboutModal = this.dependencies.siteAlert(
+            `${this.dependencies.app.symbol} ${this.getMsg('appName')}`, // title
             `<span style="${headingStyle}"><b>🏷️ <i>${this.getMsg('about_version')}</i></b>: </span>`
-                + `<span style="${pStyle}">${this.app.version}</span>\n`
+                + `<span style="${pStyle}">${this.dependencies.app.version}</span>\n`
             + `<span style="${headingStyle}"><b>⚡ <i>${this.getMsg('about_poweredBy')}</i></b>: </span>`
                 + `<span style="${pStyle}">`
-                    + `<a style="${aStyle}" href="${this.app.urls.chatgptJS}" target="_blank" rel="noopener">`
-                        + `chatgpt.js</a> v${this.app.chatgptJSver}</span>\n`
+                    + `<a style="${aStyle}" href="${this.dependencies.app.urls.chatgptJS}" target="_blank"`
+                        + ` rel="noopener">chatgpt.js</a> v${this.dependencies.app.chatgptJSver}</span>\n`
             + `<span style="${headingStyle}"><b>📜 <i>${this.getMsg('about_sourceCode')}</i></b>:</span>\n`
-                + `<span style="${pBrStyle}"><a href="${this.app.urls.gitHub}" target="_blank" rel="nopener">`
-                    + this.app.urls.gitHub + '</a></span>',
+                + `<span style="${pBrStyle}"><a href="${this.dependencies.app.urls.gitHub}" target="_blank"`
+                    + ` rel="noopener">${this.dependencies.app.urls.gitHub}</a></span>`,
             modalBtns, '',
             /Chromium|Firefox/.test(this.env.runtime) ? 529 : 546 // set width
         )
@@ -128,12 +129,12 @@ window.modals = {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
                 btn.onclick = () => this.safeWinOpen(
-                        btn.textContent.includes(this.getMsg('btnLabel_getSupport')) ? this.app.urls.support
-                      : btn.textContent.includes(this.getMsg('btnLabel_rateUs')) ? this.app.urls.review[
+                        btn.textContent.includes(this.getMsg('btnLabel_getSupport')) ? this.dependencies.app.urls.support
+                      : btn.textContent.includes(this.getMsg('btnLabel_rateUs')) ? this.dependencies.app.urls.review[
                             this.env.runtime.includes('Edge') ? 'edgeAddons'
                           : this.env.runtime.includes('Firefox') ? 'firefoxAddons'
                           : this.env.runtime.includes('Chromium') ? 'chromeWebStore' : 'greasyFork']
-                      : this.app.urls.relatedExtensions
+                      : this.dependencies.app.urls.relatedExtensions
                     )
             }
 
@@ -157,7 +158,7 @@ window.modals = {
     donate() {
 
         // Show modal
-        const donateModal = this.siteAlert(
+        const donateModal = this.dependencies.siteAlert(
             `💖 ${this.getMsg('alert_showYourSupport')}`, // title
                 `<p>${this.getMsg('appName')} ${this.getMsg('alert_isOSS')}.</p>`
               + `<p>${this.getMsg('alert_despiteAffliction')} `
@@ -170,7 +171,7 @@ window.modals = {
               + '<img src="https://cdn.jsdelivr.net/gh/adamlui/adamlui/images/siggie/'
                   + `${ chatgpt.isDarkMode() ? 'white' : 'black' }.png" `
                   + 'style="height: 54px ; margin: 5px 0 -2px 5px"></img>'
-              + `<p>—<b><a target="_blank" rel="noopener" href="${this.app.author.url}">`
+              + `<p>—<b><a target="_blank" rel="noopener" href="${this.dependencies.app.author.url}">`
                   + `${this.getMsg('appAuthor')}</a></b>, ${this.getMsg('alert_author')}</p>`,
             [ // buttons
                 function paypal(){},
@@ -192,7 +193,7 @@ window.modals = {
             if (!/dismiss|rate/i.test(btn.textContent)) {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
-                btn.onclick = () => this.safeWinOpen(this.app.urls.donate[
+                btn.onclick = () => this.safeWinOpen(this.dependencies.app.urls.donate[
                     btn.textContent == 'Cash App' ? 'cashApp'
                   : btn.textContent == 'Github Sponsors' ? 'gitHub'
                   : 'payPal'
@@ -220,7 +221,7 @@ window.modals = {
         available() {
 
             // Show modal
-            const updateAvailModal = modals.siteAlert(`🚀 ${modals.getMsg('alert_updateAvail')}!`, // title
+            const updateAvailModal = modals.dependencies.siteAlert(`🚀 ${modals.getMsg('alert_updateAvail')}!`, // title
                 `${modals.getMsg('alert_newerVer')} ${modals.getMsg('appName')} `
                     + `(v${modals.app.latestVer}) ${modals.getMsg('alert_isAvail')}!  `
                     + '<a target="_blank" rel="noopener" style="font-size: 0.7rem" href="'
@@ -233,7 +234,7 @@ window.modals = {
             )
 
             // Localize button labels if needed
-            if (!modals.browserLang.startsWith('en')) {
+            if (!modals.dependencies.browserLang.startsWith('en')) {
                 const updateBtns = updateAvailModal.querySelectorAll('button')
                 updateBtns[1].textContent = modals.getMsg('btnLabel_update')
                 updateBtns[0].textContent = modals.getMsg('btnLabel_dismiss')
@@ -243,7 +244,7 @@ window.modals = {
         },
 
         unavailable() {
-            return modals.siteAlert(`${modals.getMsg('alert_upToDate')}!`, // title
+            return modals.dependencies.siteAlert(`${modals.getMsg('alert_upToDate')}!`, // title
                 `${modals.getMsg('appName')} (v${modals.app.version}) ${modals.getMsg('alert_isUpToDate')}!`, // msg
                 '', '', modals.update.width
             )
