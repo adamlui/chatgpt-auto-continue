@@ -15,14 +15,14 @@
 
     // Import APP data
     const { app } = await chrome.storage.sync.get('app')
-    modals.dependencies.import({ app, siteAlert })
+    modals.dependencies.import({ app })
 
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {
         if (req.action == 'notify')
             notify(...['msg', 'pos', 'notifDuration', 'shadow'].map(arg => req.options[arg]))
         else if (req.action == 'alert')
-            siteAlert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => req.options[arg]))
+            modals.alert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => req.options[arg]))
         else if (req.action == 'showAbout') chatgpt.isLoaded().then(() => { modals.open('about') })
         else if (req.action == 'syncConfigToUI') syncConfigToUI()
     })
@@ -53,11 +53,6 @@
                                     : '#5cef48 ; text-shadow: rgba(255, 250, 169, 0.38) 2px 1px 5px' }`
             styledStateSpan.append(foundState) ; notif.append(styledStateSpan)
         }
-    }
-
-    function siteAlert(title = '', msg = '', btns = '', checkbox = '', width = '') {
-        const alertID = chatgpt.alert(title, msg, btns, checkbox, width)
-        return document.getElementById(alertID).firstChild
     }
 
     function checkContinueBtn() {
