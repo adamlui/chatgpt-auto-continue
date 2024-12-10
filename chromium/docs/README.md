@@ -8,6 +8,8 @@
     <img height=31 alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-orange.svg?logo=internetarchive&logoColor=white&labelColor=464646&style=for-the-badge"></a>
 <a href="https://chrome.chatgptautocontinue.com">
     <img height=31 alt="[Chrome Web Store]" src="https://img.shields.io/chrome-web-store/v/lbojnhaafilddefkdgmbplkafnckaoga?label=Latest+Release&logo=googlechrome&logoColor=white&labelColor=464646&color=blue&style=for-the-badge"></a>
+<a href="#">
+    <img height=31 src="https://img.shields.io/chrome-web-store/size/lbojnhaafilddefkdgmbplkafnckaoga?logo=databricks&logoColor=white&labelColor=464646&color=ff69b4&style=for-the-badge"></img></a>
 <a href="https://www.codefactor.io/repository/github/adamlui/chatgpt-auto-continue">
     <img height=31 alt="[CodeFactor grade]" src="https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-auto-continue?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge"></a>
 <a href="https://github.com/KudoAI/chatgpt.js?utm_source=chatgpt_auto_continue&utm_content=github_shield">
