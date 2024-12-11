@@ -1,5 +1,5 @@
 {
-  "name": "ChatGPT Auto-Continue", "symbol": "≫", "cssPrefix": "chatgpt-auto-continue"
+  "name": "ChatGPT Auto-Continue", "symbol": "≫", "cssPrefix": "chatgpt-auto-continue",
   "author": { "name": "Adam Lui", "url": "https://github.com/adamlui" },
   "urls": {
     "chatgptJS": "https://chatgpt.js.org",
