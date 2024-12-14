@@ -70,7 +70,7 @@
     async function syncConfigToUI() { // on toolbar popup toggles + ChatGPT tab activations
         await settings.load('extensionDisabled', ...Object.keys(settings.controls))
         if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
-    }; // eslint-disable-line
+    }
 
     // Run MAIN routine
 
