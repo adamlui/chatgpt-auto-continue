@@ -12,10 +12,11 @@
 
     // Init ENV context
     const env = { browser: { isMobile: chatgpt.browser.isMobile() }}
+    env.browser.isPortrait = env.browser.isMobile && (window.innerWidth < window.innerHeight)
 
     // Import APP data
     const { app } = await chrome.storage.sync.get('app')
-    modals.dependencies.import({ app, isMobile: env.browser.isMobile })
+    modals.dependencies.import({ app, isMobile: env.browser.isMobile, isPortrait: env.browser.isPortrait })
 
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {
@@ -87,5 +88,9 @@
     // NOTIFY of status on load
         notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
     }
+
+    // Monitor SCHEME CHANGES to update modal colors
+    new MutationObserver(() => { modals.stylize() })
+        .observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
 
 })()
