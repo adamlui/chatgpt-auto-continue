@@ -13,10 +13,14 @@
     // Init ENV context
     const env = { browser: { isMobile: chatgpt.browser.isMobile() }}
     env.browser.isPortrait = env.browser.isMobile && (window.innerWidth < window.innerHeight)
+    env.scheme = getScheme()
 
     // Import APP data
     const { app } = await chrome.storage.sync.get('app')
-    modals.dependencies.import({ app, env })
+
+    // Export DEPENDENCIES to resources
+    dom.dependencies.import({ env }) // for env.scheme
+    modals.dependencies.import({ app, env }) // for app data + env.scheme
 
     // Add CHROME MSG listener
     chrome.runtime.onMessage.addListener(req => {
@@ -43,7 +47,7 @@
         if (foundState) msg = msg.replace(foundState, '')
 
         // Show notification
-        chatgpt.notify(`${app.symbol} ${msg}`, pos, notifDuration, shadow || chatgpt.isDarkMode() ? '' : 'shadow')
+        chatgpt.notify(`${app.symbol} ${msg}`, pos, notifDuration, shadow || env.scheme == 'dark' ? '' : 'shadow')
         const notif = document.querySelector('.chatgpt-notif:last-child')
 
         // Append styled state word
@@ -73,6 +77,11 @@
         if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
     }
 
+    function getScheme() {
+        return document.documentElement.className
+            || (window.matchMedia?.('(prefers-color-scheme: dark)')?.matches ? 'dark' : 'light')
+    }
+
     // Run MAIN routine
 
     // Add STARS styles
@@ -91,7 +100,7 @@
     }
 
     // Monitor SCHEME CHANGES to update modal colors
-    new MutationObserver(() => { modals.stylize() })
+    new MutationObserver(() => { env.scheme = getScheme() ; modals.stylize() })
         .observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
 
 })()
