@@ -29,7 +29,7 @@
         else if (req.action == 'alert')
             modals.alert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => req.options[arg]))
         else if (req.action == 'showAbout') chatgpt.isLoaded().then(() => { modals.open('about') })
-        else if (req.action == 'syncConfigToUI') syncConfigToUI()
+        else if (req.action == 'syncConfigToUI') syncConfigToUI(req.options)
     })
 
     // Init SETTINGS
