@@ -99,10 +99,10 @@
         notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
     }
 
-    // Monitor SCHEME CHANGES to update sidebar toggle + modal colors
-    new MutationObserver(handleSchemePrefChange).observe( // site scheme pref changes
+    // Monitor SCHEME PREF changes to update sidebar toggle + modal colors
+    new MutationObserver(handleSchemePrefChange).observe( // for site scheme pref changes
         document.documentElement, { attributes: true, attributeFilter: ['class'] })
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener( // browser/system scheme pref changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener( // for browser/system scheme pref changes
         'change', () => requestAnimationFrame(handleSchemePrefChange))
     function handleSchemePrefChange() {
         const displayedScheme = getScheme()
