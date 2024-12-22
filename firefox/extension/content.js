@@ -104,6 +104,9 @@
         document.documentElement, { attributes: true, attributeFilter: ['class'] })
     window.matchMedia('(prefers-color-scheme: dark)').onchange = () => // browser/system scheme changes
         requestAnimationFrame(handleSchemePrefChange)
-    function handleSchemePrefChange() { env.scheme = getScheme() ;  modals.stylize() }
+    function handleSchemePrefChange() {
+        const displayedScheme = getScheme()
+        if (env.scheme != displayedScheme) { env.scheme = displayedScheme ;  modals.stylize() }
+    }
 
 })()
