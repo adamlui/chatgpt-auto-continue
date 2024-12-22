@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "已停用（已安裝擴充功能）" },
   "about_version": { "message": "版本" },
   "about_poweredBy": { "message": "技術支持" },
-  "about_sourceCode": { "message": "原始碼" },
+  "about_openSourceCode": { "message": "開放原始碼" },
   "mode_autoContinue": { "message": "自動繼續" },
   "helptip_modeNotifs": { "message": "切換模式/設定時顯示通知" },
   "alert_updateAvail": { "message": "有可用更新" },

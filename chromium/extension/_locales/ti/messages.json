@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "ስንክልና (ስፍሓት ተተኺሉ)" },
   "about_version": { "message": "መበል" },
   "about_poweredBy": { "message": "ብ" },
-  "about_sourceCode": { "message": "ምንጪ ኮድ" },
+  "about_openSourceCode": { "message": "ክፉት ምንጪ ኮድ" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "ኣብ እዋን ምትሕልላፍ ኣገባባት/ኣቀማምጣታት ኣፍልጦታት ኣርኢ" },
   "alert_updateAvail": { "message": "ዝዘመነ" },

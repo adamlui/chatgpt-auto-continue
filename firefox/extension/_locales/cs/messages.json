@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Zakázáno (nainstalováno rozšíření)" },
   "about_version": { "message": "Verze" },
   "about_poweredBy": { "message": "Běží na" },
-  "about_sourceCode": { "message": "Zdrojový kód" },
+  "about_openSourceCode": { "message": "Otevřený zdrojový kód. " },
   "mode_autoContinue": { "message": "Pokračovat automaticky" },
   "helptip_modeNotifs": { "message": "Zobrazit oznámení při přepínání režimů/nastavení" },
   "alert_updateAvail": { "message": "Aktualizace k dispozici" },

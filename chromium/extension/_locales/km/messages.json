@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "បានបិទ (បានដំឡើងផ្នែកបន្ថែម)" },
   "about_version": { "message": "លេខជំនាន់កម្មវិធី" },
   "about_poweredBy": { "message": "ដំណើរការដោយ" },
-  "about_sourceCode": { "message": "កូដដើម" },
+  "about_openSourceCode": { "message": "កូដ​ដើម" },
   "mode_autoContinue": { "message": "បន្តដោយស្វ័យប្រវត្តិ" },
   "helptip_modeNotifs": { "message": "បង្ហាញការជូនដំណឹងនៅពេលបិទបើកម៉ូដ/ការកំណត់" },
   "alert_updateAvail": { "message": "ការអាប់ដេតមាន" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Yenziwe ingasebenzi (isandiso sifakiwe)" },
   "about_version": { "message": "Inguqulelo" },
   "about_poweredBy": { "message": "Ixhaswa ngu" },
-  "about_sourceCode": { "message": "Ikhowudi engumthombo" },
+  "about_openSourceCode": { "message": "@ info: whatsthis" },
   "mode_autoContinue": { "message": "Qhubeka Ngokuzenzekelayo" },
   "helptip_modeNotifs": { "message": "Bonisa imiyalezo xa kuguqulwa iindlela/iisetingi" },
   "alert_updateAvail": { "message": "Uhlaziyo luyafumaneka" },

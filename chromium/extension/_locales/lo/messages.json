@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "ປິດໃຊ້ງານ (ຕິດຕັ້ງສ່ວນຂະຫຍາຍ)" },
   "about_version": { "message": "ຮຸ່ນ" },
   "about_poweredBy": { "message": "ຂັບເຄື່ອນໂດຍ" },
-  "about_sourceCode": { "message": "ຊອດສ໌ໂຄດ" },
+  "about_openSourceCode": { "message": "ລະຫັດແຫຼ່ງເປີດ" },
   "mode_autoContinue": { "message": "ການສືບຕໍ່ອັດຕະໂນມັດ" },
   "helptip_modeNotifs": { "message": "ສະແດງການແຈ້ງເຕືອນເມື່ອປິດການໃຊ້ງານໂໝດ/ການຕັ້ງຄ່າ" },
   "alert_updateAvail": { "message": "ອັບເດດທີ່ມີຢູ່" },

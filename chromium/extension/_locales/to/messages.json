@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Faingataʻaʻia fakaesino (fokotuʻu e extension)" },
   "about_version": { "message": "Tatau" },
   "about_poweredBy": { "message": "Fakalele ʻe he" },
-  "about_sourceCode": { "message": "Maʻuʻanga fakamatala" },
+  "about_openSourceCode": { "message": "Fakaava ʻa e kouti maʻuʻanga tokoni" },
   "mode_autoContinue": { "message": "Hoko atu e meʻalele" },
   "helptip_modeNotifs": { "message": "Fakaʻasi ʻa e fanongonongo ʻi he taimi ʻoku toggling ai ʻa e ngaahi founga/fokotuʻutuʻu" },
   "alert_updateAvail": { "message": "ʻOku lava ke maʻu e fakamatala fakamuimuitaha" },

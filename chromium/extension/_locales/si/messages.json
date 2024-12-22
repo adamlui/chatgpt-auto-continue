@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "අක් ‍ රීය කර ඇත (දිගුව ස්ථාපනය කර ඇත)" },
   "about_version": { "message": "වෙළුම" },
   "about_poweredBy": { "message": "විසින් බල ගැන්වී ඇත" },
-  "about_sourceCode": { "message": "මූලාශ්‍ර කේතය" },
+  "about_openSourceCode": { "message": "විවෘත කේතය" },
   "mode_autoContinue": { "message": "ස්වයංක් ‍ රීයව ඉදිරියට යන්න" },
   "helptip_modeNotifs": { "message": "ප් ‍ රකාර/සැකසුම් ටොගල් කිරීමේදී දැනුම්දීම් පෙන්වන්න" },
   "alert_updateAvail": { "message": "යාවත්කාලීනය තිබේ" },

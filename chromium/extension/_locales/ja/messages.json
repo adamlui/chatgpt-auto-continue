@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "無効（拡張機能がインストールされています）" },
   "about_version": { "message": "バージョン" },
   "about_poweredBy": { "message": "Powered by" },
-  "about_sourceCode": { "message": "ソースコード" },
+  "about_openSourceCode": { "message": "Open Source" },
   "mode_autoContinue": { "message": "自動続行" },
   "helptip_modeNotifs": { "message": "モード/設定の切り替え時に通知を表示する" },
   "alert_updateAvail": { "message": "利用可能なアップデート" },

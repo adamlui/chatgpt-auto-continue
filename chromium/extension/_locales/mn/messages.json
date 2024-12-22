@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Идэвхгүй (өргөтгөлийг суулгасан)" },
   "about_version": { "message": "Хувилбар" },
   "about_poweredBy": { "message": "ИЛЧЛЭГЧ" },
-  "about_sourceCode": { "message": "Эх код" },
+  "about_openSourceCode": { "message": "Нээлттэй Эх сурвалж" },
   "mode_autoContinue": { "message": "Автоматаар задлах" },
   "helptip_modeNotifs": { "message": "Модель/тохиргоонуудыг өөрчлөх үед мэдэгдлүүдийг харуулах" },
   "alert_updateAvail": { "message": "Шинэчлэх (update) боломжтой" },

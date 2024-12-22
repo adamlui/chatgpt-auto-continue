@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "غیر فعال (ایکسٹینشن انسٹال ہے)" },
   "about_version": { "message": "ورژن" },
   "about_poweredBy": { "message": "تقویت یافتہ از" },
-  "about_sourceCode": { "message": "کۆسی سەرچاوە" },
+  "about_openSourceCode": { "message": "کۆسی سەرچاوە" },
   "mode_autoContinue": { "message": "خودکار طور پر جاری رکھیں" },
   "helptip_modeNotifs": { "message": "ٹوگلنگ کے طریقوں/ترتیبات کے دوران اطلاعات دکھائیں" },
   "alert_updateAvail": { "message": "اپڈیٹ دستیاب ہے" },

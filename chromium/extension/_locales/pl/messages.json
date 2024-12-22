@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Wyłączone (zainstalowano rozszerzenie)" },
   "about_version": { "message": "Wersja" },
   "about_poweredBy": { "message": "Obsługiwane przez" },
-  "about_sourceCode": { "message": "Kod źródłowy" },
+  "about_openSourceCode": { "message": "Otwarty kod PHP" },
   "mode_autoContinue": { "message": "Automatycznie kontynuuj" },
   "helptip_modeNotifs": { "message": "Pokaż powiadomienia podczas przełączania trybów/ustawień" },
   "alert_updateAvail": { "message": "Aktualizacja dostępna" },

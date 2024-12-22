@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Keelatud (laiend on installitud)" },
   "about_version": { "message": "Versioon" },
   "about_poweredBy": { "message": "Powered by" },
-  "about_sourceCode": { "message": "Lähtekood" },
+  "about_openSourceCode": { "message": "lähtekood" },
   "mode_autoContinue": { "message": "Automaatne jätkamine" },
   "helptip_modeNotifs": { "message": "Kuva teated režiimide/seadete vahetamisel" },
   "alert_updateAvail": { "message": "Saadaval on uuendus" },

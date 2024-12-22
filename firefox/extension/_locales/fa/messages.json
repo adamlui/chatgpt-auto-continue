@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "غیرفعال (برنامه افزودنی نصب شده)" },
   "about_version": { "message": "نسخه برنامه" },
   "about_poweredBy": { "message": "قدرت گرفته توسط" },
-  "about_sourceCode": { "message": "سورس کد" },
+  "about_openSourceCode": { "message": "سورس کد" },
   "mode_autoContinue": { "message": "ادامه خودکار" },
   "helptip_modeNotifs": { "message": "نمایش اعلان‌ها هنگام تغییر حالت‌ها/تنظیمات" },
   "alert_updateAvail": { "message": "آپدیت موجود است" },

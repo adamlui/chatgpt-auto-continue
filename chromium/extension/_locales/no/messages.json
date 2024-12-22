@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Deaktivert (utvidelse installert)" },
   "about_version": { "message": "Versjon" },
   "about_poweredBy": { "message": "Drevet av" },
-  "about_sourceCode": { "message": "Kildekode" },
+  "about_openSourceCode": { "message": "åpen kilde" },
   "mode_autoContinue": { "message": "Auto-Fortsett" },
   "helptip_modeNotifs": { "message": "Vis varsler når du bytter moduser/innstillinger" },
   "alert_updateAvail": { "message": "Oppdatering tilgjengelig" },

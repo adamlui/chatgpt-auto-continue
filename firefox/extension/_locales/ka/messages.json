@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Გამორთულია (დაყენებულია გაფართოება)" },
   "about_version": { "message": "ვერსია" },
   "about_poweredBy": { "message": "აგებულია KDE-ზე" },
-  "about_sourceCode": { "message": "საწყისი კოდი" },
+  "about_openSourceCode": { "message": "საწყისი კოდი" },
   "mode_autoContinue": { "message": "Ავტომატური გაგრძელება" },
   "helptip_modeNotifs": { "message": "Გაფრთხილებების ჩვენება რეჟიმების/პარამეტრების გადართვისას" },
   "alert_updateAvail": { "message": "ხელმისაწვდომია განახლება" },

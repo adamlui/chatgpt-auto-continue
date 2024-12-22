@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Onemogočeno (nameščena razširitev)" },
   "about_version": { "message": "Različica" },
   "about_poweredBy": { "message": "Poganja" },
-  "about_sourceCode": { "message": "Kliknite tukaj za prenos izvorne kode" },
+  "about_openSourceCode": { "message": "Odprta koda" },
   "mode_autoContinue": { "message": "Samodejno nadaljuj" },
   "helptip_modeNotifs": { "message": "Prikaži obvestila pri preklopu načinov/nastavitev" },
   "alert_updateAvail": { "message": "Posodobitev na voljo" },

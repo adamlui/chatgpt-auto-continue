@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Өшірілген (кеңейтім орнатылған)" },
   "about_version": { "message": "Нұсқа" },
   "about_poweredBy": { "message": "Сайтты жасаған" },
-  "about_sourceCode": { "message": "Бастапқы код" },
+  "about_openSourceCode": { "message": "@ info: whatsthis" },
   "mode_autoContinue": { "message": "Автоматты жалғастыру" },
   "helptip_modeNotifs": { "message": "Режимдерді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
   "alert_updateAvail": { "message": "Қолжетімді жаңарту" },

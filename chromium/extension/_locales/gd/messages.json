@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Disabled (extension installed)" },
   "about_version": { "message": "Tionndadh" },
   "about_poweredBy": { "message": "Powered by" },
-  "about_sourceCode": { "message": "Bun-tùs a' chod" },
+  "about_openSourceCode": { "message": "Bun-tùs a' chod" },
   "mode_autoContinue": { "message": "Lean air adhart gu fèin - obrachail" },
   "helptip_modeNotifs": { "message": "Seall brathan nuair a thogras tu modhan/roghainnean" },
   "alert_updateAvail": { "message": "Chan eil ùrachadh ri fhaighinn" },

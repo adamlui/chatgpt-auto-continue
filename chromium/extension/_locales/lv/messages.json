@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Atspējots (paplašinājums instalēts)" },
   "about_version": { "message": "Versija" },
   "about_poweredBy": { "message": "Izstrādāts" },
-  "about_sourceCode": { "message": "Pirmkods" },
+  "about_openSourceCode": { "message": "Atklātais pirmkods" },
   "mode_autoContinue": { "message": "Automātiski turpināt" },
   "helptip_modeNotifs": { "message": "Rādīt paziņojumus, pārslēdzot režīmus/iestatījumus" },
   "alert_updateAvail": { "message": "Pieejams jauninājums" },

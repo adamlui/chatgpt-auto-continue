@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Desabilidad (Extension Instalada)" },
   "about_version": { "message": "Vershon" },
   "about_poweredBy": { "message": "Potenciá por" },
-  "about_sourceCode": { "message": "Kódigo di fuente" },
+  "about_openSourceCode": { "message": "Codigo Fuente Abierto" },
   "mode_autoContinue": { "message": "Kontinuashon di outo" },
   "helptip_modeNotifs": { "message": "Ver Informe Ampliado de Modalidad E Instalacion Sl" },
   "alert_updateAvail": { "message": "Actualizacion Disponible" },

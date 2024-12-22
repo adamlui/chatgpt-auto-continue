@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Neçalakkirî (berfireh hate saz kirin)" },
   "about_version": { "message": "وەرژن" },
   "about_poweredBy": { "message": "ڕاگرتن لە لای" },
-  "about_sourceCode": { "message": "کۆدی سەرچاوە" },
+  "about_openSourceCode": { "message": "Koda çavkanî" },
   "mode_autoContinue": { "message": "خۆکارانە پەیشکرابێت" },
   "helptip_modeNotifs": { "message": "Dema ku modên / mîhengan biguherînin, agahdariyan nîşan bidin" },
   "alert_updateAvail": { "message": "نوێکردنەوە بەردەستە" },

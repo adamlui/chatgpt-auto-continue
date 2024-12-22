@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "నిలిపివేయబడింది (పొడిగింపు ఇన్ ‌ స్టాల్ చేయబడింది)" },
   "about_version": { "message": "వివరణం" },
   "about_poweredBy": { "message": "ద్వారా ఆధారితం" },
-  "about_sourceCode": { "message": "సోర్స్ కోడ్" },
+  "about_openSourceCode": { "message": "@ info: whatsthis" },
   "mode_autoContinue": { "message": "స్వయంచాలకంగా కొనసాగించు" },
   "helptip_modeNotifs": { "message": "మోడ్ ‌ లు/సెట్టింగ్ ‌ లను టోగుల్ చేసేటప్పుడు నోటిఫికేషన్ ‌ లను చూపించండి" },
   "alert_updateAvail": { "message": "ఎటువంటి నవీకరణ అందుబాటులోలేదు" },

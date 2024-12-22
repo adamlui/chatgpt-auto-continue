@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Desactivat (extensió instal·lada)" },
   "about_version": { "message": "Versió" },
   "about_poweredBy": { "message": "Desenvolupat per" },
-  "about_sourceCode": { "message": "Codi font" },
+  "about_openSourceCode": { "message": "Codi obert" },
   "mode_autoContinue": { "message": "Continua automàticament" },
   "helptip_modeNotifs": { "message": "Mostra les notificacions quan es canvien els modes o la configuració" },
   "alert_updateAvail": { "message": "Nova versió disponible" },

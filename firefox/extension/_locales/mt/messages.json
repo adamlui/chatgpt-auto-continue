@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Diżattivat (estensjoni installata)" },
   "about_version": { "message": "Verżjoni" },
   "about_poweredBy": { "message": "Imħaddem minn" },
-  "about_sourceCode": { "message": "Kodiċi tas-sors" },
+  "about_openSourceCode": { "message": "sors miftuħ" },
   "mode_autoContinue": { "message": "Kompli Awtomatikament" },
   "helptip_modeNotifs": { "message": "Uri n-notifiki meta tibdel il-modi/settings" },
   "alert_updateAvail": { "message": "Aġġornament disponibbli" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Sloppin (útbygging innstald)" },
   "about_version": { "message": "Útgáva" },
   "about_poweredBy": { "message": "Powered by SFX" },
-  "about_sourceCode": { "message": "Ada keldukota" },
+  "about_openSourceCode": { "message": "Opna keldukota" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Vís boð, tá ið tú skiftir stillingar/stillingar" },
   "alert_updateAvail": { "message": "Dagføring er klár" },

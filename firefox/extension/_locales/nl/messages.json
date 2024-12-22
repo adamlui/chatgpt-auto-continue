@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Uitgeschakeld (extensie geïnstalleerd)" },
   "about_version": { "message": "Versie" },
   "about_poweredBy": { "message": "Ondersteund door" },
-  "about_sourceCode": { "message": "Broncode" },
+  "about_openSourceCode": { "message": "open bron" },
   "mode_autoContinue": { "message": "Automatisch doorgaan" },
   "helptip_modeNotifs": { "message": "Meldingen weergeven bij schakelen tussen modi/instellingen" },
   "alert_updateAvail": { "message": "Güncelleme uygun" },

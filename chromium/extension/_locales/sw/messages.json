@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Imelemazwa (kiendelezi kimewekwa)" },
   "about_version": { "message": "Toleo" },
   "about_poweredBy": { "message": "Imewezeshwa na" },
-  "about_sourceCode": { "message": "Msimbo wa chanzo" },
+  "about_openSourceCode": { "message": "Msimbo wa chanzo wazi" },
   "mode_autoContinue": { "message": "Endelea Kiotomatiki" },
   "helptip_modeNotifs": { "message": "Onyesha arifa wakati wa kugeuza modi/mipangilio" },
   "alert_updateAvail": { "message": "Sasisho lipo" },

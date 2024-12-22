@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Umugereka" },
   "about_version": { "message": "Umukoro" },
   "about_poweredBy": { "message": "Ku" },
-  "about_sourceCode": { "message": "C Inkomoko ITEGEKONGENGA" },
+  "about_openSourceCode": { "message": "Inkomoko Inyandikoporogaramu" },
   "mode_autoContinue": { "message": "Gukomeza" },
   "helptip_modeNotifs": { "message": "Ibimenyetso Ryari: Amagenamiterere" },
   "alert_updateAvail": { "message": "Bihari" },

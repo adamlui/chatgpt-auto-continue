@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Disable (pag-instalar sa extension)" },
   "about_version": { "message": "Bersyon" },
   "about_poweredBy": { "message": "Gipadagan sa" },
-  "about_sourceCode": { "message": "Gigikana sa kodigo" },
+  "about_openSourceCode": { "message": "Gigikana sa kodigo" },
   "mode_autoContinue": { "message": "Awtomatikong Pagpadayon" },
   "helptip_modeNotifs": { "message": "Ipakita ang mga pahibalo kung ang mga mode/setting sa pag-toggle" },
   "alert_updateAvail": { "message": "Magamit ang pag-update" },

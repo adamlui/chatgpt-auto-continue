@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "अक्षम (एक्सटेंशन इंस्टॉल किया गया)" },
   "about_version": { "message": "संस्करण" },
   "about_poweredBy": { "message": "...द्वारा पावरशुदा" },
-  "about_sourceCode": { "message": "सोर्स कोड" },
+  "about_openSourceCode": { "message": "सोर्स कोड" },
   "mode_autoContinue": { "message": "अपने आप जारी रखें" },
   "helptip_modeNotifs": { "message": "मोड/सेटिंग टॉगल करते समय नोटिफ़िकेशन दिखाएँ" },
   "alert_updateAvail": { "message": "अद्यतन उपलब्ध है" },

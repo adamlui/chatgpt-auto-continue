@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "የአካል ጉዳተኛ (ቅጥያ ተጭኗል)" },
   "about_version": { "message": "እትም" },
   "about_poweredBy": { "message": "የተጎለበተው በ" },
-  "about_sourceCode": { "message": "የምንጭ ኮድ" },
+  "about_openSourceCode": { "message": "የምንጭ ኮድ" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "ሁነቶችን/ቅንብሮችን በሚገፉበት ጊዜ ማሳወቂያዎችን ያሳዩ" },
   "alert_updateAvail": { "message": "ዝመና ይገኛል" },

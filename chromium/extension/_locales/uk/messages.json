@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Вимкнено (розширення встановлено)" },
   "about_version": { "message": "Версія" },
   "about_poweredBy": { "message": "Працює на" },
-  "about_sourceCode": { "message": "Джерельний код" },
+  "about_openSourceCode": { "message": "Джерельний код" },
   "mode_autoContinue": { "message": "Автопродовження" },
   "helptip_modeNotifs": { "message": "Показувати сповіщення при перемиканні режимів/налаштувань" },
   "alert_updateAvail": { "message": "Доступне оновлення" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Akaremara (kuwedzerwa kwakaiswa)" },
   "about_version": { "message": "Vhezheni" },
   "about_poweredBy": { "message": "Inofambiswa ne" },
-  "about_sourceCode": { "message": "Kunobva kodhi" },
+  "about_openSourceCode": { "message": "Open source code" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Ratidza zviziviso kana toggling modes/marongero" },
   "alert_updateAvail": { "message": "Zadzisa zviripo" },

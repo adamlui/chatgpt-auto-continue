@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Devre dışı (uzantı yüklendi)" },
   "about_version": { "message": "Versiyon" },
   "about_poweredBy": { "message": "Destek" },
-  "about_sourceCode": { "message": "Kaynak Kodu" },
+  "about_openSourceCode": { "message": "Açık kaynak kodu" },
   "mode_autoContinue": { "message": "Otomatik Devam" },
   "helptip_modeNotifs": { "message": "Modlar/ayarlar arasında geçiş yaparken bildirimleri göster" },
   "alert_updateAvail": { "message": "Güncelleme uygun" },

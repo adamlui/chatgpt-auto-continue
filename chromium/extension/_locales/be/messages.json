@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Адключана (усталявана пашырэнне)" },
   "about_version": { "message": "Версія" },
   "about_poweredBy": { "message": "Пры падтрымцы" },
-  "about_sourceCode": { "message": "Зыходнікі" },
+  "about_openSourceCode": { "message": "Зыходнікі" },
   "mode_autoContinue": { "message": "Аўтаматычны працяг" },
   "helptip_modeNotifs": { "message": "Паказваць апавяшчэнні пры пераключэнні рэжымаў/налад" },
   "alert_updateAvail": { "message": "Ёсць абнаўленне" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Išjungta (plėtinys įdiegtas)" },
   "about_version": { "message": "Versija" },
   "about_poweredBy": { "message": "Įgalino Proneta" },
-  "about_sourceCode": { "message": "Pradinis kodas" },
+  "about_openSourceCode": { "message": "Pradinis kodas" },
   "mode_autoContinue": { "message": "Automatiškai tęsti" },
   "helptip_modeNotifs": { "message": "Rodyti pranešimus, kai perjungiami režimai/nustatymai" },
   "alert_updateAvail": { "message": "Yra naujinys" },

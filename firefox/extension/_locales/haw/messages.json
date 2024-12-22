@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Hoʻopaʻa ʻia (kau ʻia ka hoʻonui)" },
   "about_version": { "message": "Manao" },
   "about_poweredBy": { "message": "Hoʻāmana ʻia e" },
-  "about_sourceCode": { "message": "Hoʻopā'ālua" },
+  "about_openSourceCode": { "message": "Wehe kumu kumu" },
   "mode_autoContinue": { "message": "Hoʻomau-Aunoa" },
   "helptip_modeNotifs": { "message": "E hōʻike i nā leka hoʻomaopopo i ka wā e hoʻololi ai i nā ʻano" },
   "alert_updateAvail": { "message": "Loaʻa ka hōʻano hou" },

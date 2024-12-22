@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "O'chirilgan (kengaytma o'rnatilgan)" },
   "about_version": { "message": "Versiya" },
   "about_poweredBy": { "message": "Tomonidan qo'llab-quvvatlanadi" },
-  "about_sourceCode": { "message": "Ochiq kod" },
+  "about_openSourceCode": { "message": "Ochiq kod" },
   "mode_autoContinue": { "message": "Avtomatik Davom etish" },
   "helptip_modeNotifs": { "message": "Rejimlar/sozlamalarni almashtirishda bildirishnomalarni ko'rsatish" },
   "alert_updateAvail": { "message": "Mavjud yangilanishlar" },

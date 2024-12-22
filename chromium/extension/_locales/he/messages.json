@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "מושבת (התוסף מותקן)" },
   "about_version": { "message": "גירסה" },
   "about_poweredBy": { "message": "באמצעות" },
-  "about_sourceCode": { "message": "קוד מקור" },
+  "about_openSourceCode": { "message": "קוד מקור" },
   "mode_autoContinue": { "message": "המשך אוטומטי" },
   "helptip_modeNotifs": { "message": "הצג התראות בעת החלפת מצבים/הגדרות" },
   "alert_updateAvail": { "message": "עדכון זמין" },

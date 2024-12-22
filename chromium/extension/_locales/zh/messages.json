@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "已禁用（已安装扩展）" },
   "about_version": { "message": "版本" },
   "about_poweredBy": { "message": "技术支持方" },
-  "about_sourceCode": { "message": "源代码" },
+  "about_openSourceCode": { "message": "开源代码" },
   "mode_autoContinue": { "message": "自动继续" },
   "helptip_modeNotifs": { "message": "切换模式/设置时显示通知" },
   "alert_updateAvail": { "message": "有可用更新" },

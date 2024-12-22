@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Ikhutshaziwe (isandiso sifakiwe)" },
   "about_version": { "message": "Uhlelo" },
   "about_poweredBy": { "message": "Ixhaswa yi-" },
-  "about_sourceCode": { "message": "Ikhodi yomthombo" },
+  "about_openSourceCode": { "message": "Vula ikhodi yomthombo" },
   "mode_autoContinue": { "message": "Qhubeka Ngokuzenzakalelayo" },
   "helptip_modeNotifs": { "message": "Bonisa izaziso lapho kuguqulwa izindlela/amasethingi" },
   "alert_updateAvail": { "message": "Okwakamuva Kuyatholakala" },

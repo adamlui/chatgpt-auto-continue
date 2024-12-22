@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Disabled (extensión instalada)" },
   "about_version": { "message": "Versión" },
   "about_poweredBy": { "message": "Fornecido por" },
-  "about_sourceCode": { "message": "Código fonte" },
+  "about_openSourceCode": { "message": "Código fonte" },
   "mode_autoContinue": { "message": "Continuar automaticamente" },
   "helptip_modeNotifs": { "message": "Mostrar as notificacións ao axustar os modos/configuracións" },
   "alert_updateAvail": { "message": "Actualización dispoñíbel" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Kulemala (kuwonjezera anaika)" },
   "about_version": { "message": "Lumikizanani nafe" },
   "about_poweredBy": { "message": "Mothandizidwa ndi" },
-  "about_sourceCode": { "message": "Gwero kachidindo" },
+  "about_openSourceCode": { "message": "Open gwero kachidindo" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Onetsani zidziwitso pamene toggling modes/zoikamo" },
   "alert_updateAvail": { "message": "Sinthani likupezeka" },

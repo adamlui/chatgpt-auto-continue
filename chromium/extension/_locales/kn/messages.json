@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ (ವಿಸ್ತರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ)" },
   "about_version": { "message": "ಆವೃತ್ತಿ" },
   "about_poweredBy": { "message": "ಸಾಮರ್ಥ್ಯ ಇವರಿಂದ" },
-  "about_sourceCode": { "message": "ಮೂಲ ಕೋಡ್" },
+  "about_openSourceCode": { "message": "ಓಪನ್ ಸೋರ್ಸ್ ಕೋಡ್" },
   "mode_autoContinue": { "message": "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮುಂದುವರಿಸಿ" },
   "helptip_modeNotifs": { "message": "ಮೋಡ್‌ಗಳು/ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡುವಾಗ ಅಧಿಸೂಚನೆಗಳನ್ನು ತೋರಿಸಿ" },
   "alert_updateAvail": { "message": "ಹೊಸ ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ" },

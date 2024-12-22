@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Faʻaletonu (faʻaopoopoga faʻapipiʻiina)" },
   "about_version": { "message": "Faaliliuga" },
   "about_poweredBy": { "message": "Malosiaga e ala i" },
-  "about_sourceCode": { "message": "Punaoa code" },
+  "about_openSourceCode": { "message": "Open source code" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Faaali atu faasilasilaga pe a toggling auala/faatulagaga" },
   "alert_updateAvail": { "message": "Fa'afouga o lo'o avanoa" },

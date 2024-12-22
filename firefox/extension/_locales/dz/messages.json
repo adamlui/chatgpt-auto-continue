@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "སྒྲིག་འཇུག་བྱས་ཚད། ཐེངས་ 3 ལས་ཉུང་བ། ཐོན་རིམ་" },
   "about_version": { "message": "ཐོན་རིམ།" },
   "about_poweredBy": { "message": "དབང་ཤུགས་ཀྱི་ཐོག་ལས་" },
-  "about_sourceCode": { "message": "ཐོན་ཁུངས་ཀོཌ་" },
+  "about_openSourceCode": { "message": "ཁ་ཕྱེ་ཡོད་པའི་འབྱུང་ཁུངས་ཀོཌ་" },
   "mode_autoContinue": { "message": "རང་མགོ་རང་འདྲོངས་འབད་" },
   "helptip_modeNotifs": { "message": "གོ་རིམ་/སྒྲིག་གཞི་ཚུ་སེལ་འཐུ་འབད་བའི་སྐབས་བརྡ་སྟོན་ཚུ་སྟོན་འབད།" },
   "alert_updateAvail": { "message": "ད་ལྟོ་མཐུན་བཟོ་ནི།" },

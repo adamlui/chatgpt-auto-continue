@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Dezactivat (extensie instalată)" },
   "about_version": { "message": "Versiune" },
   "about_poweredBy": { "message": "Operat de" },
-  "about_sourceCode": { "message": "Codul sursă" },
+  "about_openSourceCode": { "message": "Cod cu sursă deschisă. " },
   "mode_autoContinue": { "message": "Continuare automată" },
   "helptip_modeNotifs": { "message": "Afișați notificările la comutarea modurilor/setărilor" },
   "alert_updateAvail": { "message": "Actualizare disponibilă" },

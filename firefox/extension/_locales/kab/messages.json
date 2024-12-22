@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Isebtar i yellan ddaw-a sɛan aseɣwen ɣer [ẓreg_ẓreg" },
   "about_version": { "message": "Lqem" },
   "about_poweredBy": { "message": "Yettunefk-d sɣur" },
-  "about_sourceCode": { "message": "Tangalt aγbalu" },
+  "about_openSourceCode": { "message": "Tangalt taɣbalut" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Sken isallen melmi ara sbedden isenfaren/isenfaren" },
   "alert_updateAvail": { "message": "Yella lqem" },

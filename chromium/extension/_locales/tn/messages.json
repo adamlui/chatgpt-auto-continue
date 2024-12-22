@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Ke golafetse (extension installed)" },
   "about_version": { "message": "VERSION" },
   "about_poweredBy": { "message": "E tsamaisiwa ke" },
-  "about_sourceCode": { "message": "Source code" },
+  "about_openSourceCode": { "message": "Open source code" },
   "mode_autoContinue": { "message": "Auto-Continue" },
   "helptip_modeNotifs": { "message": "Bontsha dikitsiso fa o toggling modes/settings" },
   "alert_updateAvail": { "message": "Diphetogo tse di leng teng" },

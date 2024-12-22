@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "अक्षम पारिएको (विस्तार स्थापना गरिएको)" },
   "about_version": { "message": "संस्करण" },
   "about_poweredBy": { "message": "समर्थनकर्ता" },
-  "about_sourceCode": { "message": "स्रोत सङ्केत" },
+  "about_openSourceCode": { "message": "स्रोत सङ्केत" },
   "mode_autoContinue": { "message": "स्वत: जारी राख्नुहोस्" },
   "helptip_modeNotifs": { "message": "मोडहरू/सेटिङहरू टगल गर्दा सूचनाहरू देखाउनुहोस्" },
   "alert_updateAvail": { "message": "कुनै अपडेट उपलब्ध छैन।" },

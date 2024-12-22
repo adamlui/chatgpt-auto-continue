@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "비활성화됨 (확장 프로그램 설치됨)" },
   "about_version": { "message": "버전" },
   "about_poweredBy": { "message": "제공" },
-  "about_sourceCode": { "message": "원본 코드" },
+  "about_openSourceCode": { "message": "오픈소스" },
   "mode_autoContinue": { "message": "자동 계속" },
   "helptip_modeNotifs": { "message": "모드/설정을 전환할 때 알림 표시" },
   "alert_updateAvail": { "message": "업데이트 사용 가능" },

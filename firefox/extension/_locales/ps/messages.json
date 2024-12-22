@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "غیر فعال شوی (شاتاړی انسټال شوی)" },
   "about_version": { "message": ":نسخه" },
   "about_poweredBy": { "message": "طراحی شده توسط" },
-  "about_sourceCode": { "message": "سرچينه كوډه" },
+  "about_openSourceCode": { "message": "سرچينه كوډه" },
   "mode_autoContinue": { "message": "خپلکاره لیکل" },
   "helptip_modeNotifs": { "message": "خبرتیاوې وښایاست کله چې د حالتونو/ترتیباتو ته اشاره وکړئ" },
   "alert_updateAvail": { "message": "اوسمهالیزې شته" },

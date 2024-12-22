@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Деактивирано (инсталирано разширение)" },
   "about_version": { "message": "Версия" },
   "about_poweredBy": { "message": "Създадено от" },
-  "about_sourceCode": { "message": "Изходен код" },
+  "about_openSourceCode": { "message": "Отворен код" },
   "mode_autoContinue": { "message": "Автоматично продължаване" },
   "helptip_modeNotifs": { "message": "Показване на известия при превключване на режими/настройки" },
   "alert_updateAvail": { "message": "Налице е актуализация" },

@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Óvirkt (viðbót uppsett)" },
   "about_version": { "message": "Útgáfa" },
   "about_poweredBy": { "message": "Knúið af" },
-  "about_sourceCode": { "message": "Frumkóði" },
+  "about_openSourceCode": { "message": "Upprunakóði@ info: whatsthis" },
   "mode_autoContinue": { "message": "Sjálfvirk stöðvun" },
   "helptip_modeNotifs": { "message": "Sýna tilkynningar þegar skipt er um ham/stillingar" },
   "alert_updateAvail": { "message": "Ný uppfærsla í boði" },

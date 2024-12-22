@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Отключено (расширение установлено)" },
   "about_version": { "message": "Версия" },
   "about_poweredBy": { "message": "На базе технологии" },
-  "about_sourceCode": { "message": "Исходный код" },
+  "about_openSourceCode": { "message": "Открытый исходный код" },
   "mode_autoContinue": { "message": "Автопродление" },
   "helptip_modeNotifs": { "message": "Показывать уведомления при переключении режимов/настроек" },
   "alert_updateAvail": { "message": "Доступны обновления" },

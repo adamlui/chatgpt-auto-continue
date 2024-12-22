@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Geaktiveer (uitbreiding geïnstalleer)" },
   "about_version": { "message": "Weergawe" },
   "about_poweredBy": { "message": "Aangedryf deur" },
-  "about_sourceCode": { "message": "Oorsprong Kode" },
+  "about_openSourceCode": { "message": "Oopbronkode" },
   "mode_autoContinue": { "message": "Outo-gaan voort" },
   "helptip_modeNotifs": { "message": "Wys kennisgewings wanneer modusse/instellings wissel" },
   "alert_updateAvail": { "message": "Opdatering beskikbaar" },

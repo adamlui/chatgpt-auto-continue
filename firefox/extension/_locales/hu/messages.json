@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Letiltva (bővítmény telepítve)" },
   "about_version": { "message": "Verzió" },
   "about_poweredBy": { "message": "Kiszolgálja" },
-  "about_sourceCode": { "message": "Forráskód" },
+  "about_openSourceCode": { "message": "Open Source" },
   "mode_autoContinue": { "message": "Automatikus folytatás" },
   "helptip_modeNotifs": { "message": "Értesítések megjelenítése üzemmódok/beállítások közötti váltáskor" },
   "alert_updateAvail": { "message": "Frissítés érhető el" },

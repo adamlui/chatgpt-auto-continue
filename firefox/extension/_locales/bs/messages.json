@@ -8,7 +8,7 @@
   "menuLabel_disabled": { "message": "Onemogućeno (ekstenzija instalirana)" },
   "about_version": { "message": "Verzija" },
   "about_poweredBy": { "message": "omogućio" },
-  "about_sourceCode": { "message": "Izvorni kod" },
+  "about_openSourceCode": { "message": "Izvorni kod" },
   "mode_autoContinue": { "message": "Automatski nastavi" },
   "helptip_modeNotifs": { "message": "Prikaži obavještenja prilikom prebacivanja režima/postavki" },
   "alert_updateAvail": { "message": "Ažuriranje dostupno" },
