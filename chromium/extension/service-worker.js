@@ -27,7 +27,9 @@ chrome.runtime.onMessage.addListener(async req => {
 // Init APP data
 (async () => {
     const app = {
-        version: chrome.runtime.getManifest().version, latestAssetCommitHash: 'd1806cb', urls: {},
+        version: chrome.runtime.getManifest().version,
+        latestAssetCommitHash: 'd1806cb', // for cached app.json
+        urls: {},
         chatgptJSver: /v(\d+\.\d+\.\d+)/.exec(await (await fetch(chrome.runtime.getURL('lib/chatgpt.js'))).text())[1]
     }
     app.urls.assetHost = `https://cdn.jsdelivr.net/gh/adamlui/chatgpt-auto-continue@${app.latestAssetCommitHash}`
