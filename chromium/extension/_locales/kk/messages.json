@@ -11,7 +11,7 @@
   "about_contributors": { "message": "Қатысушылар" },
   "about_version": { "message": "Нұсқа" },
   "about_poweredBy": { "message": "Сайтты жасаған" },
-  "about_openSourceCode": { "message": "@ info: whatsthis" },
+  "about_openSourceCode": { "message": "Ашық бастапқы код" },
   "mode_autoContinue": { "message": "Автоматты жалғастыру" },
   "helptip_modeNotifs": { "message": "Режимдерді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
   "alert_updateAvail": { "message": "Қолжетімді жаңарту" },

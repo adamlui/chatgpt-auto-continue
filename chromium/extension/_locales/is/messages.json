@@ -11,7 +11,7 @@
   "about_contributors": { "message": "Meðhöfundar" },
   "about_version": { "message": "Útgáfa" },
   "about_poweredBy": { "message": "Knúið af" },
-  "about_openSourceCode": { "message": "Upprunakóði@ info: whatsthis" },
+  "about_openSourceCode": { "message": "Opinn kóðalisti" },
   "mode_autoContinue": { "message": "Sjálfvirk stöðvun" },
   "helptip_modeNotifs": { "message": "Sýna tilkynningar þegar skipt er um ham/stillingar" },
   "alert_updateAvail": { "message": "Ný uppfærsla í boði" },
