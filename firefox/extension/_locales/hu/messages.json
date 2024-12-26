@@ -30,7 +30,6 @@
   "alert_directlySupports": { "message": "közvetlenül támogatja a nem fizetett erőfeszítéseimet annak biztosítása érdekében, hogy ez a projekt ingyenes és mindenki számára használható maradjon" },
   "alert_growTogether": { "message": "Együtt növelhetjük ezt az erőteljes szoftvert" },
   "alert_tyForSupport": { "message": "Köszönjük a támogatást" },
-  "alert_author": { "message": "szerző" },
   "notif_chatAutoContinued": { "message": "Csevegés automatikusan folytatva" },
   "btnLabel_moreAIextensions": { "message": "További MI-kiterjesztések" },
   "btnLabel_leaveReview": { "message": "Írj értékelést" },

@@ -30,7 +30,6 @@
   "alert_directlySupports": { "message": "apoya directamente mis esfuerzos no remunerados para garantizar que este proyecto siga siendo gratuito y abierto para que todos lo usen" },
   "alert_growTogether": { "message": "Juntos, podemos hacer que este potente software siga creciendo" },
   "alert_tyForSupport": { "message": "Gracias por su apoyo" },
-  "alert_author": { "message": "autor" },
   "notif_chatAutoContinued": { "message": "Chat Auto-Continuado" },
   "btnLabel_moreAIextensions": { "message": "Más extensiones de IA" },
   "btnLabel_leaveReview": { "message": "Deje opinión" },

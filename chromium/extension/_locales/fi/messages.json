@@ -30,7 +30,6 @@
   "alert_directlySupports": { "message": "tukee suoraan maksamattomia pyrkimyksiäni varmistaa, että tämä projekti pysyy vapaana ja kaikille avoimena" },
   "alert_growTogether": { "message": "Yhdessä voimme pitää tämän tehokkaan ohjelmiston kasvussa" },
   "alert_tyForSupport": { "message": "Kiitos yhteistyöstä" },
-  "alert_author": { "message": "Kirjoittaja" },
   "notif_chatAutoContinued": { "message": "Chat jatkuu automaattisesti" },
   "btnLabel_moreAIextensions": { "message": "Lisää tekoälylaajennuksia" },
   "btnLabel_leaveReview": { "message": "Jätä arvostelu" },
