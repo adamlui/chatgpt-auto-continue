@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<img src="https://media.chatgptautocontinue.com/images//tiles/marquee/tile1400x560.png">
+<img src="https://assets.chatgptautocontinue.com/images//tiles/marquee/tile1400x560.png">
 
 <div align="center">
 
@@ -21,9 +21,9 @@
 <br><br>
 
 <a href="https://chrome.chatgptautocontinue.com/?source=github&medium=readme&content=platform-badge">
-    <img width=auto height=60 src="https://media.chatgptautocontinue.com/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
+    <img width=auto height=60 src="https://assets.chatgptautocontinue.com/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
 <a href="https://edge.chatgptautocontinue.com">
-    <img width=auto height=60 src="https://media.chatgptautocontinue.com/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
+    <img width=auto height=60 src="https://assets.chatgptautocontinue.com/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
   
 </div>
 
@@ -33,7 +33,7 @@
 
 <div align="center">
 
-<img width=388 src="https://media.chatgptautocontinue.com/images/screenshots/continue-button-crossed.png"> <img width=321 src="https://media.chatgptautocontinue.com/images/screenshots/auto-continue-on-notification-checked.png">
+<img width=388 src="https://assets.chatgptautocontinue.com/images/screenshots/continue-button-crossed.png"> <img width=321 src="https://assets.chatgptautocontinue.com/images/screenshots/auto-continue-on-notification-checked.png">
 
 </div>
 
@@ -72,9 +72,9 @@ ChatGPT Auto-Continue relies on code from the powerful [chatgpt.js](https://gith
 <div align="center">
 
 <a href="https://chrome.chatgptautocontinue.com/?source=github&medium=readme&content=install-button">
-    <img height=75 src="https://media.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
+    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
 <a href="https://edge.chatgptautocontinue.com">
-    <img height=75 src="https://media.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
+    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
 
 <br>
 
@@ -93,7 +93,7 @@ This project exists thanks to code, testing, issues, translations & ideas from t
 <a href="https://github.com/SapitoSucio"><img width=47 title="@SapitoSucio" src="https://avatars.githubusercontent.com/u/7357354?first-contrib=2023.10.31-observer-freeze-bug-report"></img></a>
 <a href="https://github.com/whz-pku"><img width=47 title="@whz-pku" src="https://avatars.githubusercontent.com/u/158176338?first-contrib=2024.3.1-button-click-fails-bug-report"></img></a>
 <a href="https://github.com/vw911"><img width=47 title="@vw911" src="https://avatars.githubusercontent.com/u/144692196?first-contrib=2024.5.14-post-gpt-4o-ui-update-broke-script-alert"></img></a>
-<a href="https://greasyfork.org/users/670188-hacker09"><picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://media.chatgptautocontinue.com/images/icons/web-stores/greasy-fork/white/icon50.png"><img width=47 src="https://media.chatgptautocontinue.com/images/icons/web-stores/greasy-fork/black/icon50.png?first-contrib=2024.6.27-portuguese-translation-corrections" title="hacker09"></picture></a>
+<a href="https://greasyfork.org/users/670188-hacker09"><picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://assets.chatgptautocontinue.com/images/icons/web-stores/greasy-fork/white/icon50.png"><img width=47 src="https://assets.chatgptautocontinue.com/images/icons/web-stores/greasy-fork/black/icon50.png?first-contrib=2024.6.27-portuguese-translation-corrections" title="hacker09"></picture></a>
 <a href="https://github.com/ChinaGodMan"><img width=47 title="@ChinaGodMan" src="https://avatars.githubusercontent.com/u/96548841?first-contrib=2024.9.7-improved-chinese-msgs"></img></a>
 <a href="https://github.com/Mailootje"><img width=47 title="@Mailootje" src="https://avatars.githubusercontent.com/u/69102590?first-contrib=2024.9.15-stopped-working-alert"></img></a>
 <a href="https://github.com/andrew-bierman"><img width=47 title="@andrew-bierman" src="https://avatars.githubusercontent.com/u/94939237?first-contrib=2024.9.25-dark-reader-interference-alert"></img></a>
@@ -102,7 +102,7 @@ This project exists thanks to code, testing, issues, translations & ideas from t
 <a href="https://github.com/9romise"><img width=47 title="@9romise" src="https://avatars.githubusercontent.com/u/38204901?first-contrib=2024.12.13-revealed-unneeded-semicolons"></img></a>
 <a href="https://github.com/ImgBotApp"><img width=47 title="@ImgBotApp" src="https://avatars.githubusercontent.com/u/31427850"></img></a>
 <a href="https://github.com/dependabot"><img width=47 title="Dependabot" src="https://avatars.githubusercontent.com/in/29110"></img></a>
-<a href="https://chatgpt.com"><picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://media.chatgptautocontinue.com/images/icons/platforms/chatgpt/black-on-white/icon50.png"><img width=47 title="ChatGPT" src="https://media.chatgptautocontinue.com/images/icons/platforms/chatgpt/white-on-gray/icon50.png"></img></picture></a>
+<a href="https://chatgpt.com"><picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://assets.chatgptautocontinue.com/images/icons/platforms/chatgpt/black-on-white/icon50.png"><img width=47 title="ChatGPT" src="https://assets.chatgptautocontinue.com/images/icons/platforms/chatgpt/white-on-gray/icon50.png"></img></picture></a>
 
 #
 
@@ -147,7 +147,7 @@ For even more epic ChatGPT apps, visit: https://github.com/adamlui/ai-web-extens
 [Readme](https://docs.chatgptinfinity.com/#-readme) /
 [Discuss](https://github.com/adamlui/chatgpt-infinity/discussions)
 
-<img height=6px width="100%" src="https://media.chatgptautocontinue.com/images/separators/gradient-aqua.png">
+<img height=6px width="100%" src="https://assets.chatgptautocontinue.com/images/separators/gradient-aqua.png">
 
 <a href="https://github.com/adamlui/ai-web-extensions">**More ChatGPT add-ons**</a> /
 <a href="#top">Back to top ↑</a>
