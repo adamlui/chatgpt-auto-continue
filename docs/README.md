@@ -101,13 +101,13 @@ ChatGPT Auto-Continue relies on code from the powerful [chatgpt.js](https://gith
 <div align="center">
 
 <a href="https://chrome.chatgptautocontinue.com/?source=github&medium=readme&content=install-button">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
+    <img alt="[Get for Chrome]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
 <a href="https://edge.chatgptautocontinue.com">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
+    <img alt="[Get for Edge]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
 <a href="https://ff.chatgptautocontinue.com/?source=github&medium=readme&content=install-button">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-firefox-button.png"></a>
+    <img alt="[Get for Firefox]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-firefox-button.png"></a>
 <a href="https://gm.chatgptautocontinue.com">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-userscript-button.png"></a>
+    <img alt="[Get for Greasemonkey]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-userscript-button.png"></a>
 
 <br>
 

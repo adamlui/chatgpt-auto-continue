@@ -100,13 +100,13 @@ ChatGPT 自动继续 依赖于功能强大的 [chatgpt.js](https://github.com/Ku
 <div align="center">
 
 <a href="https://chrome.chatgptautocontinue.com/?source=github&medium=readme&content=install-button">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
+    <img alt="[获取 Chrome 版本]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
 <a href="https://edge.chatgptautocontinue.com">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
+    <img alt="[获取 Edge 版本]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
 <a href="https://ff.chatgptautocontinue.com/?source=github&medium=readme&content=install-button">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-firefox-button.png"></a>
+    <img alt="[获取 Firefox 版本]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-firefox-button.png"></a>
 <a href="https://gm.chatgptautocontinue.com">
-    <img height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-userscript-button.png"></a>
+    <img alt="[获取 Greasemonkey 版本]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-userscript-button.png"></a>
 
 <br>
 
