@@ -12,7 +12,7 @@
     },
     "gitHub": "https://github.com/adamlui/chatgpt-auto-continue",
     "greasyFork": "https://greasyfork.org/scripts/466789-chatgpt-auto-continue",
-    "mediaHost": "https://assets.chatgptautocontinue.com",
+    "assetHost": "https://assets.chatgptautocontinue.com",
     "relatedExtensions": "https://aiwebextensions.com",
     "review": {
       "chromeWebStore": "https://chromewebstore.google.com/detail/chatgpt-auto-continue/lbojnhaafilddefkdgmbplkafnckaoga/reviews",
