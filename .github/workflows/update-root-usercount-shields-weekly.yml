@@ -5,7 +5,7 @@ on:
     - cron: "42 5 * * 0" # every Sun @ 5:52a
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update-root-usercount-shields:
