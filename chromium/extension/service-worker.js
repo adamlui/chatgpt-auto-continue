@@ -28,12 +28,12 @@ chrome.runtime.onMessage.addListener(async req => {
 (async () => {
     const app = {
         version: chrome.runtime.getManifest().version,
-        latestResourceCommitHash: 'e41e388', // for cached app.json + icons.questionMark.src
+        latestResourceCommitHash: 'b81310f', // for cached app.json + icons.questionMark.src
         urls: {},
         chatgptJSver: /v(\d+\.\d+\.\d+)/.exec(await (await fetch(chrome.runtime.getURL('lib/chatgpt.js'))).text())[1]
     }
     app.urls.resourceHost = `https://cdn.jsdelivr.net/gh/adamlui/chatgpt-auto-continue@${app.latestResourceCommitHash}`
-    const remoteAppData = await (await fetch(`${app.urls.resourceHost}/app.json`)).json()
+    const remoteAppData = await (await fetch(`${app.urls.resourceHost}/assets/data/app.json`)).json()
     Object.assign(app, { ...remoteAppData, urls: { ...app.urls, ...remoteAppData.urls }})
     chrome.storage.sync.set({ app }) // save to browser storage
 })()
