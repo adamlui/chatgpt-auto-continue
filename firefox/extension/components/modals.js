@@ -112,13 +112,12 @@ window.modals = {
     about() {
 
         // Init buttons
-        const modalBtns = [
-            function getSupport(){},
-            function rateUs(){},
-            function moreAIextensions(){}
-        ]
-        if (this.runtime.includes('Greasemonkey')) modalBtns.unshift(
-            function checkForUpdates(){ modals.imports.updateCheck() })
+        const modalBtns = [ function getSupport(){}, function moreAIextensions(){} ]
+        if (this.runtime.includes('Greasemonkey')) { // add Check for Updates + Discuss
+            modalBtns.unshift(function checkForUpdates(){ modals.imports.updateCheck() })
+            modalBtns.splice(1, 0, function discuss(){})
+        } else // add Rate Us
+            modalBtns.splice(1, 0, function rateUs(){})
 
         // Show modal
         const aboutModal = modals.alert(
@@ -150,15 +149,15 @@ window.modals = {
                 + `height: ${ this.runtime.includes('Greasemonkey') ? 58 : 55 }px`
 
             // Replace link buttons w/ clones that don't dismiss modal
-            if (/support|rate|extensions/i.test(btn.textContent)) {
+            if (/support|rate|discuss|extensions/i.test(btn.textContent)) {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
                 btn.onclick = () => this.safeWinOpen(
                     btn.textContent.includes(this.getMsg('btnLabel_getSupport')) ? this.imports.app.urls.support
                   : btn.textContent.includes(this.getMsg('btnLabel_rateUs')) ? this.imports.app.urls.review[
                         this.runtime.includes('Edge') ? 'edgeAddons'
-                      : this.runtime.includes('Firefox') ? 'firefoxAddons'
-                      : this.runtime.includes('Chromium') ? 'chromeWebStore' : 'greasyFork']
+                      : this.runtime.includes('Firefox') ? 'firefoxAddons' : 'chromeWebStore']
+                  : btn.textContent.includes(this.getMsg('btnLabel_discuss')) ? this.imports.app.urls.discuss
                   : this.imports.app.urls.relatedExtensions
                 )
             }
@@ -170,6 +169,8 @@ window.modals = {
                 btn.textContent = `🧠 ${this.getMsg('btnLabel_getSupport')}`
             else if (/rate/i.test(btn.textContent))
                 btn.textContent = `⭐ ${this.getMsg('btnLabel_rateUs')}`
+            else if (/discuss/i.test(btn.textContent))
+                btn.textContent = `🗨️ ${this.getMsg('btnLabel_discuss')}`
             else if (/extensions/i.test(btn.textContent))
                 btn.textContent = `🤖 ${this.getMsg('btnLabel_moreAIextensions')}`
 
@@ -201,8 +202,7 @@ window.modals = {
             [ // buttons
                 function paypal(){},
                 function githubSponsors(){},
-                function cashApp(){},
-                function rateUs() { modals.open('feedback') }
+                function cashApp(){}
             ], '', 478 // modal width
         )
 
@@ -215,13 +215,12 @@ window.modals = {
         btns.forEach((btn, idx) => {
 
             // Replace link buttons w/ clones that don't dismiss modal
-            if (!/dismiss|rate/i.test(btn.textContent)) {
+            if (!/dismiss/i.test(btn.textContent)) {
                 const btnClone = btn.cloneNode(true)
                 btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
                 btn.onclick = () => this.safeWinOpen(this.imports.app.urls.donate[
                     btn.textContent == 'Cash App' ? 'cashApp'
-                  : btn.textContent == 'Github Sponsors' ? 'gitHub'
-                  : 'payPal'
+                  : btn.textContent == 'Github Sponsors' ? 'gitHub' : 'payPal'
                 ])
             }
 
@@ -232,8 +231,6 @@ window.modals = {
                                   + ' width: 107px ; line-height: 14px'
                 if (idx == btns.length -1) // de-emphasize right-most button
                     btn.classList.remove('primary-modal-btn')
-                else if (/rate/i.test(btn.textContent)) // localize 'Rate Us' label
-                    btn.textContent = this.getMsg('btnLabel_rateUs')
             }
         })
 
