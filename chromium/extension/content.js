@@ -69,8 +69,8 @@
     }
 
     function checkContinueBtn() {
-        checkContinueBtn.status = 'active'
-        if (config.extensionDisabled) { checkContinueBtn.status = 'inactive' ; return }
+        checkContinueBtn.active = !config.extensionDisabled
+        if (!checkContinueBtn.active) return
         const continueBtn = chatgpt.getContinueBtn()
         if (continueBtn) {
             continueBtn.click()
@@ -82,7 +82,7 @@
 
     async function syncConfigToUI() { // on toolbar popup toggles + ChatGPT tab activations
         await settings.load('extensionDisabled', ...Object.keys(settings.controls))
-        if (!config.extensionDisabled && checkContinueBtn.status != 'active') checkContinueBtn()
+        if (!config.extensionDisabled && !checkContinueBtn.active) checkContinueBtn()
     }
 
     function getScheme() {
