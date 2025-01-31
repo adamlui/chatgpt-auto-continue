@@ -75,7 +75,7 @@
         const btns = {} ; btnTypesToCheck.forEach(type => btns[type] = chatgpt[`get${type}Btn`]())
         Object.entries(btns).forEach(([btnType, btn]) => {
             if (!btn || btnType == 'Scroll' && ( !config.autoScroll || !chatgpt.getStopBtn() )) return
-            btn.click() ; console.log(btnType + ' clicked')
+            btn.click()
             if (btnType == 'Continue') {
                 continueBtnClicked = true
                 notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
