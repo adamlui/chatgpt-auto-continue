@@ -79,7 +79,7 @@
             if (btnType == 'Continue') {
                 continueBtnClicked = true
                 notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
-                try { chatgpt.scrollToBottom() } catch(err) {}
+                if (config.autoScroll) try { chatgpt.scrollToBottom() } catch(err) {}
         }})
         setTimeout(checkBtnsToClick, continueBtnClicked ? 5000 : 500)
     }
