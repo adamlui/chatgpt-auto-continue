@@ -68,21 +68,25 @@
         }
     }
 
-    function checkContinueBtn() {
-        checkContinueBtn.active = !config.extensionDisabled
-        if (!checkContinueBtn.active) return
-        const continueBtn = chatgpt.getContinueBtn()
-        if (continueBtn) {
-            continueBtn.click()
-            notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
-            try { chatgpt.scrollToBottom() } catch(err) {}
-            setTimeout(checkContinueBtn, 5000)
-        } else setTimeout(checkContinueBtn, 500)
+    function checkBtnsToClick() {
+        checkBtnsToClick.active = !config.extensionDisabled ; if (!checkBtnsToClick.active) return
+        let continueBtnClicked = false // to increase delay before next check if true to avoid repeated clicks
+        const btnTypesToCheck = ['Continue'] ; if (config.autoScroll) btnTypesToCheck.push('Scroll')
+        const btns = {} ; btnTypesToCheck.forEach(type => btns[type] = chatgpt[`get${type}Btn`]())
+        Object.entries(btns).forEach(([btnType, btn]) => {
+            if (!btn || btnType == 'Scroll' && ( !config.autoScroll || !chatgpt.getStopBtn() )) return
+            btn.click() ; console.log(btnType + ' clicked')
+            if (btnType == 'Continue') {
+                continueBtnClicked = true
+                notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
+                try { chatgpt.scrollToBottom() } catch(err) {}
+        }})
+        setTimeout(checkBtnsToClick, continueBtnClicked ? 5000 : 500)
     }
 
     async function syncConfigToUI() { // on toolbar popup toggles + ChatGPT tab activations
         await settings.load('extensionDisabled', ...Object.keys(settings.controls))
-        if (!config.extensionDisabled && !checkContinueBtn.active) checkContinueBtn()
+        if (!config.extensionDisabled && !checkBtnsToClick.active) checkBtnsToClick()
     }
 
     function getScheme() {
@@ -101,7 +105,7 @@
 
     // Observe DOM for need to continue generating response
     if (!config.extensionDisabled) {
-        checkContinueBtn()
+        checkBtnsToClick()
 
     // NOTIFY of status on load
         notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)

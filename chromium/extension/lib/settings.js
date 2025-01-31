@@ -7,6 +7,10 @@ window.settings = {
     },
 
     controls: { // displays top-to-bottom in toolbar menu
+        get autoScroll() { return { type: 'toggle', defaultVal: false,
+            label: settings.getMsg('menuLabel_autoScroll'),
+            helptip: settings.getMsg('helptip_autoScroll')
+        }},
         get notifDisabled() { return { type: 'toggle', defaultVal: false,
             label: settings.getMsg('menuLabel_modeNotifs'),
             helptip: settings.getMsg('helptip_modeNotifs')

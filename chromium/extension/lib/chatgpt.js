@@ -287,6 +287,7 @@ const chatgpt = {
         return document.querySelector('button[data-testid*="new-chat-button"], button:has([d^="M15.6729"])'); },
 
     getScrollToBottomButton() { return document.querySelector('button:has([d^="M12 21C11.7348"])'); },
+    getStopButton() { return document.querySelector('button[data-testid=stop-button]'); },
     isDarkMode() { return document.documentElement.classList.toString().includes('dark'); },
 
     async isLoaded(timeout = null) {
