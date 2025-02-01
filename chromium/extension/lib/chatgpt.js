@@ -296,6 +296,7 @@ const chatgpt = {
     getScrollToBottomButton() { return document.querySelector('button:has([d^="M12 21C11.7348"])'); },
     getStopButton() { return document.querySelector('button[data-testid=stop-button]'); },
     isDarkMode() { return document.documentElement.className.includes('dark') },
+    isTyping() { return !!this.getStopButton() },
 
     async isLoaded(timeout = null) {
         const timeoutPromise = timeout ? new Promise(resolve => setTimeout(() => resolve(false), timeout)) : null;

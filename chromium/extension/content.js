@@ -74,7 +74,7 @@
         const btnTypesToCheck = ['Continue'] ; if (config.autoScroll) btnTypesToCheck.push('Scroll')
         const btns = {} ; btnTypesToCheck.forEach(type => btns[type] = chatgpt[`get${type}Btn`]())
         Object.entries(btns).forEach(([btnType, btn]) => {
-            if (!btn || btnType == 'Scroll' && ( !config.autoScroll || !chatgpt.getStopBtn() )) return
+            if (!btn || btnType == 'Scroll' && ( !config.autoScroll || !chatgpt.isTyping() )) return
             btn.click()
             if (btnType == 'Continue') {
                 continueBtnClicked = true
