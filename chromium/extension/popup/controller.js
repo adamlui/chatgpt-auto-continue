@@ -11,7 +11,7 @@
         browser: { displaysEnglish: (await chrome.i18n.getAcceptLanguages())[0].startsWith('en') }
     }
 
-    // Import APP data
+    // Import DATA
     const { app } = await chrome.storage.local.get('app')
     icons.import({ app }) // for src's using app.urls.assetHost
 
@@ -30,18 +30,17 @@
     const sync = {
         fade() {
 
-            // Update toolbar icon
+            // Toolbar icon
             chrome.action.setIcon({ path: Object.fromEntries(
                 Object.keys(chrome.runtime.getManifest().icons).map(dimension =>
                     [dimension, `../icons/${ config.extensionDisabled ? 'faded/' : '' }icon${dimension}.png`]
             ))})
 
-            // Update menu contents
-            const extensionIsDisabled = !masterToggle.checked
-            document.querySelectorAll('.logo, .menu-title, .menu-item').forEach((elem, idx) => {
-                elem.style.transition = extensionIsDisabled ? '' : 'opacity 0.25s ease-in'
-                setTimeout(() => elem.classList.toggle('disabled', extensionIsDisabled),
-                    extensionIsDisabled ? 0 : idx *10) // fade-out abruptly, fade-in staggered
+            // Menu elems
+            document.querySelectorAll('.logo, .menu-title, .menu-entry').forEach((elem, idx) => {
+                elem.style.transition = config.extensionDisabled ? '' : 'opacity 0.15s ease-in'
+                setTimeout(() => elem.classList.toggle('disabled', config.extensionDisabled),
+                    config.extensionDisabled ? 0 : idx *10) // fade-out abruptly, fade-in staggered
             })
         },
 
@@ -50,56 +49,54 @@
 
     // Run MAIN routine
 
+    const appName = env.browser.displaysEnglish ? app.name : chrome.i18n.getMessage('appName') // for shorter notifs
+
     // Init MASTER TOGGLE
-    const masterToggle = document.querySelector('input')
-    await settings.load('extensionDisabled')
-    masterToggle.checked = !config.extensionDisabled
-    masterToggle.onchange = () => {
-        settings.save('extensionDisabled', !config.extensionDisabled)
+    const masterToggle = {
+        div: document.querySelector('.master-toggle'),
+        switch: dom.create.elem('div', { class: 'toggle menu-icon highlight-on-hover' }),
+        track: dom.create.elem('span', { class: 'track' })
+    }
+    masterToggle.div.append(masterToggle.switch) ; masterToggle.switch.append(masterToggle.track)
+    await settings.load('extensionDisabled') ; masterToggle.switch.classList.toggle('on', !config.extensionDisabled)
+    masterToggle.div.onclick = () => {
+        env.extensionWasDisabled = config.extensionDisabled
+        masterToggle.switch.classList.toggle('on') ; settings.save('extensionDisabled', !config.extensionDisabled)
         Object.keys(sync).forEach(key => sync[key]()) // sync fade + storage to UI
-        notify(`${chrome.i18n.getMessage('appName')} 🧩 ${chrome.i18n.getMessage(`state_${
-            config.extensionDisabled ? 'off' : 'on' }`).toUpperCase()}`)
+        notify(`${appName} 🧩 ${
+            chrome.i18n.getMessage(`state_${ config.extensionDisabled ? 'off' : 'on' }`).toUpperCase()}`)
     }
 
     // Create CHILD menu entries on chatgpt.com
     if (env.site == 'chatgpt') {
+        const childEntriesDiv = dom.create.elem('div') ; document.body.append(childEntriesDiv)
         await settings.load(Object.keys(settings.controls))
-
-        // Create/insert child section
-        const togglesDiv = dom.create.elem('div', { class: 'menu' })
-        document.querySelector('.menu-header').insertAdjacentElement('afterend', togglesDiv)
-
-        // Create/insert child entries
         Object.keys(settings.controls).forEach(key => {
+            const controlType = settings.controls[key].type
 
-            // Init elems
-            const menuItemDiv = dom.create.elem('div', {
-                class: 'menu-item menu-area', title: settings.controls[key].helptip || '' })
-            const menuLabel = dom.create.elem('label', { class: 'menu-icon' }),
-                  menuLabelSpan = dom.create.elem('span')
-            let menuInput, menuSlider
-            menuLabelSpan.textContent = settings.controls[key].label
-            if (settings.controls[key].type == 'toggle') {
-                menuInput = dom.create.elem('input', { type: 'checkbox' })
-                menuInput.checked = /disabled|hidden/i.test(key) ^ config[key]
-                menuSlider = dom.create.elem('span', { class: 'slider' })
-                menuLabel.append(menuInput, menuSlider)
-                menuLabel.classList.add('toggle-switch')
+            // Init entry's elems
+            const entry = {
+                div: dom.create.elem('div', {
+                    class: 'menu-entry highlight-on-hover', title: settings.controls[key].helptip || '' }),
+                leftElem: dom.create.elem('div', { class: `menu-icon ${ controlType || '' }` }),
+                label: dom.create.elem('span')
+            }
+            entry.label.textContent = settings.controls[key].label
+            entry.div.append(entry.leftElem, entry.label) ; childEntriesDiv.append(entry.div)
+            if (controlType == 'toggle') { // add track to left, init knob pos
+                entry.leftElem.append(dom.create.elem('span', { class: 'track' }))
+                entry.leftElem.classList.toggle('on', /disabled/i.test(key) ^ config[key])
+            } else { // add symbol to left, append status to right
+                entry.leftElem.innerText = settings.controls[key].symbol
+                entry.label.innerText += `— ${settings.controls[key].status}`
             }
 
-            // Assemble/append elems
-            menuItemDiv.append(menuLabel, menuLabelSpan)
-            togglesDiv.append(menuItemDiv)
-
-            // Add listeners
-            if (settings.controls[key].type == 'toggle') {
-                menuItemDiv.onclick = () => menuInput.click()
-                menuInput.onclick = menuSlider.onclick = event => // prevent double toggle
-                    event.stopImmediatePropagation()
-                menuInput.onchange = () => {
+            entry.div.onclick = () => {
+                if (controlType == 'toggle') {
+                    entry.leftElem.classList.toggle('on')
                     settings.save(key, !config[key]) ; sync.configToUI({ updatedKey: key })
                     notify(`${settings.controls[key].label} ${chrome.i18n.getMessage(`state_${
-                        /disabled|hidden/i.test(key) != config[key] ? 'on' : 'off'}`).toUpperCase()}`)
+                        /disabled/i.test(key) ^ config[key] ? 'on' : 'off' }`).toUpperCase()}`)
                 }
             }
         })
@@ -111,8 +108,8 @@
         const localeKeys = elem.dataset.locale.split(' '),
               translatedText = localeKeys.map(key => chrome.i18n.getMessage(key)).join(' ')
         if (translatedText != elem.innerText) {
-            elem.innerText = translatedText ; translationOccurred = true
-    }})
+            elem.innerText = translatedText ; translationOccurred = true }
+    })
     if (translationOccurred) // update <html lang> attr
         document.documentElement.lang = chrome.i18n.getUILanguage().split('-')[0]
 
@@ -132,7 +129,7 @@
     // Create/append ABOUT footer button
     const aboutSpan = dom.create.elem('span', {
         title: `${chrome.i18n.getMessage('menuLabel_about')} ${chrome.i18n.getMessage('appName')}`,
-        class: 'menu-icon menu-area', style: 'right:30px ; padding-top: 2px' })
+        class: 'menu-icon highlight-on-hover', style: 'right:30px ; padding-top: 2px' })
     const aboutIcon = icons.create('questionMark', { width: 15, height: 13, style: 'margin-bottom: 0.04rem' })
     aboutSpan.onclick = () => { chrome.runtime.sendMessage({ action: 'showAbout' }) ; close() }
     aboutSpan.append(aboutIcon) ; footer.append(aboutSpan)
@@ -140,7 +137,7 @@
     // Create/append RELATED EXTENSIONS footer button
     const moreExtensionsSpan = dom.create.elem('span', {
         title:  chrome.i18n.getMessage('btnLabel_moreAIextensions'),
-        class: 'menu-icon menu-area', style: 'right:2px ; padding-top: 2px' })
+        class: 'menu-icon highlight-on-hover', style: 'right:2px ; padding-top: 2px' })
     const moreExtensionsIcon = icons.create('plus')
     moreExtensionsSpan.onclick = () => { open(app.urls.relatedExtensions) ; close() }
     moreExtensionsSpan.append(moreExtensionsIcon) ; footer.append(moreExtensionsSpan)
