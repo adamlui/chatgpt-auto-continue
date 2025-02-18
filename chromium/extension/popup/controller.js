@@ -17,8 +17,10 @@
 
     // Define FUNCTIONS
 
+    function getMsg(key) { return chrome.i18n.getMessage(key) }
+
     function notify(msg, pos = 'bottom-right') {
-        if (config.notifDisabled && !msg.includes(chrome.i18n.getMessage('menuLabel_modeNotifs'))) return
+        if (config.notifDisabled && !msg.includes(getMsg('menuLabel_modeNotifs'))) return
         sendMsgToActiveTab('notify', { msg, pos })
     }
 
@@ -51,7 +53,7 @@
 
     // Run MAIN routine
 
-    const appName = env.browser.displaysEnglish ? app.name : chrome.i18n.getMessage('appName') // for shorter notifs
+    const appName = env.browser.displaysEnglish ? app.name : getMsg('appName') // for shorter notifs
 
     // Init MASTER TOGGLE
     const masterToggle = {
@@ -65,8 +67,7 @@
         env.extensionWasDisabled = config.extensionDisabled
         masterToggle.switch.classList.toggle('on') ; settings.save('extensionDisabled', !config.extensionDisabled)
         Object.keys(sync).forEach(key => sync[key]()) // sync fade + storage to UI
-        notify(`${appName} 🧩 ${
-            chrome.i18n.getMessage(`state_${ config.extensionDisabled ? 'off' : 'on' }`).toUpperCase()}`)
+        notify(`${appName} 🧩 ${ getMsg(`state_${ config.extensionDisabled ? 'off' : 'on' }`).toUpperCase()}`)
     }
 
     // Create CHILD menu entries on chatgpt.com
@@ -108,7 +109,7 @@
     let translationOccurred = false
     document.querySelectorAll('[data-locale]').forEach(elem => {
         const localeKeys = elem.dataset.locale.split(' '),
-              translatedText = localeKeys.map(key => chrome.i18n.getMessage(key)).join(' ')
+              translatedText = localeKeys.map(key => getMsg(key)).join(' ')
         if (translatedText != elem.innerText) {
             elem.innerText = translatedText ; translationOccurred = true }
     })
@@ -122,7 +123,7 @@
 
     // Create/append CHATGPT.JS footer logo
     const cjsSpan = dom.create.elem('span', { class: 'cjs-span',
-        title: env.browser.displaysEnglish ? '' : `${chrome.i18n.getMessage('about_poweredBy')} chatgpt.js` })
+        title: env.browser.displaysEnglish ? '' : `${getMsg('about_poweredBy')} chatgpt.js` })
     const cjsLogo = dom.create.elem('img', {
         src: `${app.urls.cjsAssetHost}/images/badges/powered-by-chatgpt.js.png?b2a1975` })
     cjsSpan.onclick = () => { open(app.urls.chatgptJS) ; close() }
@@ -130,7 +131,7 @@
 
     // Create/append ABOUT footer button
     const aboutSpan = dom.create.elem('span', {
-        title: `${chrome.i18n.getMessage('menuLabel_about')} ${chrome.i18n.getMessage('appName')}`,
+        title: `${getMsg('menuLabel_about')} ${getMsg('appName')}`,
         class: 'menu-icon highlight-on-hover', style: 'right:30px ; padding-top: 2px' })
     const aboutIcon = icons.create('questionMark', { width: 15, height: 13, style: 'margin-bottom: 0.04rem' })
     aboutSpan.onclick = () => { chrome.runtime.sendMessage({ action: 'showAbout' }) ; close() }
@@ -138,7 +139,7 @@
 
     // Create/append RELATED EXTENSIONS footer button
     const moreExtensionsSpan = dom.create.elem('span', {
-        title:  chrome.i18n.getMessage('btnLabel_moreAIextensions'),
+        title:  getMsg('btnLabel_moreAIextensions'),
         class: 'menu-icon highlight-on-hover', style: 'right:2px ; padding-top: 2px' })
     const moreExtensionsIcon = icons.create('plus')
     moreExtensionsSpan.onclick = () => { open(app.urls.relatedExtensions) ; close() }

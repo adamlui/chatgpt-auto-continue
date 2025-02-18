@@ -36,13 +36,14 @@
 
     // Define FUNCTIONS
 
+    function getMsg(key) { return chrome.i18n.getMessage(key) }
+
     function notify(msg, pos = '', notifDuration = '', shadow = '') {
-        if (config.notifDisabled && !msg.includes(chrome.i18n.getMessage('menuLabel_modeNotifs'))) return
+        if (config.notifDisabled && !msg.includes(getMsg('menuLabel_modeNotifs'))) return
 
         // Strip state word to append colored one later
-        const foundState = [ chrome.i18n.getMessage('state_on').toUpperCase(),
-                             chrome.i18n.getMessage('state_off').toUpperCase()
-              ].find(word => msg.includes(word))
+        const foundState = [
+            getMsg('state_on').toUpperCase(), getMsg('state_off').toUpperCase() ].find(word => msg.includes(word))
         if (foundState) msg = msg.replace(foundState, '')
 
         // Show notification
@@ -63,7 +64,7 @@
             }
             const styledStateSpan = dom.create.elem('span')
             styledStateSpan.style.cssText = stateStyles[
-                foundState == chrome.i18n.getMessage('state_off').toUpperCase() ? 'off' : 'on'][env.ui.scheme]
+                foundState == getMsg('state_off').toUpperCase() ? 'off' : 'on'][env.ui.scheme]
             styledStateSpan.append(foundState) ; notif.append(styledStateSpan)
         }
     }
@@ -78,7 +79,7 @@
             btn.click()
             if (btnType == 'Continue') {
                 continueBtnClicked = true
-                notify(chrome.i18n.getMessage('notif_chatAutoContinued'), 'bottom-right')
+                notify(getMsg('notif_chatAutoContinued'), 'bottom-right')
                 if (config.autoScroll) try { chatgpt.scrollToBottom() } catch(err) {}
         }})
         setTimeout(checkBtnsToClick, continueBtnClicked ? 5000 : 500)
@@ -108,7 +109,7 @@
         checkBtnsToClick()
 
     // NOTIFY of status on load
-        notify(`${chrome.i18n.getMessage('mode_autoContinue')}: ${ chrome.i18n.getMessage('state_on').toUpperCase()}`)
+        notify(`${getMsg('mode_autoContinue')}: ${ getMsg('state_on').toUpperCase()}`)
     }
 
     // Monitor SCHEME PREF changes to update sidebar toggle + modal colors
