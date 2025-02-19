@@ -8,7 +8,7 @@
     const env = {
         site: /([^.]+)\.[^.]+$/.exec(new URL((await chrome.tabs.query(
             { active: true, currentWindow: true }))[0].url).hostname)?.[1],
-        browser: { displaysEnglish: (await chrome.i18n.getAcceptLanguages())[0].startsWith('en') }
+        browser: { displaysEnglish: chrome.i18n.getUILanguage().startsWith('en') }
     }
 
     // Import DATA
