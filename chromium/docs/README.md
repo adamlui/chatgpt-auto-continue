@@ -22,7 +22,7 @@
 
 <a href="https://chrome.chatgptautocontinue.com/?utm_source=github&utm_medium=readme&utm_content=platform-badge">
     <img alt="[Get for Chrome]" width=auto height=60 src="https://assets.chatgptautocontinue.com/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
-<a href=https://chrome.chatgptautocontinue.com">
+<a href="https://chrome.chatgptautocontinue.com">
     <img alt="[Get for Edge]" width=auto height=60 src="https://assets.chatgptautocontinue.com/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
   
 </div>
@@ -73,7 +73,7 @@ ChatGPT Auto-Continue relies on code from the powerful [chatgpt.js](https://gith
 
 <a href="https://chrome.chatgptautocontinue.com/?utm_source=github&utm_medium=readme&utm_content=install-button">
     <img alt="[Get for Chrome]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-chrome-button.png"></a>
-<a href=https://chrome.chatgptautocontinue.com">
+<a href="https://chrome.chatgptautocontinue.com">
     <img alt="[Get for Edge]" height=75 src="https://assets.chatgptautocontinue.com/images/buttons/add-to-edge-button.png"></a>
 
 <br>
