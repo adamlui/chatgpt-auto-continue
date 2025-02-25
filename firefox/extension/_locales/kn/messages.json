@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "ಮೋಡ್ ಅಧಿಸೂಚನೆಗಳು" },
   "menuLabel_about": { "message": "ಕುರಿತಾಗಿ" },
   "menuLabel_donate": { "message": "ದಯವಿಟ್ಟು ದೇಣಿಗೆ ಕಳುಹಿಸಿ" },
+  "menuLabel_extensionActive": { "message": "ವಿಸ್ತರಣೆ ಸಕ್ರಿಯವಾಗಿದೆ" },
   "about_author": { "message": "ಲೇಖಕ" },
   "about_and": { "message": "ಮತ್ತು" },
   "about_contributors": { "message": "ಕೊಡುಗೆದಾರರು" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "ನವೀಕರಿಸಿ" },
   "btnLabel_dismiss": { "message": "ವಜಾಗೊಳಿಸಿ" },
   "link_viewChanges": { "message": "ಬದಲಾವಣೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ" },
+  "state_disabled": { "message": "à²¸à²à²à³à²¯à²¾à²¤à³à²®à² à²¸à²¹ à²¸à²à²¸à³à²à²¾à²°à² (FPU)" },
   "state_on": { "message": "--" },
   "state_off": { "message": "ಆಫ್" }
 }

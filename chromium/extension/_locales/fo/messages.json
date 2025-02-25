@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Modus kunningar" },
   "menuLabel_about": { "message": "Um" },
   "menuLabel_donate": { "message": "Send okkum eina gávu" },
+  "menuLabel_extensionActive": { "message": "útbygging virkin" },
   "about_author": { "message": "Høvundur" },
   "about_and": { "message": "og" },
   "about_contributors": { "message": "ískoytisfólk" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Dagfør" },
   "btnLabel_dismiss": { "message": "Avrita" },
   "link_viewChanges": { "message": "Sí broytingar" },
+  "state_disabled": { "message": "Óvirkið" },
   "state_on": { "message": "t" },
   "state_off": { "message": "av" }
 }

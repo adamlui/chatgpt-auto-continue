@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Imiyalezo Yemowudi" },
   "menuLabel_about": { "message": "Malunga" },
   "menuLabel_donate": { "message": "Nceda uthumele umnikelo" },
+  "menuLabel_extensionActive": { "message": "ukongezwa kuyasebenza" },
   "about_author": { "message": "Inkcazelo ngombhali" },
   "about_and": { "message": "no" },
   "about_contributors": { "message": "Abanikeli" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Lungisa" },
   "btnLabel_dismiss": { "message": "Gxotha" },
   "link_viewChanges": { "message": "Jonga izinto ezitshintshiweyo" },
+  "state_disabled": { "message": "Igama Lokuvakalayo" },
   "state_on": { "message": "zingaphelanga" },
   "state_off": { "message": "cima" }
 }

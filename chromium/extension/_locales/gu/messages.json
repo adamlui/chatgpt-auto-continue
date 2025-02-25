@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "મોડ સૂચનાઓ" },
   "menuLabel_about": { "message": "માહિતી" },
   "menuLabel_donate": { "message": "કૃપા કરીને દાન મોકલો" },
+  "menuLabel_extensionActive": { "message": "એક્સ્ટેંશન સક્રિય" },
   "about_author": { "message": "લેખક" },
   "about_and": { "message": "અને" },
   "about_contributors": { "message": "ફાળો આપનારાઓ" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "અદ્યતન બનાવો" },
   "btnLabel_dismiss": { "message": "કાઢી મૂકવું" },
   "link_viewChanges": { "message": "ફેરફારો જુઓ" },
+  "state_disabled": { "message": "નિષ્ક્રિય" },
   "state_on": { "message": "ચાલુ" },
   "state_off": { "message": "બંધ" }
 }

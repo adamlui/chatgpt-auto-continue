@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Obvestila o načinu" },
   "menuLabel_about": { "message": "Vizitka" },
   "menuLabel_donate": { "message": "Pošljite donacijo" },
+  "menuLabel_extensionActive": { "message": "razširitev je aktivna" },
   "about_author": { "message": "Avtor" },
   "about_and": { "message": "in" },
   "about_contributors": { "message": "Sodelavci" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Update" },
   "btnLabel_dismiss": { "message": "Opusti" },
   "link_viewChanges": { "message": "Poglej spremembe" },
+  "state_disabled": { "message": "onemogočeno" },
   "state_on": { "message": "vključeno" },
   "state_off": { "message": "izključeno" }
 }

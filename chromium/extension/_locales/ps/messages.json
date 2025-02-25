@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "د حالت خبرتیاوې" },
   "menuLabel_about": { "message": "په هکله" },
   "menuLabel_donate": { "message": "مهرباني وکړئ یوه بسپنه ولیږئ" },
+  "menuLabel_extensionActive": { "message": "شاتاړي فعال ده" },
   "about_author": { "message": "لیکونکی" },
   "about_and": { "message": "او" },
   "about_contributors": { "message": ":ګډونوالان" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "تازه کړئ" },
   "btnLabel_dismiss": { "message": "رد کردن" },
   "link_viewChanges": { "message": "بدلونونه وګورئ" },
+  "state_disabled": { "message": "غیر فعال شوی" },
   "state_on": { "message": "په" },
   "state_off": { "message": "مړ" }
 }

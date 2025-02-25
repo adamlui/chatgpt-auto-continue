@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Известувања за режимот" },
   "menuLabel_about": { "message": "За" },
   "menuLabel_donate": { "message": "Испратете донација" },
+  "menuLabel_extensionActive": { "message": "продолжението е активно" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "и" },
   "about_contributors": { "message": "Придонесувачи" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Ажурирај" },
   "btnLabel_dismiss": { "message": "Отфрли" },
   "link_viewChanges": { "message": "Прикажи ги промените" },
+  "state_disabled": { "message": "оневозможено" },
   "state_on": { "message": "на" },
   "state_off": { "message": "исклучен" }
 }

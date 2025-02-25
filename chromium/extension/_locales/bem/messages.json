@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Ifyebo Fyabamo Lyonse" },
   "menuLabel_about": { "message": "pafya" },
   "menuLabel_donate": { "message": "Napapata Uletuma Ubupe" },
+  "menuLabel_extensionActive": { "message": "ukufutukishiwa" },
   "about_author": { "message": "Kalemba" },
   "about_and": { "message": "Elyo na" },
   "about_contributors": { "message": "abalesendamo ulubali" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Update" },
   "btnLabel_dismiss": { "message": "Ukufumishiwapo" },
   "link_viewChanges": { "message": "Moneni ifyo ifintu fyayaluka" },
+  "state_disabled": { "message": "Ukukanya Ukubomba" },
   "state_on": { "message": "pa" },
   "state_off": { "message": "ukuleka" }
 }

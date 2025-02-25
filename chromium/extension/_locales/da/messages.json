@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Tilstandsmeddelelser" },
   "menuLabel_about": { "message": "Om" },
   "menuLabel_donate": { "message": "Send en donation" },
+  "menuLabel_extensionActive": { "message": "udvidelse aktiv" },
   "about_author": { "message": "Forfatter" },
   "about_and": { "message": "og" },
   "about_contributors": { "message": "bidragydere" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Opdatér" },
   "btnLabel_dismiss": { "message": "Afvis" },
   "link_viewChanges": { "message": "Se ændringer" },
+  "state_disabled": { "message": "deaktiveret" },
   "state_on": { "message": "til" },
   "state_off": { "message": "slukket" }
 }

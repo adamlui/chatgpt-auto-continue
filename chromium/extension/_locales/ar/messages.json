@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "إشعارات الوضع" },
   "menuLabel_about": { "message": "عن وزارة الثقافة" },
   "menuLabel_donate": { "message": "يرجى إرسال تبرع" },
+  "menuLabel_extensionActive": { "message": "الامتداد نشط" },
   "about_author": { "message": "مؤلف" },
   "about_and": { "message": "و" },
   "about_contributors": { "message": "ساهموا" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "تحديث" },
   "btnLabel_dismiss": { "message": "إغلاق" },
   "link_viewChanges": { "message": "عرض سجل التغييرات" },
+  "state_disabled": { "message": "معطّل" },
   "state_on": { "message": "على" },
   "state_off": { "message": "إيقاف التشغيل" }
 }

@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Dikitsiso tsa Mode" },
   "menuLabel_about": { "message": "Kaga" },
   "menuLabel_donate": { "message": "Ke kopa gore o romele moneelo" },
+  "menuLabel_extensionActive": { "message": "katoloso e dira ka natla" },
   "about_author": { "message": "Mokwadi" },
   "about_and": { "message": "le" },
   "about_contributors": { "message": "bakgatlhegedi" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Ntshwafatso" },
   "btnLabel_dismiss": { "message": "TLOGELA" },
   "link_viewChanges": { "message": "Leba diphetogo" },
+  "state_disabled": { "message": "golafetse" },
   "state_on": { "message": "mo" },
   "state_off": { "message": "tswa go" }
 }

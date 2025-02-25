@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Tilailmoitukset" },
   "menuLabel_about": { "message": "Tietoa" },
   "menuLabel_donate": { "message": "Lähetä lahjoitus" },
+  "menuLabel_extensionActive": { "message": "laajennus aktiivinen" },
   "about_author": { "message": "Tekijä" },
   "about_and": { "message": "ja" },
   "about_contributors": { "message": "tuottajat" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Päivitä" },
   "btnLabel_dismiss": { "message": "Hylkää" },
   "link_viewChanges": { "message": "Näytä muutokset" },
+  "state_disabled": { "message": "pois käytöstä" },
   "state_on": { "message": "aktiivinen" },
   "state_off": { "message": "pois" }
 }

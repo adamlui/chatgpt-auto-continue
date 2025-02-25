@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Mode Notifications" },
   "menuLabel_about": { "message": "Nezvedu" },
   "menuLabel_donate": { "message": "Ndapota tumira mupiro" },
+  "menuLabel_extensionActive": { "message": "chiwedzerwa chinoshanda" },
   "about_author": { "message": "Munyori" },
   "about_and": { "message": "uye" },
   "about_contributors": { "message": "zVINOKOSHA" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Kugadziridza" },
   "btnLabel_dismiss": { "message": "Dzinga" },
   "link_viewChanges": { "message": "Vonanyi cinjo" },
+  "state_disabled": { "message": "chakaremara" },
   "state_on": { "message": "pamusoro" },
   "state_off": { "message": "kure" }
 }

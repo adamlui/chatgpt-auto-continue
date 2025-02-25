@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "התראות מצב" },
   "menuLabel_about": { "message": "אודות" },
   "menuLabel_donate": { "message": "יש לשלוח תרומה" },
+  "menuLabel_extensionActive": { "message": "תוסף פעיל" },
   "about_author": { "message": "מחבר" },
   "about_and": { "message": "ו" },
   "about_contributors": { "message": "תורמים" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "עדכון" },
   "btnLabel_dismiss": { "message": "שחרור" },
   "link_viewChanges": { "message": "הצגת השינויים" },
+  "state_disabled": { "message": "מושבת" },
   "state_on": { "message": "ב" },
   "state_off": { "message": "כבוי" }
 }

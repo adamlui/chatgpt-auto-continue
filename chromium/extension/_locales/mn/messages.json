@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Горимын мэдэгдэл" },
   "menuLabel_about": { "message": "Бидний тухай" },
   "menuLabel_donate": { "message": "Хандив илгээнэ үү" },
+  "menuLabel_extensionActive": { "message": "өргөтгөл идэвхтэй" },
   "about_author": { "message": "Зохиогч" },
   "about_and": { "message": "болон" },
   "about_contributors": { "message": "ᠲᠤᠰᠠᠯᠠᠭᠴᠢᠳ" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Шинэчлэх" },
   "btnLabel_dismiss": { "message": "Дуусах" },
   "link_viewChanges": { "message": "Өөрчлөлтүүдийг харах" },
+  "state_disabled": { "message": "Идэвхгүй" },
   "state_on": { "message": "дээр" },
   "state_off": { "message": "Унт" }
 }

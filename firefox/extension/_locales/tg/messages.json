@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Огоҳинома дар бораи ҳолат" },
   "menuLabel_about": { "message": "Дар бораи" },
   "menuLabel_donate": { "message": "Mangyaring magpadala ng isang pagpap" },
+  "menuLabel_extensionActive": { "message": "васеъшавӣ фаъол аст" },
   "about_author": { "message": "Муаалиф" },
   "about_and": { "message": "ва" },
   "about_contributors": { "message": "саҳмгузорон" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Навсозӣ кардан" },
   "btnLabel_dismiss": { "message": "Рад кардан" },
   "link_viewChanges": { "message": "Tingnan ang mga pagbabago" },
+  "state_disabled": { "message": "хомӯш аст" },
   "state_on": { "message": "фаъол" },
   "state_off": { "message": "ғайри фаъол" }
 }

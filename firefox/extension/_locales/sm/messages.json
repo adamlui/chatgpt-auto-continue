@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "FA'AMATALAGA FA'AMATALAGA" },
   "menuLabel_about": { "message": "E uiga i" },
   "menuLabel_donate": { "message": "Faamolemole auina atu se foaʻi" },
+  "menuLabel_extensionActive": { "message": "faalauteleina o Galuega Faatino" },
   "about_author": { "message": "Tusitala" },
   "about_and": { "message": "ma" },
   "about_contributors": { "message": "saofaga" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Fa'afouga" },
   "btnLabel_dismiss": { "message": "Dismiss" },
   "link_viewChanges": { "message": "Vaʻai suiga" },
+  "state_disabled": { "message": "faaletonu" },
   "state_on": { "message": "i luga o" },
   "state_off": { "message": "ALU" }
 }

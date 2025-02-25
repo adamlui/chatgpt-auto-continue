@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Уведомления о режиме" },
   "menuLabel_about": { "message": "Шифр" },
   "menuLabel_donate": { "message": "Пожалуйста, отправьте пожертвование" },
+  "menuLabel_extensionActive": { "message": "Расширение SOAP активно." },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "и" },
   "about_contributors": { "message": "участников" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Обновить" },
   "btnLabel_dismiss": { "message": "Пропустить" },
   "link_viewChanges": { "message": "Просмотреть изменения" },
+  "state_disabled": { "message": "отключено" },
   "state_on": { "message": "вкл" },
   "state_off": { "message": "выключенный" }
 }

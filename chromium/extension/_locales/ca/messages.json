@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Notificacions de mode" },
   "menuLabel_about": { "message": "Quant a" },
   "menuLabel_donate": { "message": "Envia una donació" },
+  "menuLabel_extensionActive": { "message": "extensió activa" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "i" },
   "about_contributors": { "message": "Col·laboradors" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Actualització" },
   "btnLabel_dismiss": { "message": "Descarta" },
   "link_viewChanges": { "message": "Mostra els canvis" },
+  "state_disabled": { "message": "inhabilitat" },
   "state_on": { "message": "activat" },
   "state_off": { "message": "apagat" }
 }

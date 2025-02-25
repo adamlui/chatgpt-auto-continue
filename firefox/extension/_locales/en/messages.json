@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Mode Notifications" },
   "menuLabel_about": { "message": "About" },
   "menuLabel_donate": { "message": "Please send a donation" },
+  "menuLabel_extensionActive": { "message": "extension active" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contributors" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Update" },
   "btnLabel_dismiss": { "message": "Dismiss" },
   "link_viewChanges": { "message": "View changes" },
+  "state_disabled": { "message": "disabled" },
   "state_on": { "message": "on" },
   "state_off": { "message": "off" }
 }

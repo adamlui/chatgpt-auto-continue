@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Режим хабарландырулары" },
   "menuLabel_about": { "message": "Туралы" },
   "menuLabel_donate": { "message": "Қайырымдылық жасауыңызды сұраймыз" },
+  "menuLabel_extensionActive": { "message": "белсенді кеңейтім" },
   "about_author": { "message": "Авторы" },
   "about_and": { "message": "және " },
   "about_contributors": { "message": "Қатысушылар" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Жаңарту" },
   "btnLabel_dismiss": { "message": "Жұмыстан шығару" },
   "link_viewChanges": { "message": "Өзгерістерді көру" },
+  "state_disabled": { "message": "рұқсат етілмеген" },
   "state_on": { "message": "қосулы" },
   "state_off": { "message": "өшірулі" }
 }

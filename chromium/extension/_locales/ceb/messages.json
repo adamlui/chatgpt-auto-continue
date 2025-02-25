@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Mga Notipikasyon sa Mode" },
   "menuLabel_about": { "message": "Mahitungod" },
   "menuLabel_donate": { "message": "Palihug ipadala ang usa ka donasyon" },
+  "menuLabel_extensionActive": { "message": "aktibo ang extension" },
   "about_author": { "message": "Awtor" },
   "about_and": { "message": "og " },
   "about_contributors": { "message": "MGA KONTRIBUTOR" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "I-update" },
   "btnLabel_dismiss": { "message": "I-dismiss" },
   "link_viewChanges": { "message": "Tan-awa ang mga kausaban" },
+  "state_disabled": { "message": "Baldado" },
   "state_on": { "message": "sa on" },
   "state_off": { "message": "off" }
 }

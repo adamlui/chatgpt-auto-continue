@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Lägesaviseringar" },
   "menuLabel_about": { "message": "Om" },
   "menuLabel_donate": { "message": "Vänligen skicka en donation" },
+  "menuLabel_extensionActive": { "message": "SOAP Extension aktiv." },
   "about_author": { "message": "Författare" },
   "about_and": { "message": "och" },
   "about_contributors": { "message": "bidragsgivare" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Uppdatera" },
   "btnLabel_dismiss": { "message": "Avfärda" },
   "link_viewChanges": { "message": "Visa ändringar" },
+  "state_disabled": { "message": "inaktiverad" },
   "state_on": { "message": "på" },
   "state_off": { "message": "av" }
 }

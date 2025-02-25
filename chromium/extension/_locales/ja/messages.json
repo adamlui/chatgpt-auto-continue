@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "モード通知" },
   "menuLabel_about": { "message": "詳細" },
   "menuLabel_donate": { "message": "寄付を送ってください" },
+  "menuLabel_extensionActive": { "message": "有効な内線番号" },
   "about_author": { "message": "作成者" },
   "about_and": { "message": "と" },
   "about_contributors": { "message": "contributors" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "更新情報" },
   "btnLabel_dismiss": { "message": "解散" },
   "link_viewChanges": { "message": "変更を表示" },
+  "state_disabled": { "message": "無効" },
   "state_on": { "message": "の上" },
   "state_off": { "message": "オフ" }
 }

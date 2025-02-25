@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "모드 알림" },
   "menuLabel_about": { "message": "소개" },
   "menuLabel_donate": { "message": "기부금을 보내주세요" },
+  "menuLabel_extensionActive": { "message": "확장 활성" },
   "about_author": { "message": "작성자" },
   "about_and": { "message": "및" },
   "about_contributors": { "message": "참여자" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "업데이트" },
   "btnLabel_dismiss": { "message": "무시하기" },
   "link_viewChanges": { "message": "변경 보기" },
+  "state_disabled": { "message": "비활성화됨" },
   "state_on": { "message": "게시일" },
   "state_off": { "message": "끄기" }
 }

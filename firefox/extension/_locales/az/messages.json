@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Rejim Bildirişləri" },
   "menuLabel_about": { "message": "Haqqında" },
   "menuLabel_donate": { "message": "İanə göndərin" },
+  "menuLabel_extensionActive": { "message": "uzatma aktivdir" },
   "about_author": { "message": "Müəllif" },
   "about_and": { "message": "və " },
   "about_contributors": { "message": "Dəstəkçilər" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Yenilə" },
   "btnLabel_dismiss": { "message": "Bağla" },
   "link_viewChanges": { "message": "Dəyişikliklərə bax" },
+  "state_disabled": { "message": "kilitlidir" },
   "state_on": { "message": "yandır" },
   "state_off": { "message": "getmək" }
 }

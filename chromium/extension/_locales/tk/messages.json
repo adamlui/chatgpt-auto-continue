@@ -6,6 +6,7 @@
   "menuLabel_modeNotifs": { "message": "Mod bildirişleri" },
   "menuLabel_about": { "message": "Barada" },
   "menuLabel_donate": { "message": "Bize sowgat iber" },
+  "menuLabel_extensionActive": { "message": "uzynlyk aktiv" },
   "about_author": { "message": "Otomatik gaýşart" },
   "about_and": { "message": "we" },
   "about_contributors": { "message": "öwrenýänler" },
@@ -41,6 +42,7 @@
   "btnLabel_update": { "message": "Täzele" },
   "btnLabel_dismiss": { "message": "Dismiss" },
   "link_viewChanges": { "message": "Özgertmeleri Gör" },
+  "state_disabled": { "message": "Mümkin edigili" },
   "state_on": { "message": "% jeminden" },
   "state_off": { "message": "çyk" }
 }
