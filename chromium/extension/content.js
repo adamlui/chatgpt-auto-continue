@@ -3,8 +3,7 @@
 
 (async () => {
 
-    document.documentElement.setAttribute( // for userscript auto-disable
-        'chatgpt-auto-continue-extension-installed', true)
+    sessionStorage.chatgptAutoContinueExtensionActive = 'true' // for userscript auto-disable
 
     // Import JS resources
     for (const resource of ['components/modals.js', 'lib/chatgpt.js', 'lib/dom.js', 'lib/settings.js'])
