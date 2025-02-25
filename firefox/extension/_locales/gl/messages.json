@@ -6,7 +6,6 @@
   "menuLabel_modeNotifs": { "message": "Notificacións de modo" },
   "menuLabel_about": { "message": "Acerca de" },
   "menuLabel_donate": { "message": "Por favor, envíe unha doazón" },
-  "menuLabel_disabled": { "message": "Disabled (extensión instalada)" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "y" },
   "about_contributors": { "message": "colaboradores" },

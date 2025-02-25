@@ -6,7 +6,6 @@
   "menuLabel_modeNotifs": { "message": "Известия в режим" },
   "menuLabel_about": { "message": "Относно" },
   "menuLabel_donate": { "message": "Моля, изпратете дарение" },
-  "menuLabel_disabled": { "message": "Деактивирано (инсталирано разширение)" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "и" },
   "about_contributors": { "message": "Сътрудници" },

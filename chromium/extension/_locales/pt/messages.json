@@ -6,7 +6,6 @@
   "menuLabel_modeNotifs": { "message": "Notificações de modo" },
   "menuLabel_about": { "message": "Quem somos" },
   "menuLabel_donate": { "message": "Envie um donativo" },
-  "menuLabel_disabled": { "message": "Desativado (extensão instalada)" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "e" },
   "about_contributors": { "message": "colaboradores" },

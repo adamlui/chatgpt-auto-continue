@@ -6,7 +6,6 @@
   "menuLabel_modeNotifs": { "message": "Уведомления о режиме" },
   "menuLabel_about": { "message": "Шифр" },
   "menuLabel_donate": { "message": "Пожалуйста, отправьте пожертвование" },
-  "menuLabel_disabled": { "message": "Отключено (расширение установлено)" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "и" },
   "about_contributors": { "message": "участников" },

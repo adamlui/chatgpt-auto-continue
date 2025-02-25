@@ -6,7 +6,6 @@
   "menuLabel_modeNotifs": { "message": "Režīma paziņojumi" },
   "menuLabel_about": { "message": "Par produktu" },
   "menuLabel_donate": { "message": "Lūdzu, nosūtiet ziedojumu" },
-  "menuLabel_disabled": { "message": "Atspējots (paplašinājums instalēts)" },
   "about_author": { "message": "Autors" },
   "about_and": { "message": "un" },
   "about_contributors": { "message": "Numura autori" },
