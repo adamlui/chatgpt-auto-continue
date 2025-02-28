@@ -29,7 +29,7 @@ window.settings = {
             )
         else // asynchronously load from browser extension storage
             return Promise.all(keys.map(async key => // resolve promise when all keys load
-                window.config[key] = (await chrome.storage.local.get(key))[key]
+                config[key] = (await chrome.storage.local.get(key))[key]
                     ?? this.controls[key]?.defaultVal ?? this.controls[key]?.type == 'toggle'
             ))
     },
@@ -39,6 +39,6 @@ window.settings = {
             GM_setValue(`${this.imports.app.configKeyPrefix}_${key}`, val)
         else // save to browser extension storage
             chrome.storage.local.set({ [key]: val })
-        window.config[key] = val // save to memory
+        config[key] = val // save to memory
     }
 };
