@@ -12,7 +12,7 @@
   "about_contributors": { "message": "přispěvatelé" },
   "about_version": { "message": "Verze" },
   "about_poweredBy": { "message": "Běží na" },
-  "about_openSourceCode": { "message": "Otevřený zdrojový kód. " },
+  "about_openSourceCode": { "message": "Otevřený zdrojový kód." },
   "mode_autoContinue": { "message": "Pokračovat automaticky" },
   "helptip_autoScroll": { "message": "Automaticky sjeďte dolů při generování odpovědí" },
   "helptip_modeNotifs": { "message": "Zobrazit oznámení při přepínání režimů/nastavení" },

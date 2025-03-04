@@ -17,7 +17,7 @@
   "helptip_autoScroll": { "message": "גלול לתחתית באופן אוטומטי כשהתשובות נוצרות" },
   "helptip_modeNotifs": { "message": "הצג התראות בעת החלפת מצבים/הגדרות" },
   "alert_updateAvail": { "message": "עדכון זמין" },
-  "alert_newerVer": { "message": "עדכון ל -" },
+  "alert_newerVer": { "message": "עדכון ל" },
   "alert_isAvail": { "message": "%s זמין" },
   "alert_upToDate": { "message": "מעודכן" },
   "alert_isUpToDate": { "message": "מעודכן" },
