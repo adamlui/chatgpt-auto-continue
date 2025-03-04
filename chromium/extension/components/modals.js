@@ -58,8 +58,7 @@ window.modals = {
 
             // Replace link buttons w/ clones that don't dismiss modal
             if (/support|rate|discuss|extensions/i.test(btn.textContent)) {
-                const btnClone = btn.cloneNode(true)
-                btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
+                btn.replaceWith(btn = btn.cloneNode(true))
                 btn.onclick = () => this.safeWinOpen(
                     btn.textContent.includes(this.getMsg('btnLabel_getSupport')) ? this.imports.app.urls.support
                   : btn.textContent.includes(this.getMsg('btnLabel_rateUs')) ? this.imports.app.urls.review[
@@ -131,8 +130,7 @@ window.modals = {
 
             // Replace link buttons w/ clones that don't dismiss modal
             if (!/dismiss/i.test(btn.textContent)) {
-                const btnClone = btn.cloneNode(true)
-                btn.parentNode.replaceChild(btnClone, btn) ; btn = btnClone
+                btn.replaceWith(btn = btn.cloneNode(true))
                 btn.onclick = () => this.safeWinOpen(this.imports.app.urls.donate[
                     btn.textContent == 'Cash App' ? 'cashApp'
                   : btn.textContent == 'Github Sponsors' ? 'gitHub' : 'payPal'
