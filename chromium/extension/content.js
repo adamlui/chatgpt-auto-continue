@@ -95,7 +95,7 @@
 
     function getScheme() {
         return document.documentElement.className
-            || window.matchMedia?.('(prefers-color-scheme: dark)')?.matches ? 'dark' : 'light'
+          || ( window.matchMedia?.('(prefers-color-scheme: dark)')?.matches ? 'dark' : 'light' )
     }
 
     // Run MAIN routine
