@@ -1,5 +1,3 @@
-const chatgptURL = 'https://chatgpt.com/'
-
 // Launch WELCOME PAGE on install
 chrome.runtime.onInstalled.addListener(details => {
     if (details.reason == 'install') // to exclude updates
@@ -15,7 +13,7 @@ chrome.runtime.onMessage.addListener(async req => {
     if (req.action == 'showAbout') {
         const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true })
         const chatgptTab = new URL(activeTab.url).hostname == 'chatgpt.com' ? activeTab
-            : await chrome.tabs.create({ url: chatgptURL })
+            : await chrome.tabs.create({ url: 'https://chatgpt.com/' })
         if (activeTab != chatgptTab) await new Promise(resolve => // after new tab loads
             chrome.tabs.onUpdated.addListener(function loadedListener(tabId, changeInfo) {
                 if (tabId == chatgptTab.id && changeInfo.status == 'complete') {
