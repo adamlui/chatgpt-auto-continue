@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT 자동 계속" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "여러 ChatGPT 응답 자동 생성 계속" },
+  "appDesc": { "message": "ChatGPT 응답이 차단되면 자동으로 답변 생성 계속" },
   "menuLabel_autoScroll": { "message": "자동스크롤" },
   "menuLabel_modeNotifs": { "message": "모드 알림" },
   "menuLabel_about": { "message": "소개" },

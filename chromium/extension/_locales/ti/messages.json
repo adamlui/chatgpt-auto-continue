@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ብገዛእ ርእሱ ብዙሕ መልሲ ChatGPT ምፍጣር ይቕጽል" },
+  "appDesc": { "message": "መልሲ ChatGPT ምስ ተቛረጸ ፡ ብገዛእ ርእሱ መልሲ ምፍጣር ይቕጽል" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "ናይ ሞድ ኣፍልጦታት" },
   "menuLabel_about": { "message": "ብዛዕባ" },

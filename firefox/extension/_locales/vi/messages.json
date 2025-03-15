@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Tự động Tiếp tục" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Tự động tiếp tục tạo nhiều phản hồi ChatGPT" },
+  "appDesc": { "message": "Tự động tiếp tục tạo câu trả lời khi câu trả lời của ChatGPT bị cắt" },
   "menuLabel_autoScroll": { "message": "Tự động cuộn" },
   "menuLabel_modeNotifs": { "message": "Thông báo chế độ" },
   "menuLabel_about": { "message": "Giới thiệu" },

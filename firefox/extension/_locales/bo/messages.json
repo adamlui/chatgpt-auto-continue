@@ -1,7 +1,7 @@
 {
   "appName": { "message": "རང་འགུལ་གྱི་གླེང་མོལ །" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "རང་བཞིན་གྱིས་ChatGPT ལན་འདེབས་མང་པོ་བསྒྲུབས་རྒྱུ་མུ་མཐུད་བྱེད །" },
+  "appDesc": { "message": "ChatGPT ལན་འདེབས་ཆད་པའི་སྐབས་རང་བཞིན ། ལན་འདེབས་བཟོ་བཞིན་མུ་མཐུད་བྱེད །" },
   "menuLabel_autoScroll": { "message": "རང་འགུལ་ལྟ་ཀློག" },
   "menuLabel_modeNotifs": { "message": "བཟོ་རྣམ་བརྡ་སྤྲོད་" },
   "menuLabel_about": { "message": "མྱུར་ཨང་སྐོར།" },

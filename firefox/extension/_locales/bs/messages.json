@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Automatski nastavi chatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Automatski nastavite generisati više ChatGPT odgovora" },
+  "appDesc": { "message": "Automatski nastavite generisati odgovore kada se odgovori ChatGPT-a isključe" },
   "menuLabel_autoScroll": { "message": "Automatsko pomjeranje" },
   "menuLabel_modeNotifs": { "message": "Obavještenja o režimu" },
   "menuLabel_about": { "message": "O nama" },

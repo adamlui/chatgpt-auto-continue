@@ -1,7 +1,7 @@
 {
   "appName": { "message": "I-ChatGPT Iyaqhubeka Ngokuzenzakalelayo" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Qhubeka nokukhiqiza ngokuzenzakalelayo izimpendulo eziningi ze-ChatGPT" },
+  "appDesc": { "message": "Qhubeka nokukhiqiza izimpendulo ngokuzenzakalelayo lapho izimpendulo ze-ChatGPT zinqanyulwa" },
   "menuLabel_autoScroll": { "message": "I-Scroll Ezenzakalelayo" },
   "menuLabel_modeNotifs": { "message": "Izaziso Zendlela" },
   "menuLabel_about": { "message": "Mayelana" },

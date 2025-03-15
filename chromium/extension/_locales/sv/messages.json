@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Fortsätt automatiskt att generera flera ChatGPT-svar" },
+  "appDesc": { "message": "Fortsätt automatiskt att generera svar när ChatGPT-svar får cut-off" },
   "menuLabel_autoScroll": { "message": "Automatisk rullning" },
   "menuLabel_modeNotifs": { "message": "Lägesaviseringar" },
   "menuLabel_about": { "message": "Om" },

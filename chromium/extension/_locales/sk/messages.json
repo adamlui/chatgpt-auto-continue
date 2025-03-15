@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Automaticky pokračovať v generovaní viacerých odpovedí ChatGPT" },
+  "appDesc": { "message": "Automaticky pokračovať v generovaní odpovedí, keď sa odpovede ChatGPT ukončia" },
   "menuLabel_autoScroll": { "message": "Automatické posúvanie" },
   "menuLabel_modeNotifs": { "message": "Upozornenia režimu" },
   "menuLabel_about": { "message": "O nás" },

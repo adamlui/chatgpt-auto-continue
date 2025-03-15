@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT ऑटो - कंटिन्यू" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "कई ChatGPT प्रतिक्रियाओं को स्वचालित रूप से जनरेट करना जारी रखें" },
+  "appDesc": { "message": "ChatGPT प्रतिक्रियाओं के कट - ऑफ होने पर स्वचालित रूप से उत्तर उत्पन्न करना जारी रखें" },
   "menuLabel_autoScroll": { "message": "ऑटो - स्क्रॉल" },
   "menuLabel_modeNotifs": { "message": "मोड नोटिफ़िकेशन" },
   "menuLabel_about": { "message": "परिचय" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Бірнеше ChatGPT жауаптарын құруды автоматты түрде жалғастырыңыз" },
+  "appDesc": { "message": "ChatGPT жауаптары үзілген кезде жауаптарды құруды автоматты түрде жалғастырыңыз" },
   "menuLabel_autoScroll": { "message": "Автоматты түрде тіркеу" },
   "menuLabel_modeNotifs": { "message": "Режим хабарландырулары" },
   "menuLabel_about": { "message": "Туралы" },

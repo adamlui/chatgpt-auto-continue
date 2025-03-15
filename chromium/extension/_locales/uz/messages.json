@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Avtomatik Davom etish" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Avtomatik ravishda bir nechta ChatGPT javoblarini yaratishda davom eting" },
+  "appDesc": { "message": "ChatGPT javoblari uzilib qolganda, avtomatik ravishda javoblar yaratishda davom eting" },
   "menuLabel_autoScroll": { "message": "Avtomatik aylantirish" },
   "menuLabel_modeNotifs": { "message": "Rejim bildirishnomalari" },
   "menuLabel_about": { "message": "Qisqacha ma'lumot" },

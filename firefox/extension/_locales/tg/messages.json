@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ЧатGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Awtomatikong magpatuloy ng maramihang mga tugon sa ChatGPT" },
+  "appDesc": { "message": "Awtomatikong magpatuloy ng mga tugon kapag nakakuha ng mga tugon sa ChatGPT" },
   "menuLabel_autoScroll": { "message": "Ҳаракати худкор" },
   "menuLabel_modeNotifs": { "message": "Огоҳинома дар бораи ҳолат" },
   "menuLabel_about": { "message": "Дар бораи" },

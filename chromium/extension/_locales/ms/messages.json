@@ -1,7 +1,7 @@
 {
   "appName": { "message": "SembangGPT Auto-Teruskan" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Teruskan menjana berbilang jawapan ChatGPT secara automatik" },
+  "appDesc": { "message": "Teruskan menjana jawapan secara automatik apabila jawapan ChatGPT mendapat had" },
   "menuLabel_autoScroll": { "message": "Tatal Sendiri" },
   "menuLabel_modeNotifs": { "message": "Pemberitahuan Mod" },
   "menuLabel_about": { "message": "Tentang" },

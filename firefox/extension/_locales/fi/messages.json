@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Jatka automaattisesti useiden ChatGPT-vastausten luomista" },
+  "appDesc": { "message": "Jatka vastausten luomista automaattisesti, kun ChatGPT-vastausten määräaika umpeutuu" },
   "menuLabel_autoScroll": { "message": "Autom. vieritys" },
   "menuLabel_modeNotifs": { "message": "Tilailmoitukset" },
   "menuLabel_about": { "message": "Tietoa" },

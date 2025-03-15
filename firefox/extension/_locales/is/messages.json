@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT sjálfvirkt framhald" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Halda sjálfkrafa áfram að búa til mörg svör við ChatGPT" },
+  "appDesc": { "message": "Haltu sjálfkrafa áfram að búa til svör þegar svör ChatGPT verða útilokuð" },
   "menuLabel_autoScroll": { "message": "Sjálfvirk fletting" },
   "menuLabel_modeNotifs": { "message": "Tilkynningar um ham" },
   "menuLabel_about": { "message": "Um" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT സ്വയമേവ തുടരുക" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ഒന്നിലധികം ChatGPT പ്രതികരണങ്ങൾ സ്വപ്രേരിതമായി സൃഷ്ടിക്കുന്നത് തുടരുക" },
+  "appDesc": { "message": "ChatGPT പ്രതികരണങ്ങൾ കട്ട്-ഓഫ് ചെയ്യുമ്പോൾ ഉത്തരങ്ങൾ സ്വപ്രേരിതമായി സൃഷ്ടിക്കുന്നത് തുടരുക" },
   "menuLabel_autoScroll": { "message": "ഓട്ടോ-സ്ക്രോൾ" },
   "menuLabel_modeNotifs": { "message": "മോഡ് അറിയിപ്പുകൾ" },
   "menuLabel_about": { "message": "സംബന്ധിച്ച്" },

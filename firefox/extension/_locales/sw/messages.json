@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Endelea Kiotomatiki" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Endelea kutoa majibu mengi ya ChatGPT kiotomatiki" },
+  "appDesc": { "message": "Endelea kutoa majibu kiotomatiki wakati majibu ya ChatGPT yanapokatwa" },
   "menuLabel_autoScroll": { "message": "Skrola Kiotomatiki" },
   "menuLabel_modeNotifs": { "message": "Arifa za Hali" },
   "menuLabel_about": { "message": "Kuhusu" },

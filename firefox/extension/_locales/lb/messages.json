@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Automatesch weider Multiple ChatGPT Äntwerten generéieren" },
+  "appDesc": { "message": "Automatesch weider Äntwerten generéieren wann ChatGPT Äntwerten ofgeschnidden ginn" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "Modus-Noriichten" },
   "menuLabel_about": { "message": "Iwwer Qt" },

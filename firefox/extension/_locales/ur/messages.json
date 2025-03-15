@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT خودکار طور پر جاری رکھیں" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "خود بخود متعدد ChatGPT جوابات جنریٹ کرنا جاری رکھیں" },
+  "appDesc": { "message": "جب چیٹ جی پی ٹی کے جوابات منقطع ہو جائیں تو خود بخود جوابات جنریٹ کرنا جاری رکھیں" },
   "menuLabel_autoScroll": { "message": "خود بخود اسکرول کریں" },
   "menuLabel_modeNotifs": { "message": "موڈ نوٹیفکیشنز" },
   "menuLabel_about": { "message": "متعلق" },

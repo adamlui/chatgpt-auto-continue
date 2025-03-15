@@ -1,7 +1,7 @@
 {
   "appName": { "message": "چیټGPT اتومات زنګ وهل" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "په اوتومات ډول د ګڼو ChatGPT ځوابونو تولیدولو ته دوام ورکړئ" },
+  "appDesc": { "message": "په اوتومات ډول د ځوابونو تولید ته دوام ورکړئ کله چې د ChatGPT ځوابونه پرې کیږي" },
   "menuLabel_autoScroll": { "message": "اتومات سمول" },
   "menuLabel_modeNotifs": { "message": "د حالت خبرتیاوې" },
   "menuLabel_about": { "message": "په هکله" },

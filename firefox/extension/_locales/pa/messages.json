@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ਗੱਲਬਾਤ ਜੀਪੀਟੀ ਆਟੋ- ਜਾਰੀ ਰੱਖੋ" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ਆਟੋਮੈਟਿਕ ਕਈ ਚੈਟਜੀਪੀਟੀ ਜਵਾਬ ਤਿਆਰ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ" },
+  "appDesc": { "message": "ਜਦੋਂ ਚੈਟਜੀਪੀਟੀ ਦੇ ਜਵਾਬ ਕੱਟ-ਆਫ ਹੋਣ ਤਾਂ ਆਟੋਮੈਟਿਕ ਜਵਾਬ ਤਿਆਰ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ" },
   "menuLabel_autoScroll": { "message": "Auto rolagem" },
   "menuLabel_modeNotifs": { "message": "ਮੋਡ ਨੋਟੀਫਿਕੇਸ਼ਨ" },
   "menuLabel_about": { "message": "ਇਸ ਬਾਰੇ" },

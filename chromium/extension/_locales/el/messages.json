@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Αυτόματη συνέχιση ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Συνεχίστε να δημιουργείτε αυτόματα πολλές απαντήσεις ChatGPT" },
+  "appDesc": { "message": "Συνεχίστε να δημιουργείτε αυτόματα απαντήσεις όταν διακόπτονται οι απαντήσεις ChatGPT" },
   "menuLabel_autoScroll": { "message": "Αυτόματη κύλιση" },
   "menuLabel_modeNotifs": { "message": "Ειδοποιήσεις λειτουργίας" },
   "menuLabel_about": { "message": "Σχετικά" },

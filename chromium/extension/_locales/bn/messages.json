@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT অটো-কন্টিনিউ" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "স্বয়ংক্রিয়ভাবে একাধিক ChatGPT প্রতিক্রিয়া তৈরি করা চালিয়ে যান" },
+  "appDesc": { "message": "চ্যাটজিপিটি প্রতিক্রিয়াগুলি কাট-অফ হয়ে গেলে স্বয়ংক্রিয়ভাবে উত্তর তৈরি করা চালিয়ে যান" },
   "menuLabel_autoScroll": { "message": "অটো স্ক্রল" },
   "menuLabel_modeNotifs": { "message": "মোড বিজ্ঞপ্তি" },
   "menuLabel_about": { "message": "সম্বন্ধে" },

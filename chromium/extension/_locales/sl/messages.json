@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Samodejno nadaljevanje klepetaGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Samodejno nadaljujte z ustvarjanjem več odzivov ChatGPT" },
+  "appDesc": { "message": "Samodejno nadaljujte z ustvarjanjem odgovorov, ko se odgovori ChatGPT prekinejo" },
   "menuLabel_autoScroll": { "message": "Samodejno drsenje" },
   "menuLabel_modeNotifs": { "message": "Obvestila o načinu" },
   "menuLabel_about": { "message": "Vizitka" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Continuare automată ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Continuați automat să generați mai multe răspunsuri ChatGPT" },
+  "appDesc": { "message": "Continuați automat să generați răspunsuri atunci când răspunsurile ChatGPT sunt întrerupte" },
   "menuLabel_autoScroll": { "message": "Derulare automată" },
   "menuLabel_modeNotifs": { "message": "Notificări mod" },
   "menuLabel_about": { "message": "Despre" },

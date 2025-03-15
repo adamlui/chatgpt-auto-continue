@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT အော်တို-ဆက်ရန်" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ChatGPT တုံ့ပြန်ချက်များ အလိုအလျောက် အစဉ်လိုက် ဖန်တီးရန် ဆက်လုပ်ပါ" },
+  "appDesc": { "message": "ChatGPT တုံ့ပြန်မှုများ ပြတ်တောက်သွားသည့်အခါ အဖြေများကို အလိုအလျောက် ဆက်လက်ထုတ်ယူပါ" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "မုဒ် အသိပေးချက်များ" },
   "menuLabel_about": { "message": "အကြောင်း" },

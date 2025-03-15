@@ -1,7 +1,7 @@
 {
   "appName": { "message": "NAME OF TRANSLATORS" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Aŭtomate daŭrigi generi multoblajn ChatGPT- respondojn" },
+  "appDesc": { "message": "Aŭtomate daŭrigi generi respondojn kiam ChatGPT-respondoj ĉesas" },
   "menuLabel_autoScroll": { "message": "Aŭtomate rulumi" },
   "menuLabel_modeNotifs": { "message": "Modusaj sciigoj" },
   "menuLabel_about": { "message": "Alproksimigas" },

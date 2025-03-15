@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Otomatik Devam" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Birden fazla ChatGPT yanıtı oluşturmaya otomatik olarak devam edin" },
+  "appDesc": { "message": "ChatGPT yanıtları kesildiğinde otomatik olarak yanıt oluşturmaya devam edin" },
   "menuLabel_autoScroll": { "message": "Otomatik kaydırma" },
   "menuLabel_modeNotifs": { "message": "Mod Bildirimleri" },
   "menuLabel_about": { "message": "Hakkımızda" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT automatikoki jarraitu" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Jarraitu automatikoki ChatGPT erantzun ugari sortzen" },
+  "appDesc": { "message": "Jarraitu automatikoki erantzunak sortzen ChatGPT erantzunak mozten direnean" },
   "menuLabel_autoScroll": { "message": "Korritu automatikoki" },
   "menuLabel_modeNotifs": { "message": "Moduaren jakinarazpenak" },
   "menuLabel_about": { "message": "Egileari Buruz" },

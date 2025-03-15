@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT આપોઆપ- ચાલુ રાખો" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "આપમેળે બહુવિધ ChatGPT જવાબો જનરેટ કરવાનું ચાલુ રાખો" },
+  "appDesc": { "message": "જ્યારે ChatGPT જવાબો કાપી નાખવામાં આવે ત્યારે આપમેળે જવાબો જનરેટ કરવાનું ચાલુ રાખો" },
   "menuLabel_autoScroll": { "message": "સ્વયં સ્ક્રોલ" },
   "menuLabel_modeNotifs": { "message": "મોડ સૂચનાઓ" },
   "menuLabel_about": { "message": "માહિતી" },

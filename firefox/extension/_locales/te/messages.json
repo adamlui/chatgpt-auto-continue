@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT స్వయంచాలకంగా కొనసాగించండి" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "బహుళ ChatGPT ప్రతిస్పందనలను స్వయంచాలకంగా ఉత్పత్తి చేయడం కొనసాగించండి" },
+  "appDesc": { "message": "ChatGPT ప్రతిస్పందనలు కట్-ఆఫ్ అయినప్పుడు సమాధానాలను స్వయంచాలకంగా ఉత్పత్తి చేయడం కొనసాగించండి" },
   "menuLabel_autoScroll": { "message": "ఆటో-స్క్రోల్" },
   "menuLabel_modeNotifs": { "message": "మోడ్ నోటిఫికేషన్ ‌ లు" },
   "menuLabel_about": { "message": "గురించి" },

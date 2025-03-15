@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ޗެޓްޖީޕީޓީ އޮޓޯ-ކޮންޓިނިއު" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "އޮޓޮމެޓިކުން ގިނަ ޗެޓްޖީޕީޓީ ރެސްޕޮންސްތައް އުފައްދަމުން ގެންދިއުން" },
+  "appDesc": { "message": "ޗެޓްޖީޕީޓީގެ ޖަވާބުތައް ކަނޑާލުމުން އޮޓޮމެޓިކުން ޖަވާބުތައް ޖެނެރޭޓް ކުރަމުން ގެންދާށެވެ" },
   "menuLabel_autoScroll": { "message": "އޮޓޯ ސްކްރޯލް ކޮށްލާށެވެ" },
   "menuLabel_modeNotifs": { "message": "މޯޑް ނޮޓިފިކޭޝަންސް" },
   "menuLabel_about": { "message": "މިއާއި ބެހޭ" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Otomatikman kontinye jenere plizyè repons ChatGPT" },
+  "appDesc": { "message": "Otomatikman kontinye jenere repons lè repons ChatGPT jwenn koupe-off" },
   "menuLabel_autoScroll": { "message": "Otomatik" },
   "menuLabel_modeNotifs": { "message": "Notifikasyon Mòd" },
   "menuLabel_about": { "message": "Apwopo" },

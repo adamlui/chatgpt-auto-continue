@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Tswelela pele ka go dira dikarabo tse dintsi tsa ChatGPT ka go itirisa" },
+  "appDesc": { "message": "Tswelela pele ka go dira dikarabo ka go itirisa fa dikarabo tsa ChatGPT di kgaolwa" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "Dikitsiso tsa Mode" },
   "menuLabel_about": { "message": "Kaga" },

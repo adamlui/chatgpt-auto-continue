@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Continua automàticament amb el ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Continuar generant automàticament diverses respostes de ChatGPT" },
+  "appDesc": { "message": "Continuar generant respostes automàticament quan es tallin les respostes de ChatGPT" },
   "menuLabel_autoScroll": { "message": "Desplaçament automàtic" },
   "menuLabel_modeNotifs": { "message": "Notificacions de mode" },
   "menuLabel_about": { "message": "Quant a" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Pagpadayon" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Awtomatikong ipadayon ang pagmugna daghang mga tubag sa ChatGPT" },
+  "appDesc": { "message": "Awtomatikong ipadayon ang pagmugna og mga tubag kung ang mga tubag sa ChatGPT makuha ang cut-off" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "Mga Notipikasyon sa Mode" },
   "menuLabel_about": { "message": "Mahitungod" },

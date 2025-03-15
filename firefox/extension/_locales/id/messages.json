@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Lanjutkan Otomatis" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Secara otomatis terus menghasilkan beberapa respons ChatGPT" },
+  "appDesc": { "message": "Secara otomatis terus menghasilkan jawaban ketika respons ChatGPT terputus" },
   "menuLabel_autoScroll": { "message": "Gulir Otomatis" },
   "menuLabel_modeNotifs": { "message": "Pemberitahuan Mode" },
   "menuLabel_about": { "message": "Ihwal" },

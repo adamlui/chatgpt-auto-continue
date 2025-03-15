@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT אַוטאָ-פאָרזעצן" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "אָטאַמאַטיק פאָרזעצן צו דזשענערייט קייפל ChatGPT רעספּאָנסעס" },
+  "appDesc": { "message": "אָטאַמאַטיק פאָרזעצן צו דזשענערייט ענטפֿערס ווען די ChatGPT רעספּאָנסעס ווערן אָפּשניידן" },
   "menuLabel_autoScroll": { "message": "אַוטאָ-מעגילע" },
   "menuLabel_modeNotifs": { "message": "מאָדע נאָטיפיקאַטיאָנס" },
   "menuLabel_about": { "message": "וועגן" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "המשך אוטומטי של ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "המשך באופן אוטומטי ביצירת תגובות מרובות של ChatGPT" },
+  "appDesc": { "message": "המשך לייצר תשובות באופן אוטומטי כאשר תגובות ChatGPT נחתכות" },
   "menuLabel_autoScroll": { "message": "גלילה אוטומטית" },
   "menuLabel_modeNotifs": { "message": "התראות מצב" },
   "menuLabel_about": { "message": "אודות" },

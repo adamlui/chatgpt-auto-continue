@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT ավտոմատ շարունակություն" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Ավտոմատ կերպով շարունակեք ստեղծել ChatGPT - ի բազմաթիվ պատասխաններ" },
+  "appDesc": { "message": "Ավտոմատ կերպով շարունակեք պատասխանների գեներացումը, երբ ChatGPT - ի պատասխանները կտրվեն" },
   "menuLabel_autoScroll": { "message": "Ավտոսանդուղք" },
   "menuLabel_modeNotifs": { "message": "Ծանուցումներ ռեժիմի մասին" },
   "menuLabel_about": { "message": "Մանրամասն" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT自動続行" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "複数のChatGPT応答の生成を自動的に継続する" },
+  "appDesc": { "message": "ChatGPTの回答がカットオフされたときに回答を自動的に生成し続ける" },
   "menuLabel_autoScroll": { "message": "自動スクロール" },
   "menuLabel_modeNotifs": { "message": "モード通知" },
   "menuLabel_about": { "message": "詳細" },

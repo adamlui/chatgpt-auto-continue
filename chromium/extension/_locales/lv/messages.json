@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT automātiska turpināšana" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Automātiski turpināt ģenerēt vairākas ChatGPT atbildes" },
+  "appDesc": { "message": "Automātiski turpināt ģenerēt atbildes, kad ChatGPT atbildes tiek pārtrauktas" },
   "menuLabel_autoScroll": { "message": "Automātiskā ritināšana" },
   "menuLabel_modeNotifs": { "message": "Režīma paziņojumi" },
   "menuLabel_about": { "message": "Par produktu" },

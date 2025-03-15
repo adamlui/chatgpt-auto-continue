@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Outo-gaan voort" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Outomaties voortgaan genereer veelvuldige ChatGPT antwoorde" },
+  "appDesc": { "message": "Outomaties voortgaan om antwoorde te genereer wanneer ChatGPT-antwoorde afgesny word" },
   "menuLabel_autoScroll": { "message": "Outo-Scroll" },
   "menuLabel_modeNotifs": { "message": "Modus Kennisgewings" },
   "menuLabel_about": { "message": "Omtrent" },

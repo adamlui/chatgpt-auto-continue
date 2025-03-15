@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT ಸ್ವಯಂ- ಮುಂದುವರಿಕೆ" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ಬಹು ChatGPT ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ" },
+  "appDesc": { "message": "ChatGPT ಪ್ರತಿಕ್ರಿಯೆಗಳು ಕಟ್-ಆಫ್ ಆದಾಗ ಉತ್ತರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ" },
   "menuLabel_autoScroll": { "message": "ಸ್ವಯಂ-ಸ್ಕ್ರೋಲ್ ಮಾಡಿ" },
   "menuLabel_modeNotifs": { "message": "ಮೋಡ್ ಅಧಿಸೂಚನೆಗಳು" },
   "menuLabel_about": { "message": "ಕುರಿತಾಗಿ" },

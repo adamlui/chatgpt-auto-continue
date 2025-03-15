@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT automaatne jätkamine" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Jätka automaatselt mitme ChatGPT vastuse loomist" },
+  "appDesc": { "message": "Jätka vastuste loomist automaatselt, kui ChatGPT vastused on lõpetatud" },
   "menuLabel_autoScroll": { "message": "Automaatne kerimine" },
   "menuLabel_modeNotifs": { "message": "Režiimi teavitused" },
   "menuLabel_about": { "message": "Info" },

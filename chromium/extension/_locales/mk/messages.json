@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Автоматско продолжување на ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Автоматски продолжете со генерирање повеќе одговори на ChatGPT" },
+  "appDesc": { "message": "Автоматски продолжете со генерирање одговори кога одговорите на ChatGPT ќе бидат прекинати" },
   "menuLabel_autoScroll": { "message": "Автоматско поместување" },
   "menuLabel_modeNotifs": { "message": "Известувања за режимот" },
   "menuLabel_about": { "message": "За" },

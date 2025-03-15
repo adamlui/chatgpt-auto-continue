@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ÇatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "ÇatGPT jogaplary döretmek üçin otomatik dowam ediň" },
+  "appDesc": { "message": "ÇatGPT jogaplary kesilende, jogaplary avtomatik dowam ediň" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "Mod bildirişleri" },
   "menuLabel_about": { "message": "Barada" },

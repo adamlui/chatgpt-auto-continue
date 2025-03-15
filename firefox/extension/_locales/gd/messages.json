@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Lean air adhart gu fèin - obrachail ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Lean air adhart gu fèin - obrachail a 'gineadh iomadh freagairt ChatGPT" },
+  "appDesc": { "message": "Lean air adhart a 'gineadh fhreagairtean gu fèin - obrachail nuair a thèid freagairtean ChatGPT a ghearradh dheth" },
   "menuLabel_autoScroll": { "message": "Sgrolaich gu fèin - obrachail" },
   "menuLabel_modeNotifs": { "message": "Notifications" },
   "menuLabel_about": { "message": "Mar deidhinn" },

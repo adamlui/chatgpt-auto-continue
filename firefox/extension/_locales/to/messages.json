@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT meʻalele-hoko atu" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Hokohoko atu hono faʻu ʻo e ngaahi tali ChatGPT lahi" },
+  "appDesc": { "message": "Hokohoko atu hono faʻu ʻo e ngaahi tali ʻi he taimi ʻoku chatGPT ai ʻa e ngaahi tali" },
   "menuLabel_autoScroll": { "message": "Scroll-Scroll" },
   "menuLabel_modeNotifs": { "message": "Fanongonongo ki he Mode" },
   "menuLabel_about": { "message": "Fekauʻaki mo e" },

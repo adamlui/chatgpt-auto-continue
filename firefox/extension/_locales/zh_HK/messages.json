@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT 自動繼續" },
   "appAuthor": { "message": "劉展鵬 (Adam Lui)" },
-  "appDesc": { "message": "自動繼續生成多個 ChatGPT 回應" },
+  "appDesc": { "message": "當 ChatGPT 回應被截止時，自動繼續產生答案" },
   "menuLabel_autoScroll": { "message": "自動捲動" },
   "menuLabel_modeNotifs": { "message": "模式通知" },
   "menuLabel_about": { "message": "關於我們" },

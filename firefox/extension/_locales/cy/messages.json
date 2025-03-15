@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Awtomatig - Parhau" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Parhau i gynhyrchu nifer o ymatebion ChatGPT yn awtomatig" },
+  "appDesc": { "message": "Parhau i gynhyrchu atebion yn awtomatig pan fydd ymatebion ChatGPT yn cael eu torri i ffwrdd" },
   "menuLabel_autoScroll": { "message": "Hunan - Sgrolio" },
   "menuLabel_modeNotifs": { "message": "Hysbysiadau Modd" },
   "menuLabel_about": { "message": "Gwybodaeth" },

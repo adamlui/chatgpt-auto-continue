@@ -1,7 +1,7 @@
 {
   "appName": { "message": "បន្ត ChatGPT ដោយស្វ័យប្រវត្តិ" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "បន្តការបង្កើតការឆ្លើយតប ChatGPT ច្រើនដោយស្វ័យប្រវត្តិ" },
+  "appDesc": { "message": "បន្តបង្កើតចម្លើយដោយស្វ័យប្រវត្តិនៅពេលការឆ្លើយតបរបស់ ChatGPT ត្រូវបានកាត់ផ្តាច់" },
   "menuLabel_autoScroll": { "message": "ស្វ័យរំកិល" },
   "menuLabel_modeNotifs": { "message": "ការជូនដំណឹងអំពីម៉ូដ" },
   "menuLabel_about": { "message": "អំពី" },

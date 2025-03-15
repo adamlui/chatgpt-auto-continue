@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Makinawa pitirizani kupanga mayankho angapo a ChatGPT" },
+  "appDesc": { "message": "Makinawa pitirizani kupanga mayankho pamene mayankho a ChatGPT amadulidwa" },
   "menuLabel_autoScroll": { "message": "Auto-Scroll" },
   "menuLabel_modeNotifs": { "message": "Mode Zidziwitso" },
   "menuLabel_about": { "message": "Zokhudza" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "በራስ-ሰር በርካታ የ ChatGPT ምላሾችን ማመንጨት ቀጥሏል" },
+  "appDesc": { "message": "የ ChatGPT ምላሾች ሲቆረጡ በራስ-ሰር መልሶችን ማመንጨት ይቀጥሉ" },
   "menuLabel_autoScroll": { "message": "ራስ-ሽያጭ" },
   "menuLabel_modeNotifs": { "message": "ሁነታ ማሳወቂያዎች" },
   "menuLabel_about": { "message": "ስለ" },

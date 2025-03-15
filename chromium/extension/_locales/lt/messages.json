@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT Auto-Continue" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Automatiškai toliau generuoti kelis ChatGPT atsakymus" },
+  "appDesc": { "message": "Automatiškai toliau generuoti atsakymus, kai „ChatGPT“ atsakymai nutraukiami" },
   "menuLabel_autoScroll": { "message": "Automatinė slinktis" },
   "menuLabel_modeNotifs": { "message": "Pranešimai apie režimą" },
   "menuLabel_about": { "message": "Apie" },

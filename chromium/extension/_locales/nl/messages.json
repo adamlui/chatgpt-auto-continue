@@ -1,7 +1,7 @@
 {
   "appName": { "message": "ChatGPT automatisch doorgaan" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Ga automatisch door met het genereren van meerdere ChatGPT-reacties" },
+  "appDesc": { "message": "Ga automatisch door met het genereren van antwoorden wanneer ChatGPT-antwoorden worden afgesneden" },
   "menuLabel_autoScroll": { "message": "Automatisch Scrollen" },
   "menuLabel_modeNotifs": { "message": "Modusmeldingen" },
   "menuLabel_about": { "message": "Over" },

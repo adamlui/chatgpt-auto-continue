@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Автопродление ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Автоматически продолжать генерировать несколько ответов ChatGPT" },
+  "appDesc": { "message": "Автоматически продолжать генерировать ответы, когда ответы ChatGPT обрезаются" },
   "menuLabel_autoScroll": { "message": "Автопрокрутка" },
   "menuLabel_modeNotifs": { "message": "Уведомления о режиме" },
   "menuLabel_about": { "message": "Шифр" },
