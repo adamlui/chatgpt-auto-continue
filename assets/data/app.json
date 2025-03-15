@@ -19,6 +19,7 @@
       "edgeAddons": "https://microsoftedge.microsoft.com/addons/detail/chatgpt-autocontinue/kaicnimcjamamnlbaeaneofmdjibgepl",
       "firefoxAddons": "https://addons.mozilla.org/firefox/addon/chatgpt-auto-continue/"
     },
-    "support": "https://support.chatgptautocontinue.com"
+    "support": "https://support.chatgptautocontinue.com",
+    "welcome": "https://aiwebextensions.com/chatgpt-auto-continue/pages/welcome"
   }
 }
