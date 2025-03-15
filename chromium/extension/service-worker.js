@@ -1,9 +1,9 @@
 const chatgptURL = 'https://chatgpt.com/'
 
-// Launch CHATGPT on install
+// Launch WELCOME PAGE on install
 chrome.runtime.onInstalled.addListener(details => {
     if (details.reason == 'install') // to exclude updates
-        chrome.tabs.create({ url: chatgptURL })
+        chrome.tabs.create({ url: 'https://aiwebextensions.com/chatgpt-auto-continue/pages/welcome' })
 })
 
 // Sync SETTINGS to activated tabs
