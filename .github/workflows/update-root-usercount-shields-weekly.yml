@@ -1,4 +1,4 @@
-name: Update usercount shields in READMEs, then sync to adamlui/ai-web-extensions
+name: Update usercount shields in readmes, then sync to adamlui/ai-web-extensions
 
 on:
   schedule:
@@ -128,7 +128,7 @@ jobs:
         run: |
           cd ${{ github.workspace }}/adamlui/chatgpt-auto-continue
           git add .
-          git commit -n -m "Updated usercount shield counters in root READMEs" || true
+          git commit -n -m "Updated usercount shield counters in root readmes" || true
           git push
 
       - name: Push changes to adamlui/ai-web-extensions
@@ -136,5 +136,5 @@ jobs:
         run: |
           cd ${{ github.workspace }}/adamlui/ai-web-extensions
           git add .
-          git commit -n -m "Updated usercount shield counters in ChatGPT Auto-Continue root READMEs" || true
+          git commit -n -m "Updated usercount shield counters in ChatGPT Auto-Continue root readmes" || true
           git push
