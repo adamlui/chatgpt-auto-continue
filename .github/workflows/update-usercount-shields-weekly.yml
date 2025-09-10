@@ -17,6 +17,7 @@ jobs:
       - name: Checkout adamlui/chatgpt-auto-continue
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.REPO_SYNC_PAT }}
           path: adamlui/chatgpt-auto-continue
 
       - name: Checkout adamlui/ai-web-extensions
