@@ -4,12 +4,11 @@ on:
   schedule:
     - cron: "42 5 * * 0" # every Sun @ 5:52a
 
-permissions:
-  contents: read
-
 jobs:
   update-root-usercount-shields:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       TZ: PST8PDT
 
