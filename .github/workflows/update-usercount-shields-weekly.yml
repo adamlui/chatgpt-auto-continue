@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-root-usercount-shields:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     env:
@@ -14,13 +14,13 @@ jobs:
 
     steps:
       - name: Checkout adamlui/chatgpt-auto-continue
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           path: adamlui/chatgpt-auto-continue
 
       - name: Checkout adamlui/ai-web-extensions
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/ai-web-extensions
